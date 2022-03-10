@@ -4,6 +4,7 @@ name: Heiko Zimmermann
 role: PhD candidate
 supervisors: [Jan-Willem van de Meent]
 one_liner: Probabilistic modeling and inference and ways to automate them using probabilistic programming systems
+bib_file: HeikoZimmermann
 lab: AMLab
 redirect: 
 description: >

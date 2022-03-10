@@ -1,5 +1,6 @@
 {%- assign person = include.person -%}
 
+
 {%- if person.img %}
 <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
     {% include figure.html path=person.img title="profile picture" class="img-fluid rounded z-depth-1" %}
@@ -25,10 +26,22 @@
 {%- if person.twitter_username -%}
     &nbsp;<a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i> Twitter </a>&nbsp;
 {% endif %} 
+
 {%- if person.img_promo %}
 <br>
+
 <div class="clearfix">
     {% include figure.html path=person.img_promo title="promo image" class="img-fluid rounded z-depth-1" %}
 </div>
 {%- endif %}
+
+
+{%- if person.bib_file -%}
+<br>
+
+<div class="publications">
+<h2>Selected Publications</h2>
+{% bibliography --file {{person.bib_file}} -q @*[selected=true]* %}
+</div>
+{% endif %} 
 
