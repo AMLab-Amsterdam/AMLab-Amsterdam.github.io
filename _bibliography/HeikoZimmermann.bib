@@ -1,0 +1,39 @@
+---
+--- 
+
+@InProceedings{zimmermann2021nested,
+    title = {Nested Variational Inference},
+    abstract = {We develop nested variational inference (NVI), a family of methods that learn proposals for nested importance samplers by minimizing an forward or reverse KL divergence at each level of nesting. NVI is applicable to many commonly-used importance sampling strategies and provides a mechanism for learning intermediate densities, which can serve as heuristics to guide the sampler. Our experiments apply NVI to (a) sample from a multimodal distribution using a learned annealing path (b) learn heuristics that approximate the likelihood of future observations in a hidden Markov model and (c) to perform amortized inference in hierarchical deep generative models. We observe that optimizing nested objectives leads to improved sample quality in terms of log average weight and effective sample size.},
+    author = {Zimmermann, Heiko and Wu, Hao and Esmaeili, Babak and van de Meent, Jan-Willem},
+    booktitle = {35th Conference on Neural Information Processing Systems (NeurIPS)},
+    year = {2021},
+    month = {12},
+    abbr={NeurIPS},
+    pdf = {https://proceedings.neurips.cc/paper/2021/file/ab49b208848abe14418090d95df0d590-Paper.pdf},
+    selected=true
+}
+
+@InProceedings{stites2021combinators,
+    title = {Learning Proposals for Probabilistic Programs with Inference Combinators},
+    abstract = {We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernels and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models. We demonstrate the flexibility of this framework in applications to advanced variational methods based on amortized Gibbs sampling and annealing.},
+    author = {Zimmermann, Heiko and Stites, Sam and Wu, Hao and Sennesh, Eli and van de Meent, Jan-Willem},
+    booktitle = {37th Conference on Uncertainty in Artificial Intelligence (UAI)},
+    year = {2021},
+    month = {7},
+    pdf = {https://proceedings.mlr.press/v161/stites21a/stites21a.pdf},
+    abbr={UAI},
+    selected=true
+}
+
+@InProceedings{wu2019amortized,
+    title = {Amortized Population Gibbs Samplers with Neural Sufficient Statistics},
+    author = {Wu, Hao and Zimmermann, Heiko and Sennesh, Eli and Le, Tuan Anh and van de Meent, Jan-Willem},
+    abstract = {Amortized variational methods have proven difficult to scale to structured problems, such as inferring positions of multiple objects from video images. We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frames structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics.  Experiments show that APG samplers can train highly structured deep generative models in an unsupervised manner, and achieve substantial improvements in inference accuracy relative to standard autoencoding variational methods.}, 
+    booktitle = {Proceeding of the International Conference on Machine Learning (ICML)},
+    year = {2020},
+    month = {7},
+    pdf = {https://proceedings.icml.cc/static/paper_files/icml/2020/5881-Paper.pdf},
+    code = {https://github.com/hao-w/apg-samplers},
+    abbr={ICML},
+    selected=true
+}
