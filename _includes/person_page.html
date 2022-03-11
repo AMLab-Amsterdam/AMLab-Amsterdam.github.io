@@ -1,17 +1,19 @@
 {%- assign person = include.person -%}
 
 
+<div class="clearfix">
 {%- if person.img %}
 <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
     {% include figure.html path=person.img title="profile picture" class="img-fluid rounded z-depth-1" %}
     <p> {{person.role}} @ {{ person.lab }} 
           {%- if person.supervisors %}
           @ {{ person.lab }} with {{ person.supervisors | array_to_sentence_string }}
-          {%- endif %}</p>
+          {%- endif %}
+    </p>
 </div>
 {%- endif %}
 {%- if person.description %}
-{{person.description}}
+{{person.description | markdownify}}
 {%- endif %}
 <br>
 {%- if person.scholar_userid -%}
@@ -35,10 +37,9 @@
 </div>
 {%- endif %}
 
+</div>
 
 {%- if person.bib_file -%}
-<br>
-
 <div class="publications">
 <h2>Selected Publications</h2>
 {% bibliography --file {{person.bib_file}} -q @*[selected=true]* %}
