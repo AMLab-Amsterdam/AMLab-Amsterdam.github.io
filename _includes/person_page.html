@@ -5,7 +5,7 @@
 {%- if person.img %}
 <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
     {% include figure.html path=person.img title="profile picture" class="img-fluid rounded z-depth-1" %}
-    <p> {{person.role}} @ {{ person.lab }} 
+    <p> {{person.role}} 
           {%- if person.supervisors %}
           @ {{ person.lab }} with {{ person.supervisors | array_to_sentence_string }}
           {%- endif %}
