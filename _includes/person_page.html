@@ -42,7 +42,7 @@
 {%- if person.bib_file -%}
 <div class="publications">
 <h2>Selected Publications</h2>
-{% bibliography --file {{person.bib_file}} -q @*[selected=true]* %}
+{% bibliography --file {{person.bib_file}} %}
 </div>
 {% endif %} 
 
