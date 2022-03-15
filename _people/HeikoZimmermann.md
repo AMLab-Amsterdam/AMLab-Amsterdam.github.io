@@ -3,15 +3,14 @@ layout: person-page
 name: Heiko Zimmermann
 role: PhD candidate
 supervisors: [Jan-Willem van de Meent]
-one_liner: Probabilistic modeling and inference and ways to automate them using probabilistic programming systems
+one_liner: Probabilistic modeling & inference, probabilistic programming
 bib_file: HeikoZimmermann
 lab: AMLab
 redirect: 
 description: |
     I am a PhD student at the [Amsterdam Machine Learning Lab](https://amlab.science.uva.nl/) (AMLab) supervised by [Jan-Willem van de Meent](https://jwvdm.github.io/). Before September 2021, I was a PhD student at the [Khoury College of Computer Science](https://www.khoury.northeastern.edu/).
 
-
-    I am broadly interested in probabilistic modeling and inference and ways to automate them using probabilistic programming systems.
+    I am interested in probabilistic modeling and approximate inference and ways to automate these tasks using probabilistic programming systems.
 img: https://heikozimmermann.com/assets/img/photo.jpg
 img_promo: 
 personal_page: https://heikozimmermann.com
