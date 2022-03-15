@@ -20,8 +20,8 @@
             with {{ person.supervisors | array_to_sentence_string }}
             {%- endif %}
         </p>
-          <p class="card-text"><i>{{ person.one_liner }}</i></p>
-          <p>
+          <p class="card-text"><i>{{ person.one_liner | truncate: 60}}</i></p>
+          <p class="mt-3">
             {%- if person.scholar_userid -%}
             &nbsp;<a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
             {% endif %}
