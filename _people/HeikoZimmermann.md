@@ -7,7 +7,7 @@ one_liner: Probabilistic modeling and inference and ways to automate them using 
 bib_file: HeikoZimmermann
 lab: AMLab
 redirect: 
-description: >
+description: |
     I am a PhD student at the [Amsterdam Machine Learning Lab](https://amlab.science.uva.nl/) (AMLab) supervised by [Jan-Willem van de Meent](https://jwvdm.github.io/). Before September 2021, I was a PhD student at the [Khoury College of Computer Science](https://www.khoury.northeastern.edu/).
 
 
