@@ -88,11 +88,11 @@ Please make sure the file name follows the naming conventions and matches the im
   booktitle = { ... },
   ...
   abstract = { ... },
-  html = { <Link to publication on venue's website> }
+  html = { <Link to publication on venue's website> },
   pdf = { <Link to PDF> },
-  abbr={ <Abbreviation of conference/journal, e.g. ICML> }
+  abbr={ <Abbreviation of conference/journal, e.g. ICML> },
   code = { <Link to github/code> },
-  video = { <Link to youtube> },
+  video = { <Link to youtube> }
 }
 ```
 Note that the ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not standard bibtex tags but are used to render additional content on the website. Please provide at least ```html```, ```pdf```, ```abbr``` and make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
