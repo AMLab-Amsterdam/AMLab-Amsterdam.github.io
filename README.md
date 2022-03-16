@@ -95,7 +95,7 @@ Please make sure the file name follows the naming conventions and matches the im
   video = { <Link to youtube> }
 }
 ```
-Note that the ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not standard bibtex tags but are used to render additional content on the website. Please provide at least ```html```, ```pdf```, ```abbr``` and make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
+Note that ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not standard bibtex tags but are used to render additional content on the website. Please provide at least ```html```, ```pdf```, ```abbr``` and make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
 
 # Theme 
 
