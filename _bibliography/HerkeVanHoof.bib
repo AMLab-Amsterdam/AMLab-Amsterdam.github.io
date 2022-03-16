@@ -1,0 +1,30 @@
+@inproceedings{pol2022multi,
+title = {Multi-Agent MDP Homomorphic Networks},
+author = {van der Pol, Elise and van Hoof, Herke and Oliehoek, Frans and Welling, Max},
+url = {https://openreview.net/forum?id=H7HDG--DJF0},
+year = {2022},
+date = {25-04-2022},
+booktitle = {International Conference on Learning Representations},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings}, 
+abbr={ICLR},
+abstract={This paper introduces Multi-Agent MDP Homomorphic Networks, a class of networks that allows distributed execution using only local information, yet is able to share experience between global symmetries in the joint state-action space of cooperative multi-agent systems. In cooperative multi-agent systems, complex symmetries arise between different configurations of the agents and their local observations. For example, consider a group of agents navigating: rotating the state globally results in a permutation of the optimal joint policy. Existing work on symmetries in single agent reinforcement learning can only be generalized to the fully centralized setting, because such approaches rely on the global symmetry in the full state-action spaces, and these can result in correspondences across agents. To encode such symmetries while still allowing distributed execution we propose a factorization that decomposes global symmetries into local transformations. Our proposed factorization allows for distributing the computation that enforces global symmetries over local agents and local interactions. We introduce a multi-agent equivariant policy network based on this factorization. We show empirically on symmetric multi-agent problems that globally symmetric distributable policies improve data efficiency compared to non-equivariant baselines.}
+}
+
+@inproceedings{kool2020estimating,
+title = {Estimating Gradients for Discrete Random Variables by Sampling without Replacement},
+author = {Kool, Wouter and van Hoof, Herke and Welling, Max},
+url = {https://openreview.net/pdf?id=rklEj2EFvB
+https://youtu.be/KtP-Z2bvPPE},
+year = {2020},
+date = {2020-04-26},
+booktitle = {International Conference on Learning Representations},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+abbr={ICLR},
+abstract={We derive an unbiased estimator for expectations over discrete random variables based on sampling without replacement, which reduces variance as it avoids duplicate samples. We show that our estimator can be derived as the Rao-Blackwellization of three different estimators. Combining our estimator with REINFORCE, we obtain a policy gradient estimator and we reduce its variance using a built-in control variate which is obtained without additional model evaluations. The resulting estimator is closely related to other gradient estimators. Experiments with a toy problem, a categorical Variational Auto-Encoder and a structured prediction problem show that our estimator is the only estimator that is consistently among the best estimators in both high and low entropy settings.},
+video={https://youtu.be/KtP-Z2bvPPE},
+code={https://github.com/wouterkool/estimating-gradients-without-replacement},
+}
