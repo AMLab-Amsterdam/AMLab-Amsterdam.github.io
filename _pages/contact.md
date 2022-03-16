@@ -12,7 +12,7 @@ Science Park 904 <br>
 The Netherlands <br>
 
 
-Scretarial Office <br>
+Secretarial Office <br>
 <i class="fas fa-phone"></i>: {{ site.phone }} <br>
 <i class="fas fa-envelope"></i>: <a href="mailto:{{ site.email | encode_email }}" title="email">f.e.arends [at] uva [dot] nl</a>
 
