@@ -9,6 +9,7 @@ university: University of Amsterdam
 supervisors: [J.W. van de Meent]
 one_liner: Probabilistic modeling & inference, probabilistic programming
 bib_file: HeikoZimmermann
+img: assets/img/HeikoZimmermann.jpg
 lab: AMLab
 redirect: 
 description: |
