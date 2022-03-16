@@ -3,8 +3,10 @@ layout: person-page
 name: Jan-Willem van de Meent
 shortname: J.W. van de Meent
 office: Science Park 904, C3.259
-role: Associate professor
+role: Associate professor (UHD)
 lab: AMLab and Delta Lab
+institute: Informatics Institute
+university: University of Amsterdam
 one_liner: Probabilistic programming, inference, and deep learning.
 description: |
     I am an Associate Professor (Universitair Hoofddocent) at the University of Amsterdam, where I co-direct the [AMLab](https://amlab.science.uva.nl/) with Max Welling. I am also an Assistant Professor (on leave) at Northeastern University, where I continue to advise and collaborate.
