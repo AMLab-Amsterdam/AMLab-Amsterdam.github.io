@@ -3,7 +3,7 @@ layout: person-page
 name: Jan-Willem van de Meent
 role: Associate professor
 lab: AMLab
-one_liner: Probabilistic programming, deep learning, Monte Carlo methods, variational inference. Interdisciplinary research in robotics, NLP, healthcare, neuroscience, and chemistry.
+one_liner: Probabilistic programming, deep learning, cross-displinary applications.
 description: |
     I am an Associate Professor (Universitair Hoofddocent) at the University of Amsterdam, where I co-direct the [AMLab](https://amlab.science.uva.nl/) with Max Welling. I am also an Assistant Professor (on leave) at Northeastern University, where I continue to advise and collaborate.
 
