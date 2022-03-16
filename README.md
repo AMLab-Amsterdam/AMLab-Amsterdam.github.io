@@ -76,23 +76,26 @@ category: phd
 ** ------- Add description of possible roles and categories -------**
 
 # Image
-Add a profile picture ```./assets/img/FirstnameLastname.[jpg/png]``` (please keep the file size reasonably small). Make sure the file name follows the naming conventions and matches the image file name in your description file.
+Add a profile picture ```./assets/img/FirstnameLastname.[jpg/png]``` (please keep the file size reasonably small). 
+Please make sure the file name follows the naming conventions and matches the image file name in your description file.
 
 # Bibliography file
 
 ```
-@InProceedings{bibif, 
-  title =    { ... },
-  author =       { ... },
-  booktitle =    { ... },
+@InProceedings{bibid, 
+  title = { ... },
+  author = { ... },
+  booktitle = { ... },
   ...
-  abstract =     { ... },
-  pdf =      { <Link to PDF> },
+  abstract = { ... },
+  html = { <Link to publication on venue's website> },
+  pdf = { <Link to PDF> },
+  abbr={ <Abbreviation of conference/journal, e.g. ICML> },
   code = { <Link to github/code> },
-  abbr={ <Abbreviation of conference/journal, e.g. ICML> }
+  video = { <Link to youtube> }
 }
 ```
-Make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
+Note that ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not standard bibtex tags but are used to render additional content on the website. Please provide at least ```html```, ```pdf```, ```abbr``` and make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
 
 # Theme 
 

@@ -1,7 +1,7 @@
 ---
 layout: person-page
 name: Jan-Willem van de Meent
-shortname: J.W. van de Meent
+email: j.w.vandemeent@uva.nl
 office: Science Park 904, C3.259
 role: Associate professor (UHD)
 lab: AMLab and Delta Lab

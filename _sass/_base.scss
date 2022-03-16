@@ -12,7 +12,7 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-a, table.table a {
+a, table.table a, a > span {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);

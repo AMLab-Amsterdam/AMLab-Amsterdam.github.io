@@ -2,6 +2,10 @@
 layout: person-page
 name: Heiko Zimmermann
 role: PhD candidate
+office: Science Park 904, C3.154d
+lab: AMLab
+institute: Informatics Institute
+university: University of Amsterdam
 supervisors: [J.W. van de Meent]
 one_liner: Probabilistic modeling & inference, probabilistic programming
 bib_file: HeikoZimmermann
