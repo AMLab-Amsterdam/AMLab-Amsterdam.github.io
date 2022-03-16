@@ -83,13 +83,13 @@ Please make sure the file name follows the naming conventions and matches the im
 
 ```
 @InProceedings{bibif, 
-  title =    { ... },
-  author =       { ... },
-  booktitle =    { ... },
+  title = { ... },
+  author = { ... },
+  booktitle = { ... },
   ...
-  abstract =     { ... },
+  abstract = { ... },
   html = { <Link to publication on venue's website> }
-  pdf =      { <Link to PDF> },
+  pdf = { <Link to PDF> },
   abbr={ <Abbreviation of conference/journal, e.g. ICML> }
   code = { <Link to github/code> },
   video = { <Link to youtube> },
