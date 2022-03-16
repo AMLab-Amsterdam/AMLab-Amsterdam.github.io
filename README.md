@@ -82,7 +82,7 @@ Please make sure the file name follows the naming conventions and matches the im
 # Bibliography file
 
 ```
-@InProceedings{bibif, 
+@InProceedings{bibid, 
   title = { ... },
   author = { ... },
   booktitle = { ... },
