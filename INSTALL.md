@@ -27,6 +27,6 @@ bundler exec jekyll serve
 This will start a webserver that allows you to view the website by accessing `http://127.0.0.1:4000` in your browser.
 
 
-# Adding Your Personal Information to the Webiste
+# Adding Your Personal Information 
 
 ... Please write these instructions ...
