@@ -15,12 +15,12 @@
         <div class="card-body">
           <h2 class="card-title">{{ person.name }}</h2>
           <p class="cart-text">
-            {{person.role}} @ {{ person.lab }} 
+            {{person.role}} at {{ person.lab }} 
             {%- if person.supervisors %}
             with {{ person.supervisors | array_to_sentence_string }}
             {%- endif %}
         </p>
-          <p class="card-text"><i>{{ person.one_liner | truncate: 60}}</i></p>
+          <p class="card-text"><i>{{ person.one_liner | truncate: 65}}</i></p>
           <p class="mt-3">
             {%- if person.scholar_userid -%}
             &nbsp;<a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
