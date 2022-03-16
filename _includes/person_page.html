@@ -10,48 +10,59 @@
 {%- endif %}
 <div class="person-info">
     <h2>{{person.name}}</h2>
-    
-    <p><b>{{person.role}}</b><br>
+    <p><b>{{person.role}}
+    {% if person.supervisors %}
+    (<em>advised by {{ person.supervisors | array_to_sentence_string }}</em>)
+    {% endif %}
+    </b><br>
+    {% if person.lab %}
     {{ person.lab }}<br>
+    {% endif %}
+    {% if person.institute %}
     {{ person.institute }}<br>
+    {% endif %}
+    {% if person.university %}
     {{ person.university }}<br>
-    {%- if person.office %}
+    {% endif %}
+    {% if person.office %}
     {{person.office}}<br>
-    {%- endif %}
+    {% endif %}
+    {% if person.email %}
+    {{person.email}}<br>
+    {% endif %}
     </p>
+    
 
-    {%- if person.supervisors %}
-    <em>Advisor(s):</em> {{ person.supervisors | array_to_sentence_string }}
-    {%- endif %}
-    {%- if person.personal_page -%}
-    &nbsp;<a href="{{ person.personal_page }}" title="Work"><i class="far fa-address-card"></i> Personal page </a>&nbsp;
+
+    {% if person.personal_page %}
+    <i class="far fa-address-card"></i> <a href="{{ person.personal_page }}" title="Work"> Personal page </a> &nbsp;
     {% endif %}     
-    {%- if person.scholar_userid -%}
-    &nbsp;<a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google scholar </a>&nbsp;
+    {% if person.scholar_userid %}
+    <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Scholar">Google scholar </a>&nbsp;
     {% endif %}
-    {%- if person.github_username -%}
-    &nbsp;<a href="https://github.com/{{ person.github_username }}" title="GitHub"><i class="fab fa-github"></i> Github </a>&nbsp;
+    {% if person.github_username %}
+    <i class="fab fa-github"></i> <a href="https://github.com/{{ person.github_username }}" title="GitHub"> Github </a>&nbsp;
     {% endif %}
-    {%- if person.twitter_username -%}
-    &nbsp;<a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i> Twitter </a>&nbsp;
+    {% if person.twitter_username %}
+    <i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"> Twitter </a>&nbsp;
     {% endif %} 
 </div>
-{%- if person.description %}
+{% if person.description %}
 {{person.description | markdownify}}
-{%- endif %}
+{% endif %}
 <br>
 
-{%- if person.img_promo %}
+{% if person.img_promo %}
 <br>
 
 <div class="clearfix">
     {% include figure.html path=person.img_promo title="promo image" class="img-fluid rounded z-depth-1" %}
 </div>
-{%- endif %}
+{% endif %}
 
 </div>
 
-{%- if person.bib_file -%}
+{% if person.bib_file %}
 <div class="publications">
 <h2>Selected Publications</h2>
 {% bibliography --file {{person.bib_file}} %}
