@@ -24,5 +24,8 @@ github_username: zmheiko
 twitter_username: zmheiko
 category: phd 
 ---
+{% capture email %}
+{% email h.zimmermann@uva.nl %}
+{% endcapture %}
 
 {% include person_page.html person=page %}

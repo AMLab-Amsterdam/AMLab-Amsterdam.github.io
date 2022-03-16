@@ -12,7 +12,7 @@
     <h2>{{person.name}}</h2>
     <p><b>{{person.role}}
     {% if person.supervisors %}
-    (<em>advised by {{ person.supervisors | array_to_sentence_string }}</em>)
+    (advised by {{ person.supervisors | array_to_sentence_string }})
     {% endif %}
     </b><br>
     {% if person.lab %}
@@ -27,10 +27,10 @@
     {% if person.office %}
     {{person.office}}<br>
     {% endif %}
-    {% if person.email %}
-    {{person.email}}<br>
-    {% endif %}
     </p>
+    {% if email %}
+     <p><i class="far fa-envelope"></i>&nbsp;{{email}}</p>
+    {% endif %}
     
 
 
