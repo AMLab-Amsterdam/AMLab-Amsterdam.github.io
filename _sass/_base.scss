@@ -84,8 +84,19 @@ blockquote {
   color: var(--global-theme-color);
 }
 
-// Profile
+// Personal Page
+.person-headshot {
+  width: 16rem;
+}
 
+.person-info {
+  margin-left: 18rem;
+  height: auto;
+  width: calc(100% - 18rem);
+  min-height: 18rem;
+}
+
+// Profile
 .profile {
   margin-left: 1rem;
   width: 100%;

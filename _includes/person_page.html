@@ -2,32 +2,44 @@
 
 
 <div class="clearfix">
+<div class="person-header">
 {%- if person.img %}
-<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+<div class="person-headshot float-left">
     {% include figure.html path=person.img title="profile picture" class="img-fluid rounded z-depth-1" %}
-    <p> {{person.role}} 
-          {%- if person.supervisors %}
-          at {{ person.lab }} with {{ person.supervisors | array_to_sentence_string }}
-          {%- endif %}
-    </p>
 </div>
 {%- endif %}
+<div class="person-info">
+    <h2>{{person.name}}</h2>
+    
+    <p><b>{{person.role}}</b><br>
+    {{ person.lab }}<br>
+    {{ person.institute }}<br>
+    {{ person.university }}<br>
+    {%- if person.office %}
+    {{person.office}}<br>
+    {%- endif %}
+    </p>
+
+    {%- if person.supervisors %}
+    <em>Advisor(s):</em> {{ person.supervisors | array_to_sentence_string }}
+    {%- endif %}
+    {%- if person.personal_page -%}
+    &nbsp;<a href="{{ person.personal_page }}" title="Work"><i class="far fa-address-card"></i> Personal page </a>&nbsp;
+    {% endif %}     
+    {%- if person.scholar_userid -%}
+    &nbsp;<a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google scholar </a>&nbsp;
+    {% endif %}
+    {%- if person.github_username -%}
+    &nbsp;<a href="https://github.com/{{ person.github_username }}" title="GitHub"><i class="fab fa-github"></i> Github </a>&nbsp;
+    {% endif %}
+    {%- if person.twitter_username -%}
+    &nbsp;<a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i> Twitter </a>&nbsp;
+    {% endif %} 
+</div>
 {%- if person.description %}
 {{person.description | markdownify}}
 {%- endif %}
 <br>
-{%- if person.scholar_userid -%}
-    &nbsp;<a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google scholar </a>&nbsp;
-{% endif %}
-{%- if person.personal_page -%}
-    &nbsp;<a href="{{ person.personal_page }}" title="Work"><i class="far fa-address-card"></i> Personal page </a>&nbsp;
-{% endif %}     
-{%- if person.github_username -%}
-    &nbsp;<a href="https://github.com/{{ person.github_username }}" title="GitHub"><i class="fab fa-github"></i> Github </a>&nbsp;
-{% endif %}
-{%- if person.twitter_username -%}
-    &nbsp;<a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i> Twitter </a>&nbsp;
-{% endif %} 
 
 {%- if person.img_promo %}
 <br>
