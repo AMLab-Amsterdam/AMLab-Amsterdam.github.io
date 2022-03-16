@@ -2,7 +2,7 @@
 layout: person-page
 name: Heiko Zimmermann
 role: PhD candidate
-supervisors: [Jan-Willem van de Meent]
+supervisors: [J.W. van de Meent]
 one_liner: Probabilistic modeling & inference, probabilistic programming
 bib_file: HeikoZimmermann
 lab: AMLab
