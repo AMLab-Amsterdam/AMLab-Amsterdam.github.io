@@ -21,7 +21,7 @@
     </p>
 
     {%- if person.supervisors %}
-    <em>Advisor(s):</em> {{ person.supervisors | array_to_sentence_string }}
+    <p><em>Advisor(s):</em> {{ person.supervisors | array_to_sentence_string }}</p>
     {%- endif %}
     {%- if person.personal_page -%}
     &nbsp;<a href="{{ person.personal_page }}" title="Work"><i class="far fa-address-card"></i> Personal page </a>&nbsp;
