@@ -1,6 +1,7 @@
 ---
 layout: person-page
 name: Christian Andersson Naesseth
+short_name: Christian A. Naesseth
 role: Assistant professor
 lab: AMLab
 one_liner: Monte Carlo methods, variational inference, deep learning, causal inference. Interdisciplinary research in life science, finance, and engineering.
