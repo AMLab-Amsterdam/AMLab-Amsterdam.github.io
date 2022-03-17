@@ -52,17 +52,18 @@ The description file ```FirstnameLastname.md``` takes the following format:
 ```
 ---
 layout: person-page
-name: John Doe
+first_name: John
+middle_names: 
+last_name: Doe
 role: PhD candidate
-email: john@johnsdomain.doe
-office: Johnson Street 123, C1.234a 
+email: j.doe@uva.nl
+office: Science Park 904, C1.234a 
 lab: AMLab
-institute: John's institute
-university: John's university
+institute: Institute of Informatics
+university: University of Amsterdam
 supervisors: [first supervisor, second supervisor, ... ]
 one_liner: John's research interest in a nutshell
 bib_file: JohnDoe
-lab: AMLab
 redirect: 
 description: |
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -75,7 +76,7 @@ personal_page: https://johnswebsite.doe
 scholar_userid: XXXXXXXXXXXX
 github_username: johns_github
 twitter_username: johns_twitter
-category: phd 
+category: PhD Student 
 ---
 
 {% include person_page.html person=page %}
