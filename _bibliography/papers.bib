@@ -16,7 +16,6 @@
   selected=true
 }
 
-
 @inproceedings{bekkers2019b,
   title={B-Spline CNNs on Lie groups},
   author={Bekkers, Erik J},
@@ -30,3 +29,58 @@
   code={https://github.com/ebekkers/gsplinets},
   selected=true
 }
+
+@inproceedings{zimmermann2021nested,
+  title={Nested Variational Inference},
+  author={Heiko Zimmermann and Hao Wu and Babak Esmaeili and Jan-Willem van de Meent},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year={2021},
+  volume={34},
+  abbr={NeurIPS},
+  html={https://proceedings.neurips.cc/paper/2021/hash/ab49b208848abe14418090d95df0d590-Abstract.html},
+  pdf={https://proceedings.neurips.cc/paper/2021/file/ab49b208848abe14418090d95df0d590-Paper.pdf},
+  selected=true
+}
+
+@article{esmaeili2018structured,
+  title = {Structured {{Disentangled Representations}}},
+  abstract = {Deep latent-variable models learn representations of high-dimensional data in an unsupervised manner. A number of recent efforts have focused on learning representations that disentangle statistically independent axes of variation by introducing modifications to the standard objective function. These approaches generally assume a simple diagonal Gaussian prior and as a result are not able to reliably disentangle discrete factors of variation. We propose a two-level hierarchical objective to control relative degree of statistical independence between blocks of variables and individual variables within blocks. We derive this objective as a generalization of the evidence lower bound, which allows us to explicitly represent the trade-offs between mutual information between data and representation, KL divergence between representation and prior, and coverage of the support of the empirical data distribution. Experiments on a variety of datasets demonstrate that our objective can not only disentangle discrete variables, but that doing so also improves disentanglement of other variables and, importantly, generalization even to unseen combinations of factors.},
+  journal = {Artificial Intelligence and Statistics},
+  author = {Esmaeili, Babak and Wu, Hao and Jain, Sarthak and Bozkurt, Alican and Siddharth, N. and Paige, Brooks and Brooks, Dana H. and Dy, Jennifer and {van de Meent}, Jan-Willem},
+  year = {2019},
+  abbr = {AISTATS},
+  pdf = {https://proceedings.mlr.press/v89/esmaeili19a/esmaeili19a.pdf},
+  html = {https://proceedings.mlr.press/v89/esmaeili19a},
+  selected = true
+}
+
+@article{vandemeent2018introduction,
+  title = {An {{Introduction}} to {{Probabilistic Programming}}},
+  abstract = {This document is designed to be a first-year graduate-level introduction to probabilistic programming. It not only provides a thorough background for anyone wishing to use a probabilistic programming system, but also introduces the techniques needed to design and build these systems. It is aimed at people who have an undergraduate-level understanding of either or, ideally, both probabilistic machine learning and programming languages. We start with a discussion of model-based reasoning and explain why conditioning as a foundational computation is central to the fields of probabilistic machine learning and artificial intelligence. We then introduce a simple first-order probabilistic programming language (PPL) whose programs define static-computation-graph, finite-variable-cardinality models. In the context of this restricted PPL we introduce fundamental inference algorithms and describe how they can be implemented in the context of models denoted by probabilistic programs. In the second part of this document, we introduce a higher-order probabilistic programming language, with a functionality analogous to that of established programming languages. This affords the opportunity to define models with dynamic computation graphs, at the cost of requiring inference methods that generate samples by repeatedly executing the program. Foundational inference algorithms for this kind of probabilistic programming language are explained in the context of an interface between program executions and an inference controller. This document closes with a chapter on advanced topics which we believe to be, at the time of writing, interesting directions for probabilistic programming research; directions that point towards a tight integration with deep neural network research and the development of systems for next-generation artificial intelligence applications.},
+  abbr = {arXiv},
+  journal = {arXiv:1809.10756 [cs, stat]},
+  author = {{van de Meent}, Jan-Willem and Paige, Brooks and   Yang, Hongseok and Wood, Frank},
+  month = sep,
+  year = {2018},
+  pdf = {https://arxiv.org/pdf/1809.10756},
+  html = {https://arxiv.org/abs/1809.10756},
+  selected=false
+}
+
+@inproceedings{siddharth_nips_2017,
+    title = {Learning Disentangled Representations with Semi-Supervised Deep Generative Models},
+    abstract = {Variational autoencoders (VAEs) learn representations of data by jointly training a probabilistic encoder and decoder network. Typically these models encode all features of the data into a single variable. Here we are interested in learning disentangled representations that encode distinct aspects of the data into separate variables. We propose to learn such representations using model architectures that generalise from standard VAEs, employing a general graphical model structure in the encoder and decoder. This allows us to train partially-specified models that make relatively strong assumptions about a subset of interpretable variables and rely on the flexibility of neural networks to learn representations for the remaining variables. We further define a general objective for semi-supervised learning in this model class, which can be approximated using an importance sampling procedure. We evaluate our framework's ability to learn disentangled representations, both by qualitative exploration of its generative capacity, and quantitative evaluation of its discriminative ability on a variety of models and datasets.},
+    author = {Siddharth, N. and Paige, Brooks and van de Meent, Jan-Willem and Desmaison, Alban and Goodman, Noah D. and Kohli, Pushmeet and Wood,
+Frank and Torr, Philip},
+    booktitle = {Advances in Neural Information Processing Systems 30},
+    editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+    pages = {5927--5937},
+    year = {2017},
+    abbr = {NeurIPS},
+    html = {https://proceedings.neurips.cc/paper/2017/hash/9cb9ed4f35cf7c2f295cc2bc6f732a84-Abstract.html},
+    pdf = {https://proceedings.neurips.cc/paper/2017/file/9cb9ed4f35cf7c2f295cc2bc6f732a84-Paper.pdf},
+    selected = true
+}
+
+
+
