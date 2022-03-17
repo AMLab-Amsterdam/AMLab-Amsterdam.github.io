@@ -28,19 +28,22 @@ This will start a webserver that allows you to view the website by accessing `ht
 
 # Adding Your Personal Information 
 
-1. Clone the repository and checkout a new branch.
+1. Clone the repository.
 ```
 git clone git@github.com:AMLab-Amsterdam/AMLab-Amsterdam.github.io.git
 ```
-2. Add the following files (for details see below):
+2. Checkout a new branch with the following name:
+- ```FirstnameLastnameNew``` if you are creating your personal page
+- ```FirstnameLastnameUpdate``` if you are updating your existing personal page
+
+3. Add the following files (details below):
 - A description file ```./_people/FirstnameLastname.md```
 - A profile picture ```./assets/img/FirstnameLastname.[jpg/png]```
 - Optimally, a bibliography file ```./_bibliography/FirstnameLastname.bib```
 
-3. Commit and push your changes to your newly created branch.
+4. Commit and push your changes to your newly created branch.
 
-4. Open a pull-request on Github.
-
+5. Open a pull-request on Github.
 
 ## Description file
 
@@ -51,8 +54,13 @@ The description file ```FirstnameLastname.md``` takes the following format:
 layout: person-page
 name: John Doe
 role: PhD candidate
+email: john@johnsdomain.doe
+office: Johnson Street 123, C1.234a 
+lab: AMLab
+institute: John's institute
+university: John's university
 supervisors: [first supervisor, second supervisor, ... ]
-one_liner: Geometric deep learning and graph neural networks
+one_liner: John's research interest in a nutshell
 bib_file: JohnDoe
 lab: AMLab
 redirect: 
