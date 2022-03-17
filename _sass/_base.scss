@@ -68,6 +68,10 @@ blockquote {
     vertical-align: text-bottom;
   }
 
+  .card-text {
+    min-height: 4.2rem;
+  }
+
   .card-item {
     width: auto;
     margin-bottom: 10px;
