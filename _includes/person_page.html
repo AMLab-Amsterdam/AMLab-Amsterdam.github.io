@@ -28,12 +28,9 @@
     {{person.office}}<br>
     {% endif %}
     </p>
-    {% if email %}
-     <p><i class="far fa-envelope"></i>&nbsp;{{email}}</p>
-    {% endif %}
+
+    <p><i class="far fa-envelope"></i>&nbsp;{{ person.email | obfuscate }}</p>
     
-
-
     {% if person.personal_page %}
     <i class="far fa-address-card"></i> <a href="{{ person.personal_page }}" title="Work"> Personal page </a> &nbsp;
     {% endif %}     

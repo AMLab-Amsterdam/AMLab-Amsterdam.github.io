@@ -2,8 +2,11 @@
 layout: person-page
 name: Christian Andersson Naesseth
 short_name: Christian A. Naesseth
+email: c.a.naesseth@uva.nl
 role: Assistant professor
 lab: AMLab
+institute: Informatics Institute
+university: University of Amsterdam
 one_liner: Monte Carlo methods, variational inference, deep learning, causal inference. Interdisciplinary research in life science, finance, and engineering.
 description: |
     I am an Assistant Professor (Universitair docent) at the University of Amsterdam and a member of [AMLab](https://amlab.science.uva.nl/). Previously, I was a postdoctoral research scientist with David Blei at the Data Science Institute, Columbia University. I completed my PhD in Electrical Engineering at Linköping University, advised by Fredrik Lindsten and Thomas Schön.

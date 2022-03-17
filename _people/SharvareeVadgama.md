@@ -2,9 +2,12 @@
 layout: person-page
 name: Sharvaree Vadgama
 role: PhD candidate
+email: s.p.vadgama@uva.nl
 supervisors: [Erik Bekkers, Jakub Tomczak (VU)]
 one_liner: Geometric latent space modeling and explainable AI
 lab: AMLab
+institute: Informatics Institute
+university: University of Amsterdam
 redirect: 
 description: |
     this is a description with [markdown](markdownlink)	and whatnotfdsa dfsa dsa dsa dsaf dsaf dsa dsa dsaf

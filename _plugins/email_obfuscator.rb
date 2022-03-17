@@ -1,18 +1,14 @@
 =begin
 Jekyll plugin to obfuscate email addresses.
-
 Copyright (C) 2016  Paolo Smiraglia <paolo.smiraglia@gmail.com>
-
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 =end
@@ -70,3 +66,41 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('email', Jekyll::EmailTag)
+
+module Jekyll
+    module ObfuscateEmail
+
+        def obfuscate(s)
+            span_class = "o3m41l"
+            mailto = '&#109;ai&#108;to&#58;'
+            
+            at = 'varaiRi8'
+            dot = 'chie6Aet'
+            dash = 'oaPoo7eo' 
+            underscore = 'Oe8eed6M'
+
+            values = s.split("@")
+            data_user = values[0]
+            data_domain = values[1]
+
+            s = s.gsub("@", at)
+            s = s.gsub(".", dot)
+            s = s.gsub("-", dash)
+            s = s.gsub("_", underscore)
+
+            "<a href=\"#{mailto}#{s}\" " +
+                "onmouseover=\"this.href=this.href" +
+                    ".replace(/#{at}/,'&#64;')" +
+                    ".replace(/#{dot}/g,'&#46;')" +
+                    ".replace(/#{underscore}/g,'&#95;')" +
+                    ".replace(/#{dash}/g,'&#45;')\">" +
+            "<span class=\"#{span_class}\" " +
+                "data-x=\"#{data_user}\" " +
+                "data-y=\"#{data_domain}\"></span>" +
+            "</a>"
+        end
+    end 
+end
+
+Liquid::Template.register_filter(Jekyll::ObfuscateEmail)
+

@@ -2,6 +2,7 @@
 layout: person-page
 name: Heiko Zimmermann
 role: PhD candidate
+email: h.zimmermann@uva.nl
 office: Science Park 904, C3.154d
 lab: AMLab
 institute: Informatics Institute
@@ -23,8 +24,5 @@ github_username: zmheiko
 twitter_username: zmheiko
 category: phd 
 ---
-{% capture email %}
-{% email h.zimmermann@uva.nl %}
-{% endcapture %}
 
 {% include person_page.html person=page %}
