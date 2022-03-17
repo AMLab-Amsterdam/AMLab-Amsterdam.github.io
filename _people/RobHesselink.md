@@ -1,6 +1,7 @@
 ---
 layout: person-page
-name: Rob Hesselink
+first_name: Rob 
+last_name: Hesselink
 role: PhD candidate
 email: r.d.hesselink@uva.nl
 supervisors: [Erik Bekkers]
@@ -16,7 +17,7 @@ personal_page:
 scholar_userid: 
 github_username: 
 twitter_username: 
-category: phd 
+category: PhD Students
 ---
 
 {% include person_page.html person=page %}

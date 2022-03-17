@@ -1,6 +1,7 @@
 ---
 layout: person-page
-name: Heiko Zimmermann
+first_name: Heiko 
+last_name: Zimmermann
 role: PhD candidate
 email: h.zimmermann@uva.nl
 office: Science Park 904, C3.154d
@@ -22,7 +23,7 @@ personal_page: https://heikozimmermann.com
 scholar_userid: 6etmkQYAAAAJ
 github_username: zmheiko
 twitter_username: zmheiko
-category: phd 
+category: PhD Students 
 ---
 
 {% include person_page.html person=page %}

@@ -64,12 +64,17 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
-    min-height: 5.0rem;
+    font-size: 1.75rem;
+    min-height: 4.5rem;
     vertical-align: text-bottom;
   }
 
+  .card-role {
+    min-height: 4.5rem;
+  }
+
   .card-text {
-    min-height: 4.2rem;
+    min-height: 4.5rem;
   }
 
   .card-item {

@@ -9,7 +9,13 @@
 </div>
 {%- endif %}
 <div class="person-info">
-    <h2>{{person.name}}</h2>
+    <h2>
+      {{person.first_name}}
+      {% if person.middle_names %}
+        {{person.middle_names}}
+      {% endif %}
+      {{person.last_name}}
+    </h2>
     <p><b>{{person.role}}
     {% if person.supervisors %}
     (advised by {{ person.supervisors | array_to_sentence_string }})
@@ -29,8 +35,13 @@
     {% endif %}
     </p>
 
-    <p><i class="far fa-envelope"></i>&nbsp;{{ person.email | obfuscate }}</p>
-    
+    <p>
+        <i class="far fa-envelope"></i>&nbsp;{{ person.email | obfuscate }}
+        {% if person.phone %}  
+        <br><i class="fas fa-phone"></i>&nbsp; <a href="tel:{{person.phone}}">{{person.phone}}</a>
+        {% endif %}
+    </p>
+
     {% if person.personal_page %}
     <i class="far fa-address-card"></i> <a href="{{ person.personal_page }}" title="Work"> Personal page </a> &nbsp;
     {% endif %}     

@@ -1,6 +1,7 @@
 ---
 layout: person-page
-name: Putri van der Linden
+first_name: Putri 
+last_name: van der Linden
 role: PhD candidate
 email: p.a.vanderlinden@uva.nl
 supervisors: [Erik Bekkers]
@@ -16,7 +17,7 @@ personal_page:
 scholar_userid: 
 github_username: 
 twitter_username: 
-category: phd 
+category: PhD Students
 ---
 
 {% include person_page.html person=page %}

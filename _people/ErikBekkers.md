@@ -1,6 +1,7 @@
 ---
 layout: person-page
-name: Erik Bekkers
+first_name: Erik
+last_name: Bekkers
 role: Assistant professor
 email: e.j.bekkers@uva.nl
 lab: AMLab
@@ -14,8 +15,8 @@ personal_page: https://erikbekkers.bitbucket.io
 scholar_userid: yeWrfR4AAAAJ
 github_username: ebekkers
 twitter_username: erikjbekkers
-importance: 2
-category: faculty 
+order: 2
+category: Staff
 ---
 
 {% include person_page.html person=page %}

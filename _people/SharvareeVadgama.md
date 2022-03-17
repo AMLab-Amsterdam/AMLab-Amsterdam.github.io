@@ -1,6 +1,7 @@
 ---
 layout: person-page
-name: Sharvaree Vadgama
+first_name: Sharvaree 
+last_name: Vadgama
 role: PhD candidate
 email: s.p.vadgama@uva.nl
 supervisors: [Erik Bekkers, Jakub Tomczak (VU)]
@@ -17,7 +18,7 @@ personal_page:
 scholar_userid: 
 github_username: 
 twitter_username: 
-category: phd 
+category: PhD Students
 ---
 
 {% include person_page.html person=page %}

@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 description: 
 nav: true
-display_categories: [faculty, postdoc, phd]
+display_categories: [Staff, Postdocs, PhD Students]
 ---
 
 <!-- pages/people.md -->
@@ -13,7 +13,7 @@ display_categories: [faculty, postdoc, phd]
 {%- for category in page.display_categories %}
 <h2 class="category">{{ category }}</h2>
 {%- assign categorized_people = site.people | where: "category", category -%}
-{%- assign sorted_people = categorized_people | sort: "importance" %}
+{%- assign sorted_people = categorized_people | sort: "order" %}
 <!-- Generate cards for each person -->
 <div class="grid">
   {%- for person in sorted_people -%}

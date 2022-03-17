@@ -1,6 +1,8 @@
 ---
 layout: person-page
-name: Christian Andersson Naesseth
+first_name: Christian
+middle_names: Andersson 
+last_name: Naesseth
 short_name: Christian A. Naesseth
 email: c.a.naesseth@uva.nl
 role: Assistant professor
@@ -20,8 +22,8 @@ personal_page: https://naesseth.github.io
 scholar_userid: GQ6rOssAAAAJ
 github_username: Naesseth
 twitter_username: chris_naesseth
-importance: 1
-category: faculty 
+order: 2
+category: Staff
 ---
 
 {% include person_page.html person=page %}
