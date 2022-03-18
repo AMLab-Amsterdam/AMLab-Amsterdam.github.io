@@ -1,1 +1,8 @@
 _site/*
+
+.DS_Store
+Gemfile.lock
+
+.bundle/
+.jekyll-cache/
+vendor/
