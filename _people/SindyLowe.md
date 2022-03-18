@@ -9,7 +9,7 @@ lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
 supervisors: [Max Welling]
-one_liner: Structured Representation Learning
+one_liner: Structured representation learning
 bib_file: SindyLowe
 img: assets/img/SindyLowe.jpg
 lab: AMLab
