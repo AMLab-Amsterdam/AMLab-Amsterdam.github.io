@@ -1,6 +1,8 @@
 ---
 layout: person-page
-name: Marco Federici
+first_name: Marco 
+last_name: Federici
+email: m.federici@uva.nl
 role: PhD candidate
 supervisors: [Patrick Forré]
 one_liner: Information theory for machine learning and representation learning
@@ -16,7 +18,7 @@ img_promo:
 scholar_userid: TfInmkIAAAAJ
 github_username: mfederici
 twitter_username: mfederici_
-category: phd 
+category: PhD Students
 ---
 
 {% include person_page.html person=page %}
