@@ -11,7 +11,7 @@ university: University of Amsterdam
 supervisors: [J.W. van de Meent]
 one_liner: Deep generative models, disentangled representations
 bib_file:
-img: assets/img/BabakEsmaeili.jpg
+img: assets/img/BabakEsmaeili.png
 lab: AMLab
 redirect: 
 description: 
