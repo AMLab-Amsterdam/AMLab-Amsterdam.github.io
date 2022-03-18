@@ -76,13 +76,35 @@ personal_page: https://johnswebsite.doe
 scholar_userid: XXXXXXXXXXXX
 github_username: johns_github
 twitter_username: johns_twitter
-category: PhD Student 
+category: PhD Students 
 ---
 
 {% include person_page.html person=page %}
 ```
 
-** ------- Add description of possible roles and categories -------**
+Mandatory fields: 
+
+- `category` (one of "Staff", "Postdocs", "PhD Students"; case sensisitive)
+- `first_name` (string)
+- `last_name` (string)
+- `email` (this will be obfuscated automatically)
+- `role` (string)
+- `lab` (string)
+- `one_liner` (string; truncated after 80 chars)
+- `img` (filename)
+
+Optional fields:
+
+- `middle_names` (string)
+- `advisors` (array of strings)
+- `office` (string)
+- `institute` (string)
+- `university` (string)
+- `bibfile` (filename; do not include .bib at the end)
+- `description` (text)
+- `scholar_userid` (string)
+- `github_username` (string)
+- `twitter_username` (string)
 
 # Image
 Add a profile picture ```./assets/img/FirstnameLastname.[jpg/png]``` (please keep the file size reasonably small). 
