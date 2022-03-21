@@ -1,3 +1,10 @@
+name: Build and Deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - main 
+
 steps:
   - uses: actions/checkout@v2
   - uses: EdricChan03/action-build-deploy-ghpages@v2
