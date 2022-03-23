@@ -1,0 +1,52 @@
+---
+---
+
+@InProceedings{forre-2021-qms, 
+  title = {{Quasi-Measurable Spaces}},
+  author = {Patrick Forr\'e},
+  booktitle = {arXiv},
+  abbr={preprint},
+  year={2021},
+  abstract = {We introduce the categories of quasi-measurable spaces, which are slight generalizations of the category of quasi-Borel spaces, where we now allow for general sample spaces and less restrictive random variables, spaces and maps. We show that each category of quasi-measurable spaces is bi-complete and cartesian closed. We also introduce several different strong probability monads. Together these constructions provide convenient categories for higher probability theory that also support semantics of higher-order probabilistic programming languages in the same way as the category of quasi-Borel spaces does. An important special case is the category of quasi-universal spaces, where the sample space is the set of the real numbers together with the sigma-algebra of all universally measurable subsets. The induced sigma-algebras on those quasi-universal spaces then have explicit descriptions in terms of intersections of Lebesgue-complete sigma-algebras. A central role is then played by countably separated and universal quasi-universal spaces, which replace the role of standard Borel spaces. We prove in this setting a Fubini theorem, a disintegration theorem for Markov kernels, a Kolmogorov extension theorem and a conditional de Finetti theorem. We also translate our findings into properties of the corresponding Markov category of Markov kernels between universal quasi-universal spaces. Furthermore, we formalize causal Bayesian networks in terms of quasi-universal spaces and prove a global Markov property. For this we translate the notion of transitional conditional independence into this setting and study its (asymmetric) separoid rules. Altogether we are now able to reason about conditional independence relations between variables and causal mechanisms on equal footing. Finally, we also highlight how one can use exponential objects and random functions for counterfactual reasoning.},
+  html = {https://arxiv.org/abs/2109.11631},
+  pdf = {https://arxiv.org/pdf/2109.11631},
+  selected=true
+}
+
+@InProceedings{forre-2021-tci, 
+  title = {{Transitional Conditional Independence}},
+  author = {Patrick Forr\'e},
+  booktitle = {arXiv},
+  abbr={preprint},
+  year={2021},
+  abstract = {We develope the framework of transitional conditional independence. For this we introduce transition probability spaces and transitional random variables. These constructions will generalize, strengthen and unify previous notions of (conditional) random variables and non-stochastic variables, (extended) stochastic conditional independence and some form of functional conditional independence. Transitional conditional independence is asymmetric in general and it will be shown that it satisfies all desired relevance relations in terms of left and right versions of the separoid rules, except symmetry, on standard, analytic and universal measurable spaces. As a preparation we prove a disintegration theorem for transition probabilities, i.e. the existence and essential uniqueness of (regular) conditional Markov kernels, on those spaces. Transitional conditional independence will be able to express classical statistical concepts like sufficiency, adequacy and ancillarity. As an application, we will then show how transitional conditional independence can be used to prove a directed global Markov property for causal graphical models that allow for non-stochastic input variables in strong generality. This will then also allow us to show the main rules of causal/do-calculus, relating observational and interventional distributions, in such measure theoretic generality.},
+  html = {https://arxiv.org/abs/2104.11547},
+  pdf = {https://arxiv.org/pdf/2104.11547},
+  selected=true
+}
+
+@InProceedings{forre-mooij-uai-2019, 
+  title = {{Causal Calculus in the Presence of Cycles, Latent Confounders and Selection Bias}},
+  author = {Patrick Forr\'e and Joris Mooij},
+  booktitle = {Uncertainty in Artificial Intelligence - Proceedings of the Thirty-Fifth Conference},
+  abbr={UAI 2019},
+  year={2019},
+  abstract = {We prove the main rules of causal calculus (also called do-calculus) for i/o structural causal models (ioSCMs), a generalization of a recently proposed general class of non-/linear structural causal models that allow for cycles, latent confounders and arbitrary probability distributions. We also generalize adjustment criteria and formulas from the acyclic setting to the general one (i.e. ioSCMs). Such criteria then allow to estimate (conditional) causal effects from observational data that was (partially) gathered under selection bias and cycles. This generalizes the backdoor criterion, the selection-backdoor criterion and extensions of these to arbitrary ioSCMs. Together, our results thus enable causal reasoning in the presence of cycles, latent confounders and selection bias. Finally, we extend the ID algorithm for the identification of causal effects to ioSCMs.},
+  html = {https://www.auai.org/uai2019/accepted.php},
+  pdf = {https://arxiv.org/pdf/1901.00433},
+  selected=true
+}
+
+@InProceedings{forre-mooij-uai-2018, 
+  title = {{Constraint-based Causal Discovery for Non-Linear Structural Causal Models with Cycles and Latent Confounders}},
+  author = {Patrick Forr\'e and Joris Mooij},
+  booktitle = {Uncertainty in Artificial Intelligence - Proceedings of the Thirty-Fourth Conference},
+  abbr={UAI 2018},
+  year={2018},
+  abstract = {We address the problem of causal discovery from data, making use of the recently proposed causal modeling framework of modular structural causal models (mSCM) to handle cycles, latent confounders and non-linearities. We introduce σ-connection graphs (σ-CG), a new class of mixed graphs (containing undirected, bidirected and directed edges) with additional structure, and extend the concept of σ-separation, the appropriate generalization of the well-known notion of d-separation in this setting, to apply to σ-CGs. We prove the closedness of σ-separation under marginalisation and conditioning and exploit this to implement a test of σ-separation on a σ-CG. This then leads us to the first causal discovery algorithm that can handle non-linear functional relations, latent confounders, cyclic causal relationships, and data from different (stochastic) perfect interventions. As a proof of concept, we show on synthetic data how well the algorithm recovers features of the causal graph of modular structural causal models.},
+  html = {https://auai.org/uai2018/accepted.php},
+  pdf = {https://arxiv.org/pdf/1807.03024},
+  code = {https://github.com/caus-am/sigmasep},
+  video = {https://www.youtube.com/watch?v=UvWix4tZJVQ},
+  selected=true
+}
