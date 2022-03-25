@@ -14,7 +14,7 @@ one_liner: Deep Generative Models, Molecular Generation
 bib_file: EmielHoogeboom
 redirect: 
 description: |
-Emiel Hoogeboom and is a PhD Candidate at the University of Amsterdam under the supervision of Max Welling, in the UvA-Bosch Delta Lab. Research interests include deep generative models and molecular generation.
+    Emiel Hoogeboom and is a PhD Candidate at the University of Amsterdam under the supervision of Max Welling, in the UvA-Bosch Delta Lab. Research interests include deep generative models and molecular generation.
 
 img: assets/img/EmielHoogeboom.png
 img_promo: 
