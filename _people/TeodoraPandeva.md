@@ -5,7 +5,7 @@ last_name: Pandeva
 role: PhD candidate
 email: t.p.pandeva@uva.nl
 office: Science Park 904
-lab: AMLab, AI4Science Lab
+lab: AMLab and AI4Science Lab
 institute: Informatics Institute, Swammerdam Institute for Life Sciences
 university: University of Amsterdam
 supervisors: [Joris Mooij, Patrick Forré, Leendert Hamoen, Martijs Jonker]
