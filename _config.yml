@@ -9,7 +9,7 @@ last_name: "| Amsterdam Machine Learning Lab"
 email: F.E.Arends@uva.nl
 phone: +31 20 525 7884 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
