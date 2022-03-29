@@ -1,7 +1,7 @@
 ---
 ---
 
-@inproceedings{brandstetter2021geometric,
+@inproceedings{brandstetter2022geometric,
   title={Geometric and Physical Quantities improve E (3) Equivariant Message Passing},
   author={Brandstetter, Johannes and Hesselink, Rob and van der Pol, Elise and Bekkers, Erik and Welling, Max},
   booktitle={International Conference on Learning Representations},
@@ -12,6 +12,57 @@
   pdf={https://arxiv.org/pdf/2110.02905},
   code={https://github.com/RobDHess/Steerable-E3-GNN},
 }
+
+
+@inproceedings{zimmermann2021nested,
+  title={Nested Variational Inference},
+  author={Heiko Zimmermann and Hao Wu and Babak Esmaeili and Jan-Willem van de Meent},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year={2021},
+  volume={34},
+  abbr={NeurIPS},
+  html={https://proceedings.neurips.cc/paper/2021/hash/ab49b208848abe14418090d95df0d590-Abstract.html},
+  pdf={https://proceedings.neurips.cc/paper/2021/file/ab49b208848abe14418090d95df0d590-Paper.pdf},
+}
+
+
+@InProceedings{wu2021conjugate,
+  title =    {Conjugate Energy-Based Models},
+  author =     {Wu, Hao* and Esmaeili, Babak* and Wick, Michael and Tristan, Jean-Baptiste and {van de Meent}, Jan-Willem},
+  booktitle =    {Proceedings of the 38th International Conference on Machine Learning ({{ICML}})},
+  pages =    {11228--11239},
+  year =   {2021},
+  editor =   {Meila, Marina and Zhang, Tong},
+  volume =   {139},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {18--24 Jul},
+  publisher =    {PMLR},
+  pdf =    {http://proceedings.mlr.press/v139/wu21a/wu21a.pdf},
+  html =    {https://proceedings.mlr.press/v139/wu21a.html},
+  abstract =   {In this paper, we propose conjugate energy-based models (CEBMs), a new class of energy-based models that define a joint density over data and latent variables. The joint density of a CEBM decomposes into an intractable distribution over data and a tractable posterior over latent variables. CEBMs have similar use cases as variational autoencoders, in the sense that they learn an unsupervised mapping from data to latent variables. However, these models omit a generator network, which allows them to learn more flexible notions of similarity between data points. Our experiments demonstrate that conjugate EBMs achieve competitive results in terms of image modelling, predictive power of latent space, and out-of-domain detection on a variety of datasets.},
+  abbr = {ICML}
+}
+
+
+@inproceedings{stites-zimmerman2021LearningProposals,
+  title       = {Learning proposals for probabilistic programs with inference combinators},
+  author      = {Stites, Sam and Zimmermann, Heiko and Wu, Hao and Sennesh, Eli and van de Meent, Jan-Willem},
+  shortauthor = {Stites and Zimmermann},
+  booktitle   = {Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence},
+  pages       = {1056--1066},
+  year        = {2021},
+  editor      = {de Campos, Cassio and Maathuis, Marloes H.},
+  volume      = {161},
+  series      = {Proceedings of Machine Learning Research},
+  month       = {27--30 Jul},
+  publisher   = {PMLR},
+  pdf         = {https://proceedings.mlr.press/v161/stites21a/stites21a.pdf},
+  html        = {https://proceedings.mlr.press/v161/stites21a.html},
+  abstract    = {We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernel and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models. We demonstrate the flexibility of this framework by implementing advanced variational methods based on amortized Gibbs sampling and annealing.},
+  code = {https://github.com/probtorch/combinators/},
+  abbr = {UAI}
+}
+
 
 @inproceedings{bekkers2019b,
   title={B-Spline CNNs on Lie groups},
@@ -27,16 +78,6 @@
   selected=true
 }
 
-@inproceedings{zimmermann2021nested,
-  title={Nested Variational Inference},
-  author={Heiko Zimmermann and Hao Wu and Babak Esmaeili and Jan-Willem van de Meent},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year={2021},
-  volume={34},
-  abbr={NeurIPS},
-  html={https://proceedings.neurips.cc/paper/2021/hash/ab49b208848abe14418090d95df0d590-Abstract.html},
-  pdf={https://proceedings.neurips.cc/paper/2021/file/ab49b208848abe14418090d95df0d590-Paper.pdf},
-}
 
 @article{esmaeili2018structured,
   title = {Structured {{Disentangled Representations}}},
