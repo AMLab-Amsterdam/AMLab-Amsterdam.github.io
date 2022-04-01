@@ -1,6 +1,8 @@
 ---
 ---
 
+
+
 @inproceedings{brandstetter2022geometric,
   title={Geometric and Physical Quantities improve E (3) Equivariant Message Passing},
   author={Brandstetter, Johannes and Hesselink, Rob and van der Pol, Elise and Bekkers, Erik and Welling, Max},
@@ -283,5 +285,151 @@ Frank and Torr, Philip},
   selected = true
 }
 
+@inproceedings{pol2020mdp,
+title = {MDP Homomorphic Networks: Group Symmetries in Reinforcement Learning},
+author = {van der Pol, Elise and Worrall, Daniel and van Hoof, Herke and Oliehoek, Frans and Welling, Max},
+url = {https://arxiv.org/abs/2006.16908
+https://proceedings.neurips.cc/paper/2020/hash/2be5f9c2e3620eb73c2972d7552b6cb5-Abstract.html},
+year = {2020},
+date = {02-12-2020},
+booktitle = {Advances in Neural Information Processing Systems},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+selected=true,
+html={https://proceedings.neurips.cc/paper/2020/hash/2be5f9c2e3620eb73c2972d7552b6cb5-Abstract.html},
+pdf={https://proceedings.neurips.cc/paper/2020/file/2be5f9c2e3620eb73c2972d7552b6cb5-Paper.pdf},
+abbr={NeurIPS}
+}
+
+
+@inproceedings{pol2022multi,
+title = {Multi-Agent MDP Homomorphic Networks},
+author = {van der Pol, Elise and van Hoof, Herke and Oliehoek, Frans and Welling, Max},
+year = {2022},
+date = {25-04-2022},
+booktitle = {International Conference on Learning Representations},
+keywords = {},
+pubstate = {forthcoming},
+abbr={ICLR},
+abstract={This paper introduces Multi-Agent MDP Homomorphic Networks, a class of networks that allows distributed execution using only local information, yet is able to share experience between global symmetries in the joint state-action space of cooperative multi-agent systems. In cooperative multi-agent systems, complex symmetries arise between different configurations of the agents and their local observations. For example, consider a group of agents navigating: rotating the state globally results in a permutation of the optimal joint policy. Existing work on symmetries in single agent reinforcement learning can only be generalized to the fully centralized setting, because such approaches rely on the global symmetry in the full state-action spaces, and these can result in correspondences across agents. To encode such symmetries while still allowing distributed execution we propose a factorization that decomposes global symmetries into local transformations. Our proposed factorization allows for distributing the computation that enforces global symmetries over local agents and local interactions. We introduce a multi-agent equivariant policy network based on this factorization. We show empirically on symmetric multi-agent problems that globally symmetric distributable policies improve data efficiency compared to non-equivariant baselines.},
+selected=false,
+html={https://openreview.net/forum?id=H7HDG\hyphen\hyphenDJF0},
+pdf={https://openreview.net/pdf?id=H7HDG\hyphen\hyphenDJF0}
+}
+
+@inproceedings{kool2020estimating,
+title = {Estimating Gradients for Discrete Random Variables by Sampling without Replacement},
+author = {Kool, Wouter and van Hoof, Herke and Welling, Max},
+url = {https://openreview.net/pdf?id=rklEj2EFvB
+https://youtu.be/KtP-Z2bvPPE},
+year = {2020},
+date = {2020-04-26},
+booktitle = {International Conference on Learning Representations},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+abbr={ICLR},
+abstract={We derive an unbiased estimator for expectations over discrete random variables based on sampling without replacement, which reduces variance as it avoids duplicate samples. We show that our estimator can be derived as the Rao-Blackwellization of three different estimators. Combining our estimator with REINFORCE, we obtain a policy gradient estimator and we reduce its variance using a built-in control variate which is obtained without additional model evaluations. The resulting estimator is closely related to other gradient estimators. Experiments with a toy problem, a categorical Variational Auto-Encoder and a structured prediction problem show that our estimator is the only estimator that is consistently among the best estimators in both high and low entropy settings.},
+video={https://youtu.be/KtP-Z2bvPPE},
+code={https://github.com/wouterkool/estimating-gradients-without-replacement},
+selected=true,
+html={https://openreview.net/forum?id=rklEj2EFvB},
+pdf={https://openreview.net/pdf?id=rklEj2EFvB},
+}
+
+@article{wang2021optimizing,
+title = {Optimizing Adaptive Notifications in Mobile Health Interventions Systems: Reinforcement Learning from a Data-driven Behavioral Simulator},
+author = {Wang, Shihan and Zhang, Chao and Kröse, Ben and van Hoof, Herke},
+url = {https://link.springer.com/article/10.1007/s10916-021-01773-0},
+doi = {https://doi.org/10.1007/s10916-021-01773-0},
+year = {2021},
+date = {18-10-2021},
+journal = {Journal of Medical Systems},
+volume = {45},
+number = {102},
+keywords = {},
+pubstate = {published},
+tppubtype = {article},
+html={https://link.springer.com/article/10.1007/s10916-021-01773-0a},
+abbr={JMS}
+}
+
+@article{wang2021reinforcement,
+title = {Reinforcement Learning to Send Reminders at Right Moments in Smartphone Exercise Application: A Feasibility Study},
+author = {S. Wang and K. Sporrel and H. van Hoof and M. Simons and R. de Boer and D. Ettema and N. Nibbeling and M. Deutekom and B. Kröse},
+url = {https://www.mdpi.com/1660-4601/18/11/6059
+https://www.mdpi.com/1660-4601/18/11/6059/pdf},
+year = {2021},
+date = {2021-04-06},
+journal = {International Journal of Environmental Research and Public Health, Special Issue},
+keywords = {},
+pubstate = {published},
+tppubtype = {article},
+html={https://www.mdpi.com/1660-4601/18/11/6059},
+pdf={https://www.mdpi.com/1660-4601/18/11/6059/pdf},
+abbr={IJERPH}
+}
+
+@inproceedings{woehlke2021hierarchies,
+title = {Hierarchies of Planning and Reinforcement Learning for Robot Navigation},
+author = {J. Wöhlke and F. Schmitt and van Hoof, H. },
+url = {https://arxiv.org/abs/2109.11178},
+year = {2021},
+date = {2021-05-30},
+booktitle = {IEEE International Conference on Robotics and Automation},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+code={https://github.com/boschresearch/Hierarchies-of-Planning-and-Reinforcement-Learning-for-Robot-Navigation},
+html={https://ieeexplore.ieee.org/abstract/document/9561151},
+pdf={https://arxiv.org/pdf/2109.11178.pdf},
+abbr={ICRA}
+}
+
+@inproceedings{zhang2021deep,
+title = {Deep Coherent Exploration For Continuous Control},
+author = {Zhang, Yijie and van Hoof, Herke },
+url = {http://proceedings.mlr.press/v139/zhang21t.html},
+year = {2021},
+date = {2021-07-19},
+booktitle = {International Conference on Machine Learning},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+html={http://proceedings.mlr.press/v139/zhang21t.html},
+pdf={http://proceedings.mlr.press/v139/zhang21t/zhang21t.pdf},
+abbr={ICML}
+}
+
+@inproceedings{kool2022deep,
+title = {Deep Policy Dynamic Programming for Vehicle Routing Problems},
+author = {Kool, Wouter and van Hoof, Herke and Gromicho, Joaquim and Welling, Max},
+url = {https://arxiv.org/abs/2102.11756},
+year = {2022},
+date = {20-06-2022},
+booktitle = {International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings},
+code={https://github.com/wouterkool/dpdp},
+pdf={https://arxiv.org/pdf/2102.11756},
+abbr={CPAIOR}
+}
+
+@inproceedings{long2022fast,
+title = {Fast and Data Efficient Reinforcement Learning from Pixels via Non-Parametric Value Approximation},
+author = {Long, Alex and Blair, Alan and van Hoof, Herke},
+url = {https://arxiv.org/abs/2203.03078},
+year = {2022},
+date = {2022-02-21},
+booktitle = {AAAI National Conference on Artificial Intelligence},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings},
+html={},
+pdf={https://www.aaai.org/AAAI22Papers/AAAI-8450.LongA.pdf},
+abbr={AAAI}
+}
 
 
