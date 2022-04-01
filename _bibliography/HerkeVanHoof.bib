@@ -1,15 +1,16 @@
 @inproceedings{pol2022multi,
 title = {Multi-Agent MDP Homomorphic Networks},
 author = {van der Pol, Elise and van Hoof, Herke and Oliehoek, Frans and Welling, Max},
-url = {https://openreview.net/forum?id=H7HDG--DJF0},
 year = {2022},
 date = {25-04-2022},
 booktitle = {International Conference on Learning Representations},
 keywords = {},
 pubstate = {forthcoming},
-tppubtype = {inproceedings}, 
 abbr={ICLR},
-abstract={This paper introduces Multi-Agent MDP Homomorphic Networks, a class of networks that allows distributed execution using only local information, yet is able to share experience between global symmetries in the joint state-action space of cooperative multi-agent systems. In cooperative multi-agent systems, complex symmetries arise between different configurations of the agents and their local observations. For example, consider a group of agents navigating: rotating the state globally results in a permutation of the optimal joint policy. Existing work on symmetries in single agent reinforcement learning can only be generalized to the fully centralized setting, because such approaches rely on the global symmetry in the full state-action spaces, and these can result in correspondences across agents. To encode such symmetries while still allowing distributed execution we propose a factorization that decomposes global symmetries into local transformations. Our proposed factorization allows for distributing the computation that enforces global symmetries over local agents and local interactions. We introduce a multi-agent equivariant policy network based on this factorization. We show empirically on symmetric multi-agent problems that globally symmetric distributable policies improve data efficiency compared to non-equivariant baselines.}
+abstract={This paper introduces Multi-Agent MDP Homomorphic Networks, a class of networks that allows distributed execution using only local information, yet is able to share experience between global symmetries in the joint state-action space of cooperative multi-agent systems. In cooperative multi-agent systems, complex symmetries arise between different configurations of the agents and their local observations. For example, consider a group of agents navigating: rotating the state globally results in a permutation of the optimal joint policy. Existing work on symmetries in single agent reinforcement learning can only be generalized to the fully centralized setting, because such approaches rely on the global symmetry in the full state-action spaces, and these can result in correspondences across agents. To encode such symmetries while still allowing distributed execution we propose a factorization that decomposes global symmetries into local transformations. Our proposed factorization allows for distributing the computation that enforces global symmetries over local agents and local interactions. We introduce a multi-agent equivariant policy network based on this factorization. We show empirically on symmetric multi-agent problems that globally symmetric distributable policies improve data efficiency compared to non-equivariant baselines.},
+selected=false,
+html={https://openreview.net/forum?id=H7HDG\hyphen\hyphenDJF0},
+pdf={https://openreview.net/pdf?id=H7HDG\hyphen\hyphenDJF0}
 }
 
 @inproceedings{kool2020estimating,
@@ -27,4 +28,105 @@ abbr={ICLR},
 abstract={We derive an unbiased estimator for expectations over discrete random variables based on sampling without replacement, which reduces variance as it avoids duplicate samples. We show that our estimator can be derived as the Rao-Blackwellization of three different estimators. Combining our estimator with REINFORCE, we obtain a policy gradient estimator and we reduce its variance using a built-in control variate which is obtained without additional model evaluations. The resulting estimator is closely related to other gradient estimators. Experiments with a toy problem, a categorical Variational Auto-Encoder and a structured prediction problem show that our estimator is the only estimator that is consistently among the best estimators in both high and low entropy settings.},
 video={https://youtu.be/KtP-Z2bvPPE},
 code={https://github.com/wouterkool/estimating-gradients-without-replacement},
+selected=true,
+html={https://openreview.net/forum?id=rklEj2EFvB},
+pdf={https://openreview.net/pdf?id=rklEj2EFvB},
+}
+
+@inproceedings{woehlke2021hierarchies,
+title = {Hierarchies of Planning and Reinforcement Learning for Robot Navigation},
+author = {J. Wöhlke and F. Schmitt and van Hoof, H. },
+url = {https://arxiv.org/abs/2109.11178},
+year = {2021},
+date = {2021-05-30},
+booktitle = {IEEE International Conference on Robotics and Automation},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+code={https://github.com/boschresearch/Hierarchies-of-Planning-and-Reinforcement-Learning-for-Robot-Navigation},
+html={https://ieeexplore.ieee.org/abstract/document/9561151},
+pdf={https://arxiv.org/pdf/2109.11178.pdf},
+abbr={ICRA}
+}
+
+@inproceedings{zhang2021deep,
+title = {Deep Coherent Exploration For Continuous Control},
+author = {Zhang, Yijie and van Hoof, Herke },
+url = {http://proceedings.mlr.press/v139/zhang21t.html},
+year = {2021},
+date = {2021-07-19},
+booktitle = {International Conference on Machine Learning},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+html={http://proceedings.mlr.press/v139/zhang21t.html},
+pdf={http://proceedings.mlr.press/v139/zhang21t/zhang21t.pdf},
+abbr={ICML}
+}
+
+@inproceedings{kool2022deep,
+title = {Deep Policy Dynamic Programming for Vehicle Routing Problems},
+author = {Kool, Wouter and van Hoof, Herke and Gromicho, Joaquim and Welling, Max},
+url = {https://arxiv.org/abs/2102.11756},
+year = {2022},
+date = {20-06-2022},
+booktitle = {International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings},
+code={https://github.com/wouterkool/dpdp},
+pdf={https://arxiv.org/pdf/2102.11756},
+abbr={CPAIOR}
+}
+
+@inproceedings{fujimoto2018addressing,
+title = {Addressing function approximation error in actor-critic methods},
+author = {Fujimoto, S. and van Hoof, H. and Meger, D. },
+url = {http://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf
+http://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a-supp.pdf},
+year = {2018},
+date = {2018-07-10},
+booktitle = {International Conference on Machine Learning},
+pages = {1587--1596},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+html={http://proceedings.mlr.press/v80/fujimoto18a.pdf},
+pdf={http://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf},
+abbr={ICML}
+}
+
+@inproceedings{smith2018inference,
+title = {An Inference-Based Policy Gradient Method for Learning Options},
+author = {Smith, M. and van Hoof, H. and Pineau, J.},
+url = {http://proceedings.mlr.press/v80/smith18a/smith18a.pdf},
+year = {2018},
+date = {2018-07-10},
+booktitle = {International Conference on Machine Learning},
+pages = {4703-4712},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings},
+html={https://proceedings.mlr.press/v80/smith18a.html},
+pdf={ttp://proceedings.mlr.press/v80/smith18a/smith18a.pdf},
+abbr={ICML}
+}
+
+@article{hoof2017nonparametric,
+title = {Non-parametric Policy Search with Limited Information Loss},
+author = {Van Hoof, H. and Neumann, G. and Peters, J.},
+editor = {Murphy, K.},
+url = {http://jmlr.org/papers/volume18/16-142/16-142.pdf},
+year = {2017},
+date = {2017-08-01},
+journal = {Journal of Machine Learning Research},
+volume = {18},
+number = {73},
+pages = {1-46},
+keywords = {},
+pubstate = {published},
+tppubtype = {article},
+html={https://jmlr.org/papers/v18/16-142.html},
+pdf={http://jmlr.org/papers/volume18/16-142/16-142.pdf},
+abbr={JMLR}
 }
