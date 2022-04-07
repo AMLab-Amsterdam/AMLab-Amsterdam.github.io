@@ -6,14 +6,14 @@ description:
 nav: true
 ---
 
-AMLab staff receive inquiries joining or visiting the lab daily. We are of course delighted by this interest and try to reply whenever possible, but it is not always feasible to respond messages individually. For this reason, we try to provide answer to the most commonly occurring questions below.  
+AMLab staff receive inquiries about joining or visiting the lab daily. We are of course delighted by this interest and try to reply whenever possible, but it is not always feasible to respond to messages individually. For this reason, we try to provide answers to the most commonly asked questions below.  
 
 If you do need an answer to a question that is not covered, do of course feel free to write one of us! Here are some things you can do to write an effective message: 
 
 - Indicate what type of role you are interested in, and that you have already read this page. 
 - Keep your message short and to the point. There is no need to summarize your CV.  
 - Do provide a link to a CV, a website, and a Google scholar profile if you have one. 
-- Finally, make it clear what question you are looking to get an answered.  
+- Finally, make it clear what question you are looking to get answered.  
 
 **Do you currently have PhD or Postdoc openings in your lab?**
 
