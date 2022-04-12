@@ -10,7 +10,7 @@ bib_file: PutraManggala
 lab: AMLab
 redirect: 
 description: >
-    I am a PhD student at the [Amsterdam Machine Learning Lab](https://amlab.science.uva.nl/) (AMLab) supervised by [Eric Nalisnick](https://amlab-amsterdam.github.io/people/EricNalisnick/).
+    I am a PhD student at the [Amsterdam Machine Learning Lab](https://amlab-amsterdam.github.io/) (AMLab) supervised by [Eric Nalisnick](https://amlab-amsterdam.github.io/people/EricNalisnick/).
 
 img: assets/img/PutraManggala.jpg
 img_promo: 
