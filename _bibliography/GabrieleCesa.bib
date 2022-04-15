@@ -1,0 +1,33 @@
+
+@inproceedings{cesa2022a,
+        title={A Program to Build {E(N)}-Equivariant Steerable {CNN}s },
+        author={Gabriele Cesa and Leon Lang and Maurice Weiler},
+        booktitle={International Conference on Learning Representations},
+        year={2022},
+        code      = {https://github.com/QUVA-Lab/escnn},
+        html      = {https://openreview.net/forum?id=WE4qe9xlnQw},
+        pdf       = {https://openreview.net/pdf?id=WE4qe9xlnQw},
+        abbr      = {{ICLR}},
+        abstract  = {Equivariance is becoming an increasingly popular design choice to build data efficient neural networks by exploiting prior knowledge about the symmetries of the problem at hand. Euclidean steerable CNNs are one of the most common classes of equivariant networks. While the constraints these architectures need to satisfy are understood, no practical method to parametrize them generally has been described so far, with most existing approaches tailored to specific groups or classes of groups. In this work, we generalize the Wigner-Eckart theorem proposed in (Lang et al.), which characterizes general G-steerable kernel spaces for compact groups G over their homogeneous spaces, to arbitrary G-spaces. This enables us to directly parameterize filters in terms of a band-limited basis on the base space, but also to easily implement steerable CNNs equivariant to a large number of groups. To demonstrate its generality, we instantiate our method on a large variety of isometry groups acting on the Euclidean space R^3. Our general framework allows us to build E(3) and SE(3)-steerable CNNs like previous works, but also CNNs with arbitrary G<=O(3)-steerable kernels. For example, we build 3D CNNs equivariant to the symmetries of platonic solids or choose G=SO(2) when working with 3D data having only azimuthal symmetries. We compare these models on 3D shapes and molecular datasets, observing improved performance by matching the model's symmetries to the ones of the data.},
+}
+    
+@inproceedings{e2cnn,
+   title={{General E(2)-Equivariant Steerable CNNs}},
+   author={Weiler, Maurice and Cesa, Gabriele},
+   booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+   year={2019},
+   code      = {https://github.com/QUVA-Lab/e2cnn},
+   html      = {https://arxiv.org/abs/1911.08251},
+   pdf       = {https://arxiv.org/pdf/1911.08251.pdf},
+   abbr      = {{NeurIPS}},
+   abstract  = {The big empirical success of group equivariant networks has led in recent years to the sprouting of a great variety of equivariant network architectures. A particular focus has thereby been on rotation and reflection equivariant CNNs for planar images. Here we give a general description of E(2)-equivariant convolutions in the framework of Steerable CNNs. The theory of Steerable CNNs thereby yields constraints on the convolution kernels which depend on group representations describing the transformation laws of feature spaces. We show that these constraints for arbitrary group representations can be reduced to constraints under irreducible representations. A general solution of the kernel space constraint is given for arbitrary representations of the Euclidean group E(2) and its subgroups. We implement a wide range of previously proposed and entirely new equivariant network architectures and extensively compare their performances. E(2)-steerable convolutions are further shown to yield remarkable gains on CIFAR-10, CIFAR-100 and STL-10 when used as drop in replacement for non-equivariant convolutions.},
+}
+
+@article{mohamed2020data,
+  title={A data and compute efficient design for limited-resources deep learning},
+  author={Mohamed, Mirgahney and Cesa, Gabriele and Cohen, Taco S and Welling, Max},
+  journal={ICLR 2020 Workshop on Practical Machine Learning for Developing Countries (PML4DC)},
+  year={2020},
+  html      = {https://arxiv.org/abs/2004.09691},
+  pdf       = {https://arxiv.org/pdf/2004.09691.pdf},
+}
