@@ -14,7 +14,7 @@ one_liner: Hardware-aware learning, analog compute, quantization, solving PDEs u
 bib_file: 
 redirect: 
 description:
-img: assets/img/WinfriedvandenDool.jpg
+img: assets/img/WinfriedvandenDool.png
 img_promo: 
 personal_page: 
 scholar_userid: 
