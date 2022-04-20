@@ -8,11 +8,23 @@
   author={Brandstetter, Johannes and Hesselink, Rob and van der Pol, Elise and Bekkers, Erik and Welling, Max},
   booktitle={International Conference on Learning Representations},
   abbr={ICLR},
-  year={2022},
   abstract={Including covariant information, such as position, force, velocity or spin is important in many tasks in computational physics and chemistry. We introduce Steerable E(3) Equivariant Graph Neural Networks (SEGNNs) that generalise equivariant graph networks, such that node and edge attributes are not restricted to invariant scalars, but can contain covariant information, such as vectors or tensors. This model, composed of steerable MLPs, is able to incorporate geometric and physical information in both the message and update functions. Through the definition of steerable node attributes, the MLPs provide a new class of activation functions for general use with steerable feature fields. We discuss ours and related work through the lens of equivariant non-linear convolutions, which further allows us to pin-point the successful components of SEGNNs: non-linear message aggregation improves upon classic linear (steerable) point convolutions; steerable messages improve upon recent equivariant graph networks that send invariant messages. We demonstrate the effectiveness of our method on several tasks in computational physics and chemistry and provide extensive ablation studies.},
+  year={2022},
   html={https://openreview.net/forum?id=_xwr8gOBeV1},
   pdf={https://arxiv.org/pdf/2110.02905},
   code={https://github.com/RobDHess/Steerable-E3-GNN},
+}
+
+
+@inproceedings{ruhe2022selfsupervised,
+  title={Self-Supervised Inference in State-Space Models},
+  author={David Ruhe and Patrick Forr{\'e}},
+  booktitle={International Conference on Learning Representations},
+  abbr={ICLR},
+  abstract={We perform approximate inference in state-space models with nonlinear state transitions. Without parameterizing a generative model, we apply Bayesian update formulas using a local linearity approximation parameterized by neural networks. It comes accompanied by a maximum likelihood objective that requires no supervision via uncorrupt observations or ground truth latent states. The optimization backpropagates through a recursion similar to the classical Kalman filter and smoother. Additionally, using an approximate conditional independence, we can perform smoothing without having to parameterize a separate model. In scientific applications, domain knowledge can give a linear approximation of the latent transition maps, which we can easily incorporate into our model. Usage of such domain knowledge is reflected in excellent results (despite our model's simplicity) on the chaotic Lorenz system compared to fully supervised and variational inference methods. Finally, we show competitive results on an audio denoising experiment.},
+  year={2022},
+  html={https://openreview.net/forum?id=VPjw9KPWRSK},
+  pdf={https://openreview.net/pdf?id=VPjw9KPWRSK},
 }
 
 
