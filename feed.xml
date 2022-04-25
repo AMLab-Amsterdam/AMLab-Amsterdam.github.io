@@ -1,2 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-22T09:46:01+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
-</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-04-25T09:06:43+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
+</subtitle><entry><title type="html">AMLab Papers at ICLR 2022</title><link href="https://amlab-amsterdam.github.io/blog/2022/iclr/" rel="alternate" type="text/html" title="AMLab Papers at ICLR 2022" /><published>2022-04-25T07:00:00+00:00</published><updated>2022-04-25T07:00:00+00:00</updated><id>https://amlab-amsterdam.github.io/blog/2022/iclr</id><content type="html" xml:base="https://amlab-amsterdam.github.io/blog/2022/iclr/"><![CDATA[<p><img src="https://iclr.cc/static/core/img/ICLR-logo.svg" alt="ICLR 2022" /></p>
+
+<p>AMLab members will be presenting 6 papers at ICLR 2022 main conference:</p>
+
+<ol>
+  <li>
+    <p><strong>Geometric and Physical Quantities improve E(3) Equivariant Message Passing (spotlight)</strong> <br />
+<em>Johannes Brandstetter, Rob Hesselink, Elise van der Pol, Erik J Bekkers, Max Welling</em> <br />
+[<a href="https://openreview.net/forum?id=_xwr8gOBeV1">OpenReview</a>]</p>
+  </li>
+  <li>
+    <p><strong>Message Passing Neural PDE Solvers (spotlight)</strong> <br />
+<em>Johannes Brandstetter, Daniel E. Worrall, Max Welling</em><br />
+[<a href="https://openreview.net/forum?id=vSix3HPYKSU">OpenReview</a>]</p>
+  </li>
+  <li>
+    <p><strong>Multi-Agent MDP Homomorphic Networks</strong> <br />
+<em>Elise van der Pol, Herke van Hoof, Frans A Oliehoek, Max Welling</em> <br />
+[<a href="https://openreview.net/forum?id=H7HDG--DJF0">OpenReview</a>]</p>
+  </li>
+  <li>
+    <p><strong>FlexConv: Continuous Kernel Convolutions With Differentiable Kernel Sizes</strong> <br />
+<em>David W. Romero, Robert-Jan Bruintjes, Jakub Mikolaj Tomczak, Erik J Bekkers, Mark Hoogendoorn, Jan van Gemert</em> <br />
+[<a href="https://openreview.net/forum?id=3jooF27-0Wy">OpenReview</a>]</p>
+  </li>
+  <li>
+    <p><strong>CKConv: Continuous Kernel Convolution For Sequential Data</strong> <br />
+<em>David W. Romero, Anna Kuzina, Erik J Bekkers, Jakub Mikolaj Tomczak, Mark Hoogendoorn</em> <br />
+[<a href="https://openreview.net/forum?id=8FhxBtXSl0">OpenReview</a>]</p>
+  </li>
+  <li>
+    <p><strong>Self-Supervised Inference in State-Space Models</strong> <br />
+<em>David Ruhe, Patrick Forré</em> <br />
+[<a href="https://openreview.net/forum?id=VPjw9KPWRSK">OpenReview</a>]</p>
+  </li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[AMLab members will be presenting 6 papers at ICLR 2022 main conference.]]></summary></entry></feed>
