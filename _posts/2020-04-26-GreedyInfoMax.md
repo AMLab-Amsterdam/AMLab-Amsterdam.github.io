@@ -2,7 +2,7 @@
 layout: post
 title: Putting an End to End-to-End
 description: Find out more about how we can train a neural network without end-to-end backpropagation and achieve competitive performance.
-
+author: Sindy Löwe
 date: 2020-04-12 8:00:00+0100
 ---
 
