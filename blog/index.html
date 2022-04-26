@@ -40,6 +40,7 @@ pagination:
       <p>{{ post.description }}</p>
       <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %-d, %Y' }}
+        {%- if post.author -%}, {{ post.author }}{%- endif -%}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
