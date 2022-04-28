@@ -2,6 +2,75 @@
 ---
 
 
+@inproceedings{keller2021modeling,
+title={Modeling Category-Selective Cortical Regions with Topographic Variational Autoencoders},
+author={T. Anderson Keller and Qinghe Gao and Max Welling},
+booktitle={SVRHM 2021 Workshop at NeurIPS},
+year={2021},
+pdf={https://arxiv.org/pdf/2110.13911.pdf},
+abstract = {Category-selectivity in the brain describes the observation that certain spatially localized areas of the cerebral cortex tend to respond robustly and selectively to stimuli from specific limited categories. One of the most well known examples of category-selectivity is the Fusiform Face Area (FFA), an area of the inferior temporal cortex in primates which responds preferentially to images of faces when compared with objects or other generic stimuli. In this work, we leverage the newly introduced Topographic Variational Autoencoder to model the emergence of such localized category-selectivity in an unsupervised manner. Experimentally, we demonstrate our model yields spatially dense neural clusters selective to faces, bodies, and places through visualized maps of Cohen's d metric. We compare our model with related supervised approaches, namely the Topographic Deep Artificial Neural Network (TDANN) of Lee et al., and discuss both theoretical and empirical similarities. Finally, we show preliminary results suggesting that our model yields a nested spatial hierarchy of increasingly abstract categories, analogous to observations from the human ventral temporal cortex.},
+abbr={NeurIPS}
+}
+
+@InProceedings{Keller_2021_ICCV,
+    author    = {Keller, T. Anderson and Welling, Max},
+    title     = {Predictive Coding With Topographic Variational Autoencoders},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {1086-1091},
+    pdf = {https://openaccess.thecvf.com/content/ICCV2021W/VIPriors/papers/Keller_Predictive_Coding_With_Topographic_Variational_Autoencoders_ICCVW_2021_paper.pdf},
+    abstract = {Category-selectivity in the brain describes the observation that certain spatially localized areas of the cerebral cortex tend to respond robustly and selectively to stimuli from specific limited categories. One of the most well known examples of category-selectivity is the Fusiform Face Area (FFA), an area of the inferior temporal cortex in primates which responds preferentially to images of faces when compared with objects or other generic stimuli. In this work, we leverage the newly introduced Topographic Variational Autoencoder to model of the emergence of such localized category-selectivity in an unsupervised manner. Experimentally, we demonstrate our model yields spatially dense neural clusters selective to faces, bodies, and places through visualized maps of Cohen's d metric. We compare our model with related supervised approaches, namely the TDANN, and discuss both theoretical and empirical similarities. Finally, we show preliminary results suggesting that our model yields a nested spatial hierarchy of increasingly abstract categories, analogous to observations from the human ventral temporal cortex.},
+    abbr = {ICCV}
+}
+
+@inproceedings{NEURIPS2021_f03704cb,
+ author = {Keller, T. Anderson and Welling, Max},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {28585--28597},
+ publisher = {Curran Associates, Inc.},
+ title = {Topographic VAEs learn Equivariant Capsules},
+ pdf = {https://proceedings.neurips.cc/paper/2021/file/f03704cb51f02f80b09bffba15751691-Paper.pdf},
+ volume = {34},
+ year = {2021},
+ abstract = {In this work we seek to bridge the concepts of topographic organization and equivariance in neural networks. To accomplish this, we introduce the Topographic VAE: a novel method for efficiently training deep generative models with topographically organized latent variables. We show that such a model indeed learns to organize its activations according to salient characteristics such as digit class, width, and style on MNIST. Furthermore, through topographic organization over time (i.e. temporal coherence), we demonstrate how predefined latent space transformation operators can be encouraged for observed transformed input sequences -- a primitive form of unsupervised learned equivariance. We demonstrate that this model successfully learns sets of approximately equivariant features (i.e. "capsules") directly from sequences and achieves higher likelihood on correspondingly transforming test sequences. Equivariance is verified quantitatively by measuring the approximate commutativity of the inference network and the sequence transformations. Finally, we demonstrate approximate equivariance to complex transformations, expanding upon the capabilities of existing group equivariant neural networks.},
+ abbr = {NeurIPS}
+}
+
+@InProceedings{pmlr-v139-keller21a,
+  title =    {Self Normalizing Flows},
+  author =       {Keller, T. Anderson and Peters, Jorn W.T. and Jaini, Priyank and Hoogeboom, Emiel and Forr{\'e}, Patrick and Welling, Max},
+  booktitle =    {Proceedings of the 38th International Conference on Machine Learning},
+  pages =    {5378--5387},
+  year =     {2021},
+  editor =   {Meila, Marina and Zhang, Tong},
+  volume =   {139},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {18--24 Jul},
+  publisher =    {PMLR},
+  pdf =      {http://proceedings.mlr.press/v139/keller21a/keller21a.pdf},
+  url =      {https://proceedings.mlr.press/v139/keller21a.html},
+  abstract =     {Efficient gradient computation of the Jacobian determinant term is a core problem in many machine learning settings, and especially so in the normalizing flow framework. Most proposed flow models therefore either restrict to a function class with easy evaluation of the Jacobian determinant, or an efficient estimator thereof. However, these restrictions limit the performance of such density models, frequently requiring significant depth to reach desired performance levels. In this work, we propose \emph{Self Normalizing Flows}, a flexible framework for training normalizing flows by replacing expensive terms in the gradient by learned approximate inverses at each layer. This reduces the computational complexity of each layer’s exact update from $\mathcal{O}(D^3)$ to $\mathcal{O}(D^2)$, allowing for the training of flow architectures which were otherwise computationally infeasible, while also providing efficient sampling. We show experimentally that such models are remarkably stable and optimize to similar data likelihood values as their exact gradient counterparts, while training more quickly and surpassing the performance of functionally constrained counterparts.},
+  abbr = {ICML}
+}
+
+@InProceedings{DBLP:journals/corr/abs-2106-15577,
+  author    = {Fiorella Wever and
+               T. Anderson Keller and
+               Victor Garcia and
+               Laura Symul},
+  title     = {As easy as {APC:} Leveraging self-supervised learning in the context
+               of time series classification with varying levels of sparsity and
+               severe class imbalance},
+  booktitle   = {Self-Supervised Learning Workshop at NeurIPS},
+  year      = {2021},
+  pdf       = {https://arxiv.org/pdf/2106.15577.pdf},
+  abbr = {NeurIPS},
+  abstract = {High levels of missing data and strong class imbalance are ubiquitous challenges that are often presented simultaneously in real-world time series data. Existing methods approach these problems separately, frequently making significant assumptions about the underlying data generation process in order to lessen the impact of missing information. In this work, we instead demonstrate how a general self-supervised training method, namely Autoregressive Predictive Coding (APC), can be leveraged to overcome both missing data and class imbalance simultaneously without strong assumptions. Specifically, on a synthetic dataset, we show that standard baselines are substantially improved upon through the use of APC, yielding the greatest gains in the combined setting of high missingness and severe class imbalance. We further apply APC on two real-world medical time-series datasets, and show that APC improves the classification performance in all settings, ultimately achieving state-of-the-art AUPRC results on the Physionet benchmark}
+}
+
+
 @inproceedings{moretti2021variational,
   title={Variational combinatorial sequential {M}onte {C}arlo methods for {B}ayesian phylogenetic inference},
   author={Moretti, Antonio Khalil and Zhang, Liyi and Naesseth, Christian A. and Venner, Hadiah and Blei, David and Pe'er, Itsik},
