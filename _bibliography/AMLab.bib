@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @article{lippe2022citris,
   title={CITRIS: Causal Identifiability from Temporal Intervened Sequences},
   author={Lippe, Phillip and Magliacane, Sara and L{\"o}we, Sindy and Asano, Yuki M and Cohen, Taco and Gavves, Efstratios},
@@ -12,6 +13,42 @@
   year={2022},
   abstract={Understanding the latent causal factors of a dynamical system from visual observations is a crucial step towards agents reasoning in complex environments. In this paper, we propose CITRIS, a variational autoencoder framework that learns causal representations from temporal sequences of images in which underlying causal factors have possibly been intervened upon. In contrast to the recent literature, CITRIS exploits temporality and observing intervention targets to identify scalar and multidimensional causal factors, such as 3D rotation angles. Furthermore, by introducing a normalizing flow, CITRIS can be easily extended to leverage and disentangle representations obtained by already pretrained autoencoders. Extending previous results on scalar causal factors, we prove identifiability in a more general setting, in which only some components of a causal factor are affected by interventions. In experiments on 3D rendered image sequences, CITRIS outperforms previous methods on recovering the underlying causal variables. Moreover, using pretrained autoencoders, CITRIS can even generalize to unseen instantiations of causal factors, opening future research areas in sim-to-real generalization for causal representation learning.}
 }
+
+@inproceedings{park2022learning,
+title={Learning Symmetric Embeddings for Equivariant World Models},
+author={Jung Yeon Park and Ondrej Biza and Linfeng Zhao and Jan-Willem van de Meent and Robin Walters},
+booktitle={International Conference on Machine Learning (to appear)},
+year={2022},
+link={https://arxiv.org/abs/2204.11371},
+pdf={https://arxiv.org/pdf/2204.11371.pdf},
+abstract = {Incorporating symmetries can lead to highly data-efficient and generalizable models by defining equivalence classes of data samples related by transformations. However, characterizing how transformations act on input data is often difficult, limiting the applicability of equivariant models. We propose learning symmetric embedding networks (SENs) that encode an input space (e.g. images), where we do not know the effect of transformations (e.g. rotations), to a feature space that transforms in a known manner under these operations. This network can be trained end-to-end with an equivariant task network to learn an explicitly symmetric representation. We validate this approach in the context of equivariant transition models with 3 distinct forms of symmetry. Our experiments demonstrate that SENs facilitate the application of equivariant networks to data with complex symmetry representations. Moreover, doing so can yield improvements in accuracy and generalization relative to both fully-equivariant and non-equivariant baselines.},
+abbr={ICML},
+link={https://arxiv.org/abs/2204.11371},
+pdf={https://arxiv.org/pdf/2204.11371.pdf}
+}
+
+
+@InProceedings{antoran2022adapting,
+  title = {Adapting the Linearised Laplace Model Evidence for Modern Deep Learning},
+  author = {Antoran, Javier and Allingham, James U and Janz, David and Daxberger, Erik and Nalisnick, Eric and Hernandez-Lobato, Jose Miguel},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  year = {2022},
+  abstract = {The linearised Laplace method for estimating uncertainty has received renewed attention in the Bayesian deep learning community. The method provides reliable error-bars and admits a closed form expression for the model evidence, allowing for scalable selection of model hyperparameters. In this work, we examine the assumptions behind this method, particularly in conjunction with model selection. We show that these interact poorly with some now-standard features of deep learning---stochastic approximation methods and normalisation layers---and make recommendations for how to better adapt this classic method to the modern setting. We provide theoretical support of our recommendations and validate them empirically on MLPs, classic CNNs, residual networks with and without normalisation layers, generative autoencoders and transformers.},
+  abbr = {ICML}
+}
+
+
+@InProceedings{verma2022calibrated,
+  title = {Calibrated Learning to Defer with One-vs-All Classifiers},
+  author = {Verma, Rajeev and Nalisnick, Eric},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  year = {2022},
+  html = {https://arxiv.org/abs/2202.03673},
+  abstract = {The learning to defer (L2D) framework has the potential to make AI systems safer. For a given input, the system can defer the decision to a human if the human is more likely than the model to take the correct action. We study the calibration of L2D systems, investigating if the probabilities they output are sound. We find that Mozannar & Sontag's (2020) multiclass framework is not calibrated with respect to expert correctness. Moreover, it is not even guaranteed to produce valid probabilities due to its parameterization being degenerate for this purpose. We propose an L2D system based on one-vs-all classifiers that is able to produce calibrated probabilities of expert correctness. Furthermore, our loss function is also a consistent surrogate for multiclass L2D, like Mozannar & Sontag's (2020). Our experiments verify that not only is our system calibrated, but this benefit comes at no cost to accuracy. Our model's accuracy is always comparable (and often superior) to Mozannar & Sontag's (2020) model's in tasks ranging from hate speech detection to galaxy classification to diagnosis of skin lesions.},
+  abbr = {ICML}
+}
+
+
 
 @inproceedings{keller2021modeling,
 title={Modeling Category-Selective Cortical Regions with Topographic Variational Autoencoders},
