@@ -13,7 +13,7 @@ one_liner: Bayesian optimization, quantitative structure-property relationships
 bib_file: JimBoelrijk
 redirect:
 description: |
-    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) and the [AI4Science Lab](https://ai4science-amsterdam.github.io/). I collaborate with the [Chemometrics and Advanced Seperations Team](https://cast-amsterdam.org/)(CAST) and the [Computational Chemistry gorup](https://www.compchem.nl/) at the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) (HIMS). Current research focuses on tailored Bayesian optimization methods for automation and using machine learning to identify structure-property relationships in molecular data.
+    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) and the [AI4Science Lab](https://ai4science-amsterdam.github.io/). I collaborate with the [Chemometrics and Advanced Seperations Team](https://cast-amsterdam.org/) (CAST) and the [Computational Chemistry group](https://www.compchem.nl/) at the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) (HIMS). Current research focuses on tailored Bayesian optimization methods for automation and using machine learning to identify structure-property relationships in molecular data.
 
 
 img: assets/img/JimBoelrijk.jpg
