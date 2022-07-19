@@ -15,7 +15,7 @@
 }
 
 
-@article{brandstetter2022lie,
+@inproceedings{brandstetter2022lie,
   title={Lie Point Symmetry Data Augmentation for Neural PDE Solvers},
   author={Brandstetter, Johannes and Welling, Max and Worrall, Daniel E},
   booktitle={International Conference on Machine Learning},
@@ -75,7 +75,8 @@ pdf={https://arxiv.org/pdf/2204.11371.pdf}
   year = {2022},
   abstract = {The linearised Laplace method for estimating model uncertainty has received renewed attention in the Bayesian deep learning community. The method provides reliable error bars and admits a closed-form expression for the model evidence, allowing for scalable selection of model hyperparameters. In this work, we examine the assumptions behind this method, particularly in conjunction with model selection. We show that these interact poorly with some now-standard tools of deep learning--stochastic approximation methods and normalisation layers--and make recommendations for how to better adapt this classic method to the modern setting. We provide theoretical support for our recommendations and validate them empirically on MLPs, classic CNNs, residual networks with and without normalisation layers, generative autoencoders and transformers.},  
   abbr = {ICML},
-  html = {https://arxiv.org/abs/2206.08900}
+  html = {https://arxiv.org/abs/2206.08900},
+  pdf = {https://edaxberger.github.io/papers/Adapting%20the%20Linearised%20Laplace%20Model%20Evidence%20for%20Modern%20Deep%20Learning.pdf}
 }
 
 
@@ -86,7 +87,8 @@ pdf={https://arxiv.org/pdf/2204.11371.pdf}
   year = {2022},
   html = {https://arxiv.org/abs/2202.03673},
   abstract = {The learning to defer (L2D) framework has the potential to make AI systems safer. For a given input, the system can defer the decision to a human if the human is more likely than the model to take the correct action. We study the calibration of L2D systems, investigating if the probabilities they output are sound. We find that Mozannar & Sontag's (2020) multiclass framework is not calibrated with respect to expert correctness. Moreover, it is not even guaranteed to produce valid probabilities due to its parameterization being degenerate for this purpose. We propose an L2D system based on one-vs-all classifiers that is able to produce calibrated probabilities of expert correctness. Furthermore, our loss function is also a consistent surrogate for multiclass L2D, like Mozannar & Sontag's (2020). Our experiments verify that not only is our system calibrated, but this benefit comes at no cost to accuracy. Our model's accuracy is always comparable (and often superior) to Mozannar & Sontag's (2020) model's in tasks ranging from hate speech detection to galaxy classification to diagnosis of skin lesions.},
-  abbr = {ICML}
+  abbr = {ICML},
+  pdf = {https://arxiv.org/pdf/2202.03673}
 }
 
 @inproceedings{wang2022model,
@@ -98,7 +100,8 @@ date = {17-7-2022},
 booktitle = {International Conference on Machine Learning},
 keywords = {},
 abbr={ICML},
-pdf={https://arxiv.org/abs/2102.08291}
+pdf={https://arxiv.org/abs/2102.08291},
+abstract={Reinforcement learning is a promising paradigm for solving sequential decision-making problems, but low data efficiency and weak generalization across tasks are bottlenecks in real-world applications. Model-based meta reinforcement learning addresses these issues by learning dynamics and leveraging knowledge from prior experience. In this paper, we take a closer look at this framework and propose a new posterior sampling based approach that consists of a new model to identify task dynamics together with an amortized policy optimization step. We show that our model, called a graph structured surrogate model (GSSM), achieves competitive dynamics prediction performance with lower model complexity. Moreover, our approach in policy search is able to obtain high returns and allows fast execution by avoiding test-time policy gradient updates.}
 }
 
 @inproceedings{bakker2022multi,
