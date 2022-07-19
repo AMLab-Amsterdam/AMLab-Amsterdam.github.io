@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-07-19T13:35:42+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-07-19T14:04:21+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
 </subtitle><entry><title type="html">AMLab Papers at ICML 2022</title><link href="https://amlab-amsterdam.github.io/blog/2022/icml/" rel="alternate" type="text/html" title="AMLab Papers at ICML 2022" /><published>2022-07-19T07:00:00+00:00</published><updated>2022-07-19T07:00:00+00:00</updated><id>https://amlab-amsterdam.github.io/blog/2022/icml</id><content type="html" xml:base="https://amlab-amsterdam.github.io/blog/2022/icml/"><![CDATA[<p><img src="https://icml.cc/static/core/img/ICML-logo.svg" alt="ICML 2022" /></p>
 
 <p>AMLab members will be presenting 8 papers at ICML 2022 main conference:</p>
@@ -7,22 +7,22 @@
   <li>
     <p><strong>Equivariant diffusion for molecule generation in 3d (oral)</strong> <br />
 <em>Hoogeboom, Emiel, Satorras, Vı́ctor Garcia, Vignac, Clément, and Welling, Max</em> <br />
-[<a href="https://icml.cc/virtual/2022/oral/16254">Conference page</a>, <a href="https://arxiv.org/pdf/2203.17003">PDF</a>]</p>
+[<a href="https://icml.cc/virtual/2022/oral/16254">Conference page</a>, <a href="https://arxiv.org/pdf/2203.17003">PDF</a>, <a href="https://github.com/ehoogeboom/e3_diffusion_for_molecules">GitHub</a>]</p>
   </li>
   <li>
     <p><strong>Lie Point Symmetry Data Augmentation for Neural PDE Solvers (spotlight)</strong> <br />
 <em>Brandstetter, Johannes, Welling, Max, and Worrall, Daniel E</em> <br />
-[<a href="https://icml.cc/virtual/2022/spotlight/17314">Conference page</a>, <a href="https://arxiv.org/pdf/2202.07643">PDF</a>]</p>
+[<a href="https://icml.cc/virtual/2022/spotlight/17314">Conference page</a>, <a href="https://arxiv.org/pdf/2202.07643">PDF</a>, <a href="https://github.com/brandstetter-johannes/LPSDA">GitHub</a>]</p>
   </li>
   <li>
     <p><strong>Exploiting Redundancy: Separable Group Convolutional Networks on Lie Groups (spotlight)</strong> <br />
 <em>Knigge, David M, Romero, David W, and Bekkers, Erik J</em><br />
-[<a href="https://icml.cc/virtual/2022/spotlight/17826">Conferende page</a>, <a href="https://arxiv.org/pdf/2110.13059.pdf">PDF</a>]</p>
+[<a href="https://icml.cc/virtual/2022/spotlight/17826">Conferende page</a>, <a href="https://arxiv.org/pdf/2110.13059.pdf">PDF</a>, <a href="https://github.com/david-knigge/separable-group-convolutional-networks">GitHub</a>]</p>
   </li>
   <li>
     <p><strong>CITRIS: Causal Identifiability from Temporal Intervened Sequences (spotlight)</strong> <br />
 <em>Lippe, Phillip, Magliacane, Sara, Löwe, Sindy, Asano, Yuki M, Cohen, Taco, and Gavves, Efstratios</em> <br />
-[<a href="https://icml.cc/virtual/2022/spotlight/17426">Conferende page</a>, <a href="https://arxiv.org/pdf/2202.03169.pdf">PDF</a>]</p>
+[<a href="https://icml.cc/virtual/2022/spotlight/17426">Conferende page</a>, <a href="https://arxiv.org/pdf/2202.03169.pdf">PDF</a>, <a href="https://github.com/phlippe/CITRIS">GitHub</a>]</p>
   </li>
   <li>
     <p><strong>Learning Symmetric Embeddings for Equivariant World Models (spotlight)</strong> <br />
