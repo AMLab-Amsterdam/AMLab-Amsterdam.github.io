@@ -4,7 +4,7 @@ first_name: Babak
 last_name: Esmaeili
 role: PhD candidate
 email: b.esmaeili@uva.nl
-office: Science Park 904, C3.154d
+office: Science Park, Lab 42, L4.22
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
