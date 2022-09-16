@@ -1,0 +1,20 @@
+@InProceedings{pmlr-v162-schirmer22a,
+  title = 	 {Modeling Irregular Time Series with Continuous Recurrent Units},
+  author =       {Schirmer, Mona and Eltayeb, Mazin and Lessmann, Stefan and Rudolph, Maja},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {19388--19405},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  url = 	 {https://proceedings.mlr.press/v162/schirmer22a.html},
+  abstract = 	 {Recurrent neural networks (RNNs) are a popular choice for modeling sequential data. Modern RNN architectures assume constant time-intervals between observations. However, in many datasets (e.g. medical records) observation times are irregular and can carry important information. To address this challenge, we propose continuous recurrent units (CRUs) {–} a neural architecture that can naturally handle irregular intervals between observations. The CRU assumes a hidden state, which evolves according to a linear stochastic differential equation and is integrated into an encoder-decoder framework. The recursive computations of the CRU can be derived using the continuous-discrete Kalman filter and are in closed form. The resulting recurrent architecture has temporal continuity between hidden states and a gating mechanism that can optimally integrate noisy observations. We derive an efficient parameterization scheme for the CRU that leads to a fast implementation f-CRU. We empirically study the CRU on a number of challenging datasets and find that it can interpolate irregular time series better than methods based on neural ordinary differential equations.}
+  html = {https://proceedings.mlr.press/v162/schirmer22a.html},
+  pdf = {https://arxiv.org/pdf/2111.11344.pdf},
+  abbr={ICML},
+  code = {https://github.com/boschresearch/Continuous-Recurrent-Units},
+  video = {https://slideslive.com/38983853/modeling-irregular-time-series-with-continuous-recurrent-units}
+}
+
