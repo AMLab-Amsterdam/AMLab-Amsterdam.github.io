@@ -14,7 +14,7 @@ description: |
 img: assets/img/EricNalisnick.jpg
 img_promo:
 personal_page: https://enalisnick.github.io/
-scholar_userid: hM1oqwAAAAJ
+scholar_userid: -hM1oqwAAAAJ
 github_username: enalisnick
 twitter_username: eric_nalisnick
 order: 2

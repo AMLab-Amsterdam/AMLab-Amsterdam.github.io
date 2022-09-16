@@ -11,7 +11,6 @@ institute: Informatics Institute
 university: University of Amsterdam
 redirect: 
 description: |
-    this is a description with [markdown](markdownlink)	and whatnotfdsa dfsa dsa dsa dsaf dsaf dsa dsa dsaf
 img: https://ca.slack-edge.com/T0KLEK327-U01F4HXFHFG-1e78cc27af70-192
 img_promo: 
 personal_page: 

@@ -38,6 +38,11 @@ layout: default
           {%- include news.html %}
           {%- endif %}
 
+          {% if page.recent_papers -%}
+            <!-- Selected papers -->
+            {%- include recent_papers.html %}
+          {%- endif %}
+
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
