@@ -4,7 +4,7 @@ first_name: Qi
 last_name: Wang
 role: PhD candidate
 email: q.wang3@uva.nl
-office: Science Park 904, C3.258d 
+office: Science Park 904, Lab 42, L4.22 
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
