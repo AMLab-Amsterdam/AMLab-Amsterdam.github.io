@@ -4,7 +4,7 @@ first_name: Jan-Willem
 last_name: van de Meent
 role: Associate professor (UHD)
 email: j.w.vandemeent@uva.nl
-office: Science Park 904, C3.259
+office: Science Park, Lab 42, L4.13
 lab: AMLab and Delta Lab
 institute: Informatics Institute
 university: University of Amsterdam
