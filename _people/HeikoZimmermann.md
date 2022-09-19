@@ -4,7 +4,7 @@ first_name: Heiko
 last_name: Zimmermann
 role: PhD candidate
 email: h.zimmermann@uva.nl
-office: Science Park 904, C3.154d
+office: Science Park, Lab 42, L4.22
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
