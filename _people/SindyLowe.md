@@ -4,7 +4,7 @@ first_name: Sindy
 last_name: Löwe
 role: PhD candidate
 email: s.lowe@uva.nl
-office: Science Park 904
+office: Science Park, Lab 42, L4.07
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
