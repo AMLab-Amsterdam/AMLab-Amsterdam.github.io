@@ -2,7 +2,7 @@
 
 This website uses the [Jekyll](https://jekyllrb.com/) static site generator, which is written in Ruby. To build this website, perform the following steps
 
-1. Ensure that Ruby is installed ([Instructions](https://www.ruby-lang.org/en/documentation/installation)). 
+1. Ensure that **Ruby 3** is installed ([Instructions](https://www.ruby-lang.org/en/documentation/installation)). 
 
     *Note for MacOS users:* We recommend that you do not modify the system-installed Ruby version, which may break scripts required by the OS. Instead install a copy of Ruby via [Homebrew](https://brew.sh/) or [Macports](https://www.macports.org/).
 

@@ -4,7 +4,7 @@ first_name: James
 last_name: Townsend
 role: Postdoc
 email: j.h.n.townsend@uva.nl
-office: Science Park 904, C3.154d
+office: Science Park, Lab 42, L4.04
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam

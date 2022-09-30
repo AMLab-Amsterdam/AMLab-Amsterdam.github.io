@@ -4,7 +4,7 @@ first_name: David
 last_name: Kuric
 role: PhD candidate
 email: d.kuric@uva.nl
-office: Science Park 904 
+office: Science Park, Lab 42, L4.14
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam

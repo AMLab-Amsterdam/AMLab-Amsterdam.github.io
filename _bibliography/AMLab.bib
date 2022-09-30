@@ -1,6 +1,248 @@
 ---
 ---
 
+@inproceedings{wang2022learning,
+title = {Learning Expressive Meta-Representations with Mixture of Expert Neural Processes},
+author = {Wang, Qi and van Hoof, Herke},
+year = {2022},
+booktitle = {Advances in Neural Information Processing Systems},
+abbr={NeurIPS},
+abstract={Neural processes (NPs) formulate exchangeable stochastic processes and are promising models for meta learning that do not require gradient updates during the testing phase. 
+However, most NP variants place a strong emphasis on a global latent variable. 
+This weakens the approximation power and restricts the scope of applications using NP variants, especially when data generative processes are complicated.
+To resolve these issues, we propose to combine the Mixture of Expert models with Neural Processes to develop more expressive exchangeable stochastic processes, referred to as Mixture of Expert Neural Processes (MoE-NPs). 
+Then we apply MoE-NPs to both few-shot supervised learning and meta reinforcement learning tasks. 
+Empirical results demonstrate MoE-NPs' strong generalization capability to unseen tasks in these benchmarks.}
+}
+
+@inproceedings{gagrani2022neural,
+title = {Neural Topological Ordering for Computation Graphs},
+author = {Gagrani, Mukul and Rainone, Corrado and Yang, Yang and Teague, Harris and Jeon, Wonseok and van Hoof, Herke and Zeng, Weiliang Will and Zappi, Piero and Lott, Christopher and Bondesan, Roberto},
+html = {https://arxiv.org/abs/2207.05899},
+pdf = {https://arxiv.org/pdf/2207.05899},
+year = {2022},
+booktitle = {Advances in Neural Information Processing Systems},
+abbr={NeurIPS}
+}
+
+@inproceedings{hoogeboom2022equivariant,
+  title={Equivariant diffusion for molecule generation in 3d},
+  author={Hoogeboom, Emiel and Satorras, V{\i}́ctor Garcia and Vignac, Cl{\'e}ment and Welling, Max},
+  booktitle={International Conference on Machine Learning},
+  pages={8867--8887},
+  year={2022},
+  organization={PMLR},
+  abbr={ICML},
+  html={https://arxiv.org/abs/2203.17003},
+  pdf={https://arxiv.org/pdf/2203.17003},
+  abstract={This work introduces a diffusion model for molecule generation in 3D that is equivariant to Euclidean transformations. Our E(3) Equivariant Diffusion Model (EDM) learns to denoise a diffusion process with an equivariant network that jointly operates on both continuous (atom coordinates) and categorical features (atom types). In addition, we provide a probabilistic analysis which admits likelihood computation of molecules using our model. Experimentally, the proposed method significantly outperforms previous 3D molecular generative methods regarding the quality of generated samples and efficiency at training time.},
+  code={https://github.com/ehoogeboom/e3_diffusion_for_molecules}
+}
+
+
+@inproceedings{brandstetter2022lie,
+  title={Lie Point Symmetry Data Augmentation for Neural PDE Solvers},
+  author={Brandstetter, Johannes and Welling, Max and Worrall, Daniel E},
+  booktitle={International Conference on Machine Learning},
+  year={2022},
+  organization={PMLR},
+  abbr={ICML},
+  html={https://arxiv.org/abs/2202.07643},
+  pdf={https://arxiv.org/pdf/2202.07643},
+  abstract={Neural networks are increasingly being used to solve partial differential equations (PDEs), replacing slower numerical solvers. However, a critical issue is that neural PDE solvers require high-quality ground truth data, which usually must come from the very solvers they are designed to replace. Thus, we are presented with a proverbial chicken-and-egg problem. In this paper, we present a method, which can partially alleviate this problem, by improving neural PDE solver sample complexity -- Lie point symmetry data augmentation (LPSDA). In the context of PDEs, it turns out that we are able to quantitatively derive an exhaustive list of data transformations, based on the Lie point symmetry group of the PDEs in question, something not possible in other application areas. We present this framework and demonstrate how it can easily be deployed to improve neural PDE solver sample complexity by an order of magnitude.},
+  code={https://github.com/brandstetter-johannes/LPSDA}
+}
+
+
+@article{knigge2022sepconv,
+  title={Exploiting Redundancy: Separable Group Convolutional Networks on Lie Groups},
+  author={Knigge, David M and Romero, David W and Bekkers, Erik J},
+  journal={International Conference on Machine Learning},
+  html = {https://arxiv.org/abs/2110.13059},  
+  pdf = {https://arxiv.org/pdf/2110.13059.pdf}, 
+  abbr={ICML}, 
+  year={2022},
+  abstract={Group convolutional neural networks (G-CNNs) have been shown to increase parameter efficiency and model accuracy by incorporating geometric inductive biases. In this work, we investigate the properties of representations learned by regular G-CNNs, and show considerable parameter redundancy in group convolution kernels. This finding motivates further weight-tying by sharing convolution kernels over subgroups. To this end, we introduce convolution kernels that are separable over the subgroup and channel dimensions. In order to obtain equivariance to arbitrary affine Lie groups we provide a continuous parameterisation of separable convolution kernels. We evaluate our approach across several vision datasets, and show that our weight sharing leads to improved performance and computational efficiency. In many settings, separable G-CNNs outperform their non-separable counterpart, while only using a fraction of their training time. In addition, thanks to the increase in computational efficiency, we are able to implement G-CNNs equivariant to the Sim(2) group; the group of dilations, rotations and translations. Sim(2)-equivariance further improves performance on all tasks considered.},
+  code={https://github.com/david-knigge/separable-group-convolutional-networks}
+}
+
+@article{lippe2022citris,
+  title={CITRIS: Causal Identifiability from Temporal Intervened Sequences},
+  author={Lippe, Phillip and Magliacane, Sara and L{\"o}we, Sindy and Asano, Yuki M and Cohen, Taco and Gavves, Efstratios},
+  journal={International Conference on Machine Learning},
+  html = {https://arxiv.org/abs/2202.03169},  
+  pdf = {https://arxiv.org/pdf/2202.03169.pdf}, 
+  code = {https://github.com/phlippe/CITRIS},
+  abbr={ICML}, 
+  year={2022},
+  abstract={Understanding the latent causal factors of a dynamical system from visual observations is a crucial step towards agents reasoning in complex environments. In this paper, we propose CITRIS, a variational autoencoder framework that learns causal representations from temporal sequences of images in which underlying causal factors have possibly been intervened upon. In contrast to the recent literature, CITRIS exploits temporality and observing intervention targets to identify scalar and multidimensional causal factors, such as 3D rotation angles. Furthermore, by introducing a normalizing flow, CITRIS can be easily extended to leverage and disentangle representations obtained by already pretrained autoencoders. Extending previous results on scalar causal factors, we prove identifiability in a more general setting, in which only some components of a causal factor are affected by interventions. In experiments on 3D rendered image sequences, CITRIS outperforms previous methods on recovering the underlying causal variables. Moreover, using pretrained autoencoders, CITRIS can even generalize to unseen instantiations of causal factors, opening future research areas in sim-to-real generalization for causal representation learning.},
+  code={https://github.com/phlippe/CITRIS}
+}
+
+@inproceedings{park2022learning,
+title={Learning Symmetric Embeddings for Equivariant World Models},
+author={Jung Yeon Park and Ondrej Biza and Linfeng Zhao and Jan-Willem van de Meent and Robin Walters},
+booktitle={International Conference on Machine Learning},
+year={2022},
+link={https://arxiv.org/abs/2204.11371},
+pdf={https://arxiv.org/pdf/2204.11371.pdf},
+abstract = {Incorporating symmetries can lead to highly data-efficient and generalizable models by defining equivalence classes of data samples related by transformations. However, characterizing how transformations act on input data is often difficult, limiting the applicability of equivariant models. We propose learning symmetric embedding networks (SENs) that encode an input space (e.g. images), where we do not know the effect of transformations (e.g. rotations), to a feature space that transforms in a known manner under these operations. This network can be trained end-to-end with an equivariant task network to learn an explicitly symmetric representation. We validate this approach in the context of equivariant transition models with 3 distinct forms of symmetry. Our experiments demonstrate that SENs facilitate the application of equivariant networks to data with complex symmetry representations. Moreover, doing so can yield improvements in accuracy and generalization relative to both fully-equivariant and non-equivariant baselines.},
+abbr={ICML},
+link={https://arxiv.org/abs/2204.11371},
+pdf={https://arxiv.org/pdf/2204.11371.pdf}
+}
+
+
+@InProceedings{antoran2022adapting,
+  title = {Adapting the Linearised Laplace Model Evidence for Modern Deep Learning},
+  author = {Antoran, Javier and Janz, David and Allingham, James Urquhart and Daxberger, Erik and Barbano, Riccardo and Nalisnick, Eric and Hernandez-Lobato, Jose Miguel},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  year = {2022},
+  abstract = {The linearised Laplace method for estimating model uncertainty has received renewed attention in the Bayesian deep learning community. The method provides reliable error bars and admits a closed-form expression for the model evidence, allowing for scalable selection of model hyperparameters. In this work, we examine the assumptions behind this method, particularly in conjunction with model selection. We show that these interact poorly with some now-standard tools of deep learning--stochastic approximation methods and normalisation layers--and make recommendations for how to better adapt this classic method to the modern setting. We provide theoretical support for our recommendations and validate them empirically on MLPs, classic CNNs, residual networks with and without normalisation layers, generative autoencoders and transformers.},  
+  abbr = {ICML},
+  html = {https://arxiv.org/abs/2206.08900},
+  pdf = {https://edaxberger.github.io/papers/Adapting%20the%20Linearised%20Laplace%20Model%20Evidence%20for%20Modern%20Deep%20Learning.pdf}
+}
+
+
+@InProceedings{verma2022calibrated,
+  title = {Calibrated Learning to Defer with One-vs-All Classifiers},
+  author = {Verma, Rajeev and Nalisnick, Eric},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  year = {2022},
+  html = {https://arxiv.org/abs/2202.03673},
+  abstract = {The learning to defer (L2D) framework has the potential to make AI systems safer. For a given input, the system can defer the decision to a human if the human is more likely than the model to take the correct action. We study the calibration of L2D systems, investigating if the probabilities they output are sound. We find that Mozannar & Sontag's (2020) multiclass framework is not calibrated with respect to expert correctness. Moreover, it is not even guaranteed to produce valid probabilities due to its parameterization being degenerate for this purpose. We propose an L2D system based on one-vs-all classifiers that is able to produce calibrated probabilities of expert correctness. Furthermore, our loss function is also a consistent surrogate for multiclass L2D, like Mozannar & Sontag's (2020). Our experiments verify that not only is our system calibrated, but this benefit comes at no cost to accuracy. Our model's accuracy is always comparable (and often superior) to Mozannar & Sontag's (2020) model's in tasks ranging from hate speech detection to galaxy classification to diagnosis of skin lesions.},
+  abbr = {ICML},
+  pdf = {https://arxiv.org/pdf/2202.03673}
+}
+
+@inproceedings{wang2022model,
+title = {Model-based Meta Reinforcement Learning using Graph Structured Surrogate Models and Amortized Policy Search},
+author={Wang, Q.  and van Hoof, H.},
+url = {https://arxiv.org/abs/2102.08291},
+year = {2022},
+date = {17-7-2022},
+booktitle = {International Conference on Machine Learning},
+keywords = {},
+abbr={ICML},
+pdf={https://arxiv.org/abs/2102.08291},
+abstract={Reinforcement learning is a promising paradigm for solving sequential decision-making problems, but low data efficiency and weak generalization across tasks are bottlenecks in real-world applications. Model-based meta reinforcement learning addresses these issues by learning dynamics and leveraging knowledge from prior experience. In this paper, we take a closer look at this framework and propose a new posterior sampling based approach that consists of a new model to identify task dynamics together with an amortized policy optimization step. We show that our model, called a graph structured surrogate model (GSSM), achieves competitive dynamics prediction performance with lower model complexity. Moreover, our approach in policy search is able to obtain high returns and allows fast execution by avoiding test-time policy gradient updates.}
+}
+
+@inproceedings{bakker2022multi,
+  author={T. Bakker and M. Muckley and A. Romero-Soriano and M. Drozdzal and L. Pineda},
+  title={On learning adaptive acquisition policies for undersampled multi-coil {MRI} reconstruction},
+  month={July},
+  year={2022},
+  booktitle={Proceedings of Machine Learning Research},
+  abbr={MIDL},
+  pdf={https://arxiv.org/pdf/2203.16392.pdf},
+  title={Experimental design for {MRI} by greedy policy search},  code={https://github.com/facebookresearch/fastMRI},
+  note={FAIR internship, to appear},
+}
+
+
+
+
+@inproceedings{keller2021modeling,
+title={Modeling Category-Selective Cortical Regions with Topographic Variational Autoencoders},
+author={T. Anderson Keller and Qinghe Gao and Max Welling},
+booktitle={SVRHM 2021 Workshop at NeurIPS},
+year={2021},
+pdf={https://arxiv.org/pdf/2110.13911.pdf},
+abstract = {Category-selectivity in the brain describes the observation that certain spatially localized areas of the cerebral cortex tend to respond robustly and selectively to stimuli from specific limited categories. One of the most well known examples of category-selectivity is the Fusiform Face Area (FFA), an area of the inferior temporal cortex in primates which responds preferentially to images of faces when compared with objects or other generic stimuli. In this work, we leverage the newly introduced Topographic Variational Autoencoder to model the emergence of such localized category-selectivity in an unsupervised manner. Experimentally, we demonstrate our model yields spatially dense neural clusters selective to faces, bodies, and places through visualized maps of Cohen's d metric. We compare our model with related supervised approaches, namely the Topographic Deep Artificial Neural Network (TDANN) of Lee et al., and discuss both theoretical and empirical similarities. Finally, we show preliminary results suggesting that our model yields a nested spatial hierarchy of increasingly abstract categories, analogous to observations from the human ventral temporal cortex.},
+abbr={NeurIPS}
+}
+
+@InProceedings{Keller_2021_ICCV,
+    author    = {Keller, T. Anderson and Welling, Max},
+    title     = {Predictive Coding With Topographic Variational Autoencoders},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {1086-1091},
+    pdf = {https://openaccess.thecvf.com/content/ICCV2021W/VIPriors/papers/Keller_Predictive_Coding_With_Topographic_Variational_Autoencoders_ICCVW_2021_paper.pdf},
+    abstract = {Category-selectivity in the brain describes the observation that certain spatially localized areas of the cerebral cortex tend to respond robustly and selectively to stimuli from specific limited categories. One of the most well known examples of category-selectivity is the Fusiform Face Area (FFA), an area of the inferior temporal cortex in primates which responds preferentially to images of faces when compared with objects or other generic stimuli. In this work, we leverage the newly introduced Topographic Variational Autoencoder to model of the emergence of such localized category-selectivity in an unsupervised manner. Experimentally, we demonstrate our model yields spatially dense neural clusters selective to faces, bodies, and places through visualized maps of Cohen's d metric. We compare our model with related supervised approaches, namely the TDANN, and discuss both theoretical and empirical similarities. Finally, we show preliminary results suggesting that our model yields a nested spatial hierarchy of increasingly abstract categories, analogous to observations from the human ventral temporal cortex.},
+    abbr = {ICCV}
+}
+
+@inproceedings{NEURIPS2021_f03704cb,
+ author = {Keller, T. Anderson and Welling, Max},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {28585--28597},
+ publisher = {Curran Associates, Inc.},
+ title = {Topographic VAEs learn Equivariant Capsules},
+ pdf = {https://proceedings.neurips.cc/paper/2021/file/f03704cb51f02f80b09bffba15751691-Paper.pdf},
+ volume = {34},
+ year = {2021},
+ abstract = {In this work we seek to bridge the concepts of topographic organization and equivariance in neural networks. To accomplish this, we introduce the Topographic VAE: a novel method for efficiently training deep generative models with topographically organized latent variables. We show that such a model indeed learns to organize its activations according to salient characteristics such as digit class, width, and style on MNIST. Furthermore, through topographic organization over time (i.e. temporal coherence), we demonstrate how predefined latent space transformation operators can be encouraged for observed transformed input sequences -- a primitive form of unsupervised learned equivariance. We demonstrate that this model successfully learns sets of approximately equivariant features (i.e. "capsules") directly from sequences and achieves higher likelihood on correspondingly transforming test sequences. Equivariance is verified quantitatively by measuring the approximate commutativity of the inference network and the sequence transformations. Finally, we demonstrate approximate equivariance to complex transformations, expanding upon the capabilities of existing group equivariant neural networks.},
+ abbr = {NeurIPS}
+}
+
+@InProceedings{pmlr-v139-keller21a,
+  title =    {Self Normalizing Flows},
+  author =       {Keller, T. Anderson and Peters, Jorn W.T. and Jaini, Priyank and Hoogeboom, Emiel and Forr{\'e}, Patrick and Welling, Max},
+  booktitle =    {Proceedings of the 38th International Conference on Machine Learning},
+  pages =    {5378--5387},
+  year =     {2021},
+  editor =   {Meila, Marina and Zhang, Tong},
+  volume =   {139},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {18--24 Jul},
+  publisher =    {PMLR},
+  pdf =      {http://proceedings.mlr.press/v139/keller21a/keller21a.pdf},
+  url =      {https://proceedings.mlr.press/v139/keller21a.html},
+  abstract =     {Efficient gradient computation of the Jacobian determinant term is a core problem in many machine learning settings, and especially so in the normalizing flow framework. Most proposed flow models therefore either restrict to a function class with easy evaluation of the Jacobian determinant, or an efficient estimator thereof. However, these restrictions limit the performance of such density models, frequently requiring significant depth to reach desired performance levels. In this work, we propose \emph{Self Normalizing Flows}, a flexible framework for training normalizing flows by replacing expensive terms in the gradient by learned approximate inverses at each layer. This reduces the computational complexity of each layer’s exact update from $\mathcal{O}(D^3)$ to $\mathcal{O}(D^2)$, allowing for the training of flow architectures which were otherwise computationally infeasible, while also providing efficient sampling. We show experimentally that such models are remarkably stable and optimize to similar data likelihood values as their exact gradient counterparts, while training more quickly and surpassing the performance of functionally constrained counterparts.},
+  abbr = {ICML}
+}
+
+@InProceedings{DBLP:journals/corr/abs-2106-15577,
+  author    = {Fiorella Wever and
+               T. Anderson Keller and
+               Victor Garcia and
+               Laura Symul},
+  title     = {As easy as {APC:} Leveraging self-supervised learning in the context
+               of time series classification with varying levels of sparsity and
+               severe class imbalance},
+  booktitle   = {Self-Supervised Learning Workshop at NeurIPS},
+  year      = {2021},
+  pdf       = {https://arxiv.org/pdf/2106.15577.pdf},
+  abbr = {NeurIPS},
+  abstract = {High levels of missing data and strong class imbalance are ubiquitous challenges that are often presented simultaneously in real-world time series data. Existing methods approach these problems separately, frequently making significant assumptions about the underlying data generation process in order to lessen the impact of missing information. In this work, we instead demonstrate how a general self-supervised training method, namely Autoregressive Predictive Coding (APC), can be leveraged to overcome both missing data and class imbalance simultaneously without strong assumptions. Specifically, on a synthetic dataset, we show that standard baselines are substantially improved upon through the use of APC, yielding the greatest gains in the combined setting of high missingness and severe class imbalance. We further apply APC on two real-world medical time-series datasets, and show that APC improves the classification performance in all settings, ultimately achieving state-of-the-art AUPRC results on the Physionet benchmark}
+}
+
+
+@inproceedings{moretti2021variational,
+  title={Variational combinatorial sequential {M}onte {C}arlo methods for {B}ayesian phylogenetic inference},
+  author={Moretti, Antonio Khalil and Zhang, Liyi and Naesseth, Christian A. and Venner, Hadiah and Blei, David and Pe'er, Itsik},
+  booktitle={Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence},
+  abbr={UAI},
+  pages={971--981},
+  year={2021},
+  editor={de Campos, Cassio and Maathuis, Marloes H.},
+  volume={161},
+  series={Proceedings of Machine Learning Research},
+  month={27--30 Jul},
+  publisher={PMLR},
+  pdf={https://proceedings.mlr.press/v161/moretti21a/moretti21a.pdf},
+  url={https://proceedings.mlr.press/v161/moretti21a.html},
+ }
+
+
+
+@article{lowe2022amortized,
+  title={{Amortized Causal Discovery: Learning to Infer Causal Graphs from Time-Series Data}},
+  author={S. L{\"o}we and D. Madras and R. Zemel and M. Welling},
+  journal={Causal Learning and Reasoning},
+  year={2022},
+  html = {https://arxiv.org/abs/2006.10833},
+  pdf = {https://arxiv.org/pdf/2006.10833.pdf},
+  abbr={CLeaR},
+  code = {https://github.com/loeweX/AmortizedCausalDiscovery},
+  abstract={On time-series data, most causal discovery methods fit a new model whenever they encounter samples from a new underlying causal graph. However, these samples often share relevant information which is lost when following this approach. Specifically, different samples may share the dynamics which describe the effects of their causal relations. We propose Amortized Causal Discovery, a novel framework that leverages such shared dynamics to learn to infer causal relations from time-series data. This enables us to train a single, amortized model that infers causal relations across samples with different underlying causal graphs, and thus leverages the shared dynamics information. We demonstrate experimentally that this approach, implemented as a variational model, leads to significant improvements in causal discovery performance, and show how it can be extended to perform well under added noise and hidden confounding.}
+}
+
 
 
 @inproceedings{brandstetter2022geometric,
@@ -15,6 +257,33 @@
   code={https://github.com/RobDHess/Steerable-E3-GNN},
 }
 
+
+@inproceedings{ruhe2022selfsupervised,
+  title={Self-Supervised Inference in State-Space Models},
+  author={David Ruhe and Patrick Forr{\'e}},
+  booktitle={International Conference on Learning Representations},
+  abbr={ICLR},
+  year={2022},
+  abstract={We perform approximate inference in state-space models with nonlinear state transitions. Without parameterizing a generative model, we apply Bayesian update formulas using a local linearity approximation parameterized by neural networks. It comes accompanied by a maximum likelihood objective that requires no supervision via uncorrupt observations or ground truth latent states. The optimization backpropagates through a recursion similar to the classical Kalman filter and smoother. Additionally, using an approximate conditional independence, we can perform smoothing without having to parameterize a separate model. In scientific applications, domain knowledge can give a linear approximation of the latent transition maps, which we can easily incorporate into our model. Usage of such domain knowledge is reflected in excellent results (despite our model's simplicity) on the chaotic Lorenz system compared to fully supervised and variational inference methods. Finally, we show competitive results on an audio denoising experiment.},
+  html={https://openreview.net/forum?id=VPjw9KPWRSK},
+  pdf={https://openreview.net/pdf?id=VPjw9KPWRSK},
+}
+
+@inproceedings{bozkurt2021rateregularization,
+  title = {Rate-{{Regularization}} and {{Generalization}} in {{Variational Autoencoders}}},
+  booktitle = {International {{Conference}} on {{Artificial Intelligence}} and {{Statistics}}},
+  author = {Bozkurt, Alican and Esmaeili, Babak and Tristan, Jean-Baptiste and Brooks, Dana and Dy, Jennifer and van de Meent, Jan-Willem},
+  year = {2021},
+  month = mar,
+  pages = {3880--3888},
+  publisher = {{PMLR}},
+  issn = {2640-3498},
+  abstract = {Variational autoencoders (VAEs) optimize an objective that comprises a reconstruction loss (the distortion) and a KL term (the rate). The rate is an upper bound on the mutual information, which is...},
+  langid = {english},
+  abbr = {AISTATS},
+  html = {https://proceedings.mlr.press/v130/bozkurt21a.html},
+  pdf = {http://proceedings.mlr.press/v130/bozkurt21a/bozkurt21a.pdf}
+}
 
 @inproceedings{zimmermann2021nested,
   title={Nested Variational Inference},
@@ -78,6 +347,20 @@
   video={https://www.youtube.com/watch?v=rakcnrgX4oo},
   code={https://github.com/ebekkers/gsplinets},
   selected=true
+}
+
+
+@article{ruhe2022detecting,
+  title={Detecting dispersed radio transients in real time using convolutional neural networks},
+  author={Ruhe, David and Kuiack, Mark and Rowlinson, Antonia and Wijers, Ralph and Forr{\'e}, Patrick},
+  journal={Astronomy and Computing},
+  volume={38},
+  pages={100512},
+  year={2022},
+  publisher={Elsevier},
+  abbr={ASCOM},
+  html={https://www.sciencedirect.com/science/article/pii/S2213133721000664},
+  pdf={https://arxiv.org/pdf/2103.15418.pdf},
 }
 
 
@@ -430,6 +713,61 @@ tppubtype = {inproceedings},
 html={},
 pdf={https://www.aaai.org/AAAI22Papers/AAAI-8450.LongA.pdf},
 abbr={AAAI}
+}
+
+@inproceedings{wohlke2022value,
+title = {Value Refinement Network (VRN)},
+author = {Jan Wöhlke and Felix Schmitt and Herke van Hoof},
+url = {https://openreview.net/forum?id=iUt2KYdXBDD},
+year = {2022},
+date = {23-7-2022},
+booktitle = {International Joint Conference on Artificial Intelligence},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings},
+html={https://openreview.net/forum?id=iUt2KYdXBDD},
+abbr={IJCAI}
+}
+
+@inproceedings{hopner2022leveraging,
+title = {Leveraging class abstraction for commonsense reinforcement learning via residual policy gradient methods},
+author = {Höpner, Niklas and Tiddi, Ilaria and van Hoof, Herke},
+url = {https://arxiv.org/abs/2201.12126},
+year = {2022},
+date = {23-7-2022},
+booktitle = {International Joint Conference on Artificial Intelligence},
+keywords = {},
+pubstate = {forthcoming},
+tppubtype = {inproceedings},
+html={https://arxiv.org/abs/2201.12126},
+pdf={https://arxiv.org/pdf/2201.12126.pdf},
+abbr={IJCAI}
+}
+
+
+
+@inproceedings{bakker2020single,
+  author={T. Bakker and H. van Hoof and Max Welling},
+  title={Experimental design for {MRI} by greedy policy search},
+  month={Dec},
+  year={2020},
+  booktitle={Advances in Neural Information Processing Systems 33},
+  abbr={NeurIPS},
+  pdf={https://arxiv.org/pdf/2010.16262.pdf},
+  code={https://github.com/Timsey/pg_mri},
+  note={Spotlight presentation},
+}
+
+@article{kanis2021btb,
+  title={{Back to Basics: Deep Reinforcement Learning in Traffic Signal Control}},
+  author={S. Kanis and L. Samson and D. Bloembergen and T. Bakker},
+  journal={The 10th International Workshop on Urban Computing},
+  month={Nov},
+  year={2021},
+  abbr={UrbComp},
+  pdf={https://arxiv.org/pdf/2109.07180.pdf},
+  code={https://github.com/Amsterdam-Internships/Self-Learning-Traffic-Lights},
+  note={Best paper award runner-up},
 }
 
 
