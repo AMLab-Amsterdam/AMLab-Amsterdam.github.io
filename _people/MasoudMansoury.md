@@ -4,6 +4,7 @@ first_name: Masoud
 last_name: Mansoury
 role: Postdoc
 email: m.mansoury@uva.nl
+office: Science Park, Lab 42, L5.63
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
