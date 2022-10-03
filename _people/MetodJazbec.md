@@ -4,7 +4,7 @@ first_name: Metod
 last_name: Jazbec
 role: PhD candidate
 email: m.jazbec@uva.nl
-office: Science Park, Lab 42, 4.59
+office: Science Park, Lab 42, L4.59
 lab: AMLab, Delta Lab
 institute: Informatics Institute
 university: University of Amsterdam
