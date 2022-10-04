@@ -4,11 +4,11 @@ first_name: Leon
 last_name: Lang
 role: PhD Candidate
 email: l.lang@uva.nl
-office: Science Park 904
+office: Science Park, Lab 42, L4.14
 lab: AMLab and CSL
 institute: Informatics Institute
 university: University of Amsterdam
-supervisors: [Patrick Forré, Rick Quax]
+supervisors: [Patrick Forré, Clélia de Mulatier]
 one_liner: Geometric Deep Learning, Multivariate Information Theory
 bib_file: LeonLang 
 description: |
