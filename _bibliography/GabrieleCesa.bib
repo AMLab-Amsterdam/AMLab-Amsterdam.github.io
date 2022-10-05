@@ -1,8 +1,28 @@
+@inproceedings{cesa2022b,
+        title={On the symmetries of the synchronization problem in Cryo-EM: Multi-Frequency Vector Diffusion Maps on the Projective Plane },
+        author={Gabriele Cesa and Arash Behboodi and Taco Cohen and Max Welling},
+        booktitle={Conference on Neural Information Processing Systems},
+        year={2022},
+        month={Dec},
+        abbr      = {{NeurIPS}},
+        abstract  = {Cryo-Electron Microscopy (Cryo-EM) is an important imaging method which allows high-resolution reconstruction of the 3D structures of biomolecules. It produces highly noisy 2D images by projecting a molecule's 3D density from random viewing directions. Because the projection directions are unknown, estimating the images' poses is necessary to perform the reconstruction. We focus on this task and study it under the group synchronization framework: if the relative poses of pairs of images can be approximated from the data, an estimation of the images' poses is given by the assignment which is most consistent with the relative ones. In particular, by studying the symmetries of cryo-EM, we show that relative poses in the group O(2) provide sufficient constraints to identify the images' poses, up to the molecule's chirality. With this in mind, we improve the existing multi-frequency vector diffusion maps (MFVDM) method: by using O(2) relative poses, our method not only predicts the similarity between the images' viewing directions but also recovers their poses. Hence, we can leverage all input images in a 3D reconstruction algorithm by initializing the poses with our estimation rather than just clustering and averaging the input images. We validate the recovery capabilities and robustness of our method on randomly generated synchronization graphs and a synthetic cryo-EM dataset.},
+}
+
+@inproceedings{behboodi2022_generalization,
+        title={Generalization Bounds for Equivariant Networks  },
+        author={Arash Behboodi and Gabriele Cesa and Taco Cohen},
+        booktitle={Conference on Neural Information Processing Systems},
+        year={2022},
+        month={Dec},
+        abbr      = {{NeurIPS}},
+        abstract  = {Equivariant networks capture the inductive bias about the symmetry of the learning task by building those symmetries into the model. In this paper, we study how equivariance relates to generalization error utilizing PAC Bayesian analysis for equivariant networks, where the transformation laws of feature spaces are determined by group representations. By using perturbation analysis of equivariant networks in Fourier domain for each layer, we derive norm-based PAC-Bayesian generalization bounds. The bound characterizes the impact of group size, and multiplicity and degree of irreducible representations on the generalization error and thereby provide a guideline for selecting them. In general, the bound indicates that using larger group size in the model improves the generalization error substantiated by extensive numerical experiments. },
+}
 
 @inproceedings{cesa2022a,
         title={A Program to Build {E(N)}-Equivariant Steerable {CNN}s },
         author={Gabriele Cesa and Leon Lang and Maurice Weiler},
         booktitle={International Conference on Learning Representations},
+        month={Apr},
         year={2022},
         code      = {https://github.com/QUVA-Lab/escnn},
         html      = {https://openreview.net/forum?id=WE4qe9xlnQw},
@@ -10,11 +30,13 @@
         abbr      = {{ICLR}},
         abstract  = {Equivariance is becoming an increasingly popular design choice to build data efficient neural networks by exploiting prior knowledge about the symmetries of the problem at hand. Euclidean steerable CNNs are one of the most common classes of equivariant networks. While the constraints these architectures need to satisfy are understood, no practical method to parametrize them generally has been described so far, with most existing approaches tailored to specific groups or classes of groups. In this work, we generalize the Wigner-Eckart theorem proposed in (Lang et al.), which characterizes general G-steerable kernel spaces for compact groups G over their homogeneous spaces, to arbitrary G-spaces. This enables us to directly parameterize filters in terms of a band-limited basis on the base space, but also to easily implement steerable CNNs equivariant to a large number of groups. To demonstrate its generality, we instantiate our method on a large variety of isometry groups acting on the Euclidean space R^3. Our general framework allows us to build E(3) and SE(3)-steerable CNNs like previous works, but also CNNs with arbitrary G<=O(3)-steerable kernels. For example, we build 3D CNNs equivariant to the symmetries of platonic solids or choose G=SO(2) when working with 3D data having only azimuthal symmetries. We compare these models on 3D shapes and molecular datasets, observing improved performance by matching the model's symmetries to the ones of the data.},
 }
+
     
 @inproceedings{e2cnn,
    title={{General E(2)-Equivariant Steerable CNNs}},
    author={Weiler, Maurice and Cesa, Gabriele},
-   booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+   booktitle={Conference on Neural Information Processing Systems},
+   month={Dec},
    year={2019},
    code      = {https://github.com/QUVA-Lab/e2cnn},
    html      = {https://arxiv.org/abs/1911.08251},
