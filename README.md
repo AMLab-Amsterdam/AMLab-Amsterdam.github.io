@@ -131,3 +131,4 @@ Note that ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not sta
 # Theme 
 
 The website uses [al-folio](https://github.com/AMLab-Amsterdam/AMLab-Amsterdam.github.io), a simple, clean, and responsive Jekyll theme for academics. The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+# maglia.github.io
