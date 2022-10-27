@@ -122,7 +122,7 @@
           <div class="clearfix">
             <p>The Amsterdam Machine Learning Lab (AMLab) conducts research in machine learning, artificial intelligence, and its applications to large scale data domains in science and industry. This includes the development of deep generative models, methods for approximate inference, probabilistic programming, Bayesian deep learning, causal inference, reinforcement learning, graph neural networks, and geometric deep learning.</p>
 
-<p>AMLab comprises 7 faculty. <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank" rel="noopener noreferrer">Max Welling</a> and <a href="https://jwvdm.github.io/" target="_blank" rel="noopener noreferrer">Jan-Willem van de Meent</a> serve as co-directors. <a href="https://staff.fnwi.uva.nl/h.c.vanhoof/homepage/" target="_blank" rel="noopener noreferrer">Herke van Hoof</a>, <a href="">Patrick Forré</a>, <a href="https://enalisnick.github.io" target="_blank" rel="noopener noreferrer">Eric Nalisnick</a>, <a href="https://erikbekkers.bitbucket.io/" target="_blank" rel="noopener noreferrer">Erik Bekkers</a>, and <a href="https://naesseth.github.io/" target="_blank" rel="noopener noreferrer">Christian Naesseth</a> serve as tenure-track faculty. The lab participates in partnerships with industry through the <a href="https://ivi.fnwi.uva.nl/quva/" target="_blank" rel="noopener noreferrer">QUvA Lab</a> (with Qualcomm) and the <a href="https://ivi.fnwi.uva.nl/uvaboschdeltalab/" target="_blank" rel="noopener noreferrer">Delta Lab</a> (with Bosch). The lab also engages in cross-disciplinary collaborations through the <a href="https://ai4science-amsterdam.github.io/" target="_blank" rel="noopener noreferrer">AI4Science Lab</a>.</p>
+<p>AMLab comprises 8 faculty. <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank" rel="noopener noreferrer">Max Welling</a> and <a href="https://jwvdm.github.io/" target="_blank" rel="noopener noreferrer">Jan-Willem van de Meent</a> serve as co-directors. <a href="https://staff.fnwi.uva.nl/h.c.vanhoof/homepage/" target="_blank" rel="noopener noreferrer">Herke van Hoof</a>, <a href="">Patrick Forré</a>, <a href="https://enalisnick.github.io" target="_blank" rel="noopener noreferrer">Eric Nalisnick</a>, <a href="https://erikbekkers.bitbucket.io/" target="_blank" rel="noopener noreferrer">Erik Bekkers</a>, <a href="https://naesseth.github.io/" target="_blank" rel="noopener noreferrer">Christian Naesseth</a>, and <a href="http://amlab.science.uva.nl/people/SaraMagliacane" target="_blank" rel="noopener noreferrer">Sara Magliacane</a> serve as tenure-track faculty. The lab participates in partnerships with industry through the <a href="https://ivi.fnwi.uva.nl/quva/" target="_blank" rel="noopener noreferrer">QUvA Lab</a> (with Qualcomm) and the <a href="https://ivi.fnwi.uva.nl/uvaboschdeltalab/" target="_blank" rel="noopener noreferrer">Delta Lab</a> (with Bosch). The lab also engages in cross-disciplinary collaborations through the <a href="https://ai4science-amsterdam.github.io/" target="_blank" rel="noopener noreferrer">AI4Science Lab</a>.</p>
 
           </div>
 
@@ -230,6 +230,40 @@ This weakens the approximation power and restricts the scope of applications usi
 To resolve these issues, we propose to combine the Mixture of Expert models with Neural Processes to develop more expressive exchangeable stochastic processes, referred to as Mixture of Expert Neural Processes (MoE-NPs). 
 Then we apply MoE-NPs to both few-shot supervised learning and meta reinforcement learning tasks. 
 Empirical results demonstrate MoE-NPs’ strong generalization capability to unseen tasks in these benchmarks.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="feng2022factored" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Factored Adaptation for Non-Stationary Reinforcement Learning</div>
+          <!-- Author -->
+          <div class="author">Feng, Fan, Huang, Biwei, Zhang, Kun, and Magliacane, Sara
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Advances in Neural Information Processing Systems</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/abs/2203.16582" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://arxiv.org/pdf/2203.16582.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+            <a href="https://github.com/ffeng1996/Factored-Nonstationary-RL" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Dealing with non-stationarity in environments (e.g., in the transition dynamics) and objectives (e.g., in the reward functions) is a challenging problem that is crucial in real-world applications of reinforcement learning (RL). While most current approaches model the changes as a single shared embedding vector, we leverage insights from the recent causality literature to model non-stationarity in terms of individual latent change factors, and causal graphs across different environments. In particular, we propose Factored Adaptation for Non-Stationary RL (FANS-RL), a factored adaption approach that learns jointly both the causal structure in terms of a factored MDP, and a factored representation of the individual time-varying change factors. We prove that under standard assumptions, we can completely recover the causal graph representing the factored transition and reward function, as well as a partial structure between the individual change factors and the state components. Through our general framework, we can consider general non-stationary scenarios with different function types and changing frequency, including changes across episodes and within episodes. Experimental results demonstrate that FANS-RL outperforms existing approaches in terms of return, compactness of the latent state representation, and robustness to varying degrees of non-stationarity.</p>
           </div>
         </div>
       </div>
