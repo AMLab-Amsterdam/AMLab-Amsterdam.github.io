@@ -41,6 +41,12 @@
             {%- if person.github_username -%}
             &nbsp;<a href="https://github.com/{{ person.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>&nbsp;
             {% endif %}
+            {%- if person.mastodon_username -%}
+
+              {%- if person.mastodon_server -%}
+              &nbsp;<a rel="me" href="https://{{ person.mastodon_server }}/@{{ person.twitter_username }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>&nbsp;
+              {% endif %} 
+            {% endif %} 
             {%- if person.twitter_username -%}
             &nbsp;<a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>&nbsp;
             {% endif %} 
