@@ -51,6 +51,11 @@
     {% if person.github_username %}
     <i class="fab fa-github"></i> <a href="https://github.com/{{ person.github_username }}" title="GitHub"> Github </a>&nbsp;
     {% endif %}
+    {% if person.mastodon_username %}
+        {% if person.mastodon_server %}
+            <i class="fab fa-mastodon"></i> <a rel="me" href="https://{{ person.mastodon_server }}/@{{ person.twitter_username }}" title="Mastodon"> Mastodon </a>&nbsp;
+        {% endif %} 
+    {% endif %} 
     {% if person.twitter_username %}
     <i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"> Twitter </a>&nbsp;
     {% endif %} 

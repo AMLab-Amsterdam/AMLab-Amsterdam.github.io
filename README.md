@@ -76,6 +76,8 @@ personal_page: https://johnswebsite.doe
 scholar_userid: XXXXXXXXXXXX
 github_username: johns_github
 twitter_username: johns_twitter
+mastodon_username: johns_mastodon
+mastodon_server: johns_server
 category: PhD Students 
 ---
 
