@@ -21,6 +21,8 @@ personal_page: https://jwvdm.github.io
 scholar_userid: aCGsfUAAAAAJ
 github_username: jwvdm
 twitter_username: jwvdm
+mastodon_username: jwvdm
+mastodon_server: mastodon.online
 order: 1
 category: Staff 
 ---
