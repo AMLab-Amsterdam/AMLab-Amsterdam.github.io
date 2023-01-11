@@ -10,6 +10,7 @@ institute: Informatics Institute
 university: University of Amsterdam
 supervisors: [Eric Nalisnick]
 one_liner: Robustness and interpretability in deep probabilistic models
+bib_file: DharmeshTailor
 img: assets/img/DharmeshTailor.jpg
 lab: AMLab
 redirect: 
