@@ -4,7 +4,7 @@ first_name: Rob
 last_name: Romijnders
 role: PhD candidate
 email: r.romijnders@uva.nl
-office: Science Park 904, C3.256a 
+office: Science Park, Lab 42, L4.35
 lab: AMLab
 institute: Institute of Informatics
 university: University of Amsterdam
