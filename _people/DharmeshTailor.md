@@ -4,7 +4,7 @@ first_name: Dharmesh
 last_name: Tailor
 role: PhD candidate
 email: d.v.tailor@uva.nl
-office: Science Park 904, C3.258d
+office: Science Park 900, LAB42, L4.24
 lab: AMLab
 institute: Informatics Institute
 university: University of Amsterdam
