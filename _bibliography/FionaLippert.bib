@@ -1,0 +1,28 @@
+@article{lippert2022mee, 
+  title = {Learning to predict spatiotemporal movement dynamics from weather radar networks},
+  author = {Lippert, Fiona and Kranstauber, Bart and Forr{\'e}, Patrick D and van Loon, E Emiel},
+  journal = {Methods in Ecology and Evolution},
+  volume = {13},
+  number = {12},
+  year = {2022},
+  month = {10},
+  pages = {2811--2826},
+  html = {https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14007/},
+  pdf = {https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.14007/},
+  abbr= {MEE},
+  abstract = {Weather radar networks provide wide-ranging opportunities for ecologists to quantify and predict movements of airborne organisms over unprecedented geographical expanses. The typically sparse spatial distribution of radar measurements poses, however, a major challenge to spatiotemporal predictive modelling.
+    We propose FluxRGNN, a recurrent graph neural network that is based on a generic mechanistic description of population-level movements across the Voronoi tessellation of radar sites. The resulting hybrid model capitalises on local associations between environmental conditions and animal density as well as on spatiotemporal dependencies inherent to the movement process. We applied FluxRGNN to make 72-h forecasts of nocturnal bird migration over Western Europe using simulated trajectories and measurements from the European weather radar network.
+    For both datasets, FluxRGNN achieves higher predictive performance than baseline models based on environmental conditions alone. It effectively disentangles local take-off and landing dynamics from aerial movements and correctly predicts migration directions with an accuracy of 87%.
+    Continental-scale forecasts of animal density and biomass fluxes have the potential to improve the impact and cost-effectiveness of wildlife management and conservation efforts. With FluxRGNN this becomes feasible for nocturnal bird migration. In the future, other migration systems could benefit from applying the proposed method to similar static sensor networks.}
+}
+
+@InProceedings{lippert2022neurips,
+  title = {Physics-informed inference of aerial animal movements from weather radar data},
+  author = {Lippert, Fiona and Kranstauber, Bart and van Loon, E Emiel and Forr{\'e}, Patrick},
+  booktitle = {NeurIPS 2022 AI for Science workshop},
+  year = {2022},
+  month = {12},
+  pdf = {https://arxiv.org/pdf/2211.04539.pdf},
+  abbr = {NeurIPS},
+  abstract = {Studying animal movements is essential for effective wildlife conservation and conflict mitigation. For aerial movements, operational weather radars have become an indispensable data source in this respect. However, partial measurements, incomplete spatial coverage, and poor understanding of animal behaviours make it difficult to reconstruct complete spatio-temporal movement patterns from available radar data. We tackle this inverse problem by learning a mapping from high-dimensional radar measurements to low-dimensional latent representations using a convolutional encoder. Under the assumption that the latent system dynamics are well approximated by a locally linear Gaussian transition model, we perform efficient posterior estimation using the classical Kalman smoother. A convolutional decoder maps the inferred latent system states back to the physical space in which the known radar observation model can be applied, enabling fully unsupervised training. To encourage physical consistency, we additionally introduce a physics-informed loss term that leverages known mass conservation constraints. Our experiments on synthetic radar data show promising results in terms of reconstruction quality and data-efficiency.}
+}
