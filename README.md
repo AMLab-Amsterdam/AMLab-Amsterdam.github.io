@@ -130,6 +130,10 @@ Please make sure the file name follows the naming conventions and matches the im
 ```
 Note that ```html```, ```pdf```, ```abbr```, ```code```, ```video``` are not standard bibtex tags but are used to render additional content on the website. Please provide at least ```html```, ```pdf```, ```abbr``` and make sure the file name follows the naming conventions and matches the bibliography file name in your description file.
 
+# Information for maintainers
+
+Check/Update the cutoff year in ```./_includes/recent_papers.html``` to not show very old publications as 'recent' once a year.
+
 # Theme 
 
 The website uses [al-folio](https://github.com/AMLab-Amsterdam/AMLab-Amsterdam.github.io), a simple, clean, and responsive Jekyll theme for academics. The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
