@@ -11,7 +11,7 @@ institute: Institute of Informatics
 university: University of Amsterdam
 supervisors: [Patrick Forré]
 one_liner: Geometric Deep Learning, Protein Design, Graph Neural Networks
-bib_file: CongLiu
+bib_file: 
 redirect: 
 description: |
     I am a Ph.D. student at [Amsterdam Machine Learning Lab](http://amlab.science.uva.nl) (AMLab) and [AI4Science Lab](https://ai4science-amsterdam.github.io). I collaborate my PhD project with [Janssen](https://www.janssen.com/netherlands/nl). 
