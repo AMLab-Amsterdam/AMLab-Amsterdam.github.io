@@ -3,7 +3,7 @@ layout: person-page
 first_name: Maurice
 last_name: Weiler
 role: PhD candidate
-email: m.weiler@uva.nl
+email: m.weiler.ml@gmail.com
 office: Science Park 904, C3.250a 
 lab: AMLab
 institute: Institute of Informatics
