@@ -16,7 +16,8 @@ description: |
     I am a PhD student in Reinforcement Learning at [Amsterdam Machine Learning Lab](/) (AMLab), supervised by [Dr. Herke van Hoof](https://staff.fnwi.uva.nl/h.c.vanhoof/homepage/).
     I am interested in hierarchical reinforcement learning and meta-reinforcement learning.
 img_promo: 
-personal_page: 
+personal_page:
+scholar_userid: 6k4Pu4YAAAAJ
 github_username: Kuroo
 category: PhD Students 
 ---
