@@ -1,6 +1,20 @@
 ---
 --- 
 
+@article{zimmermann2023variational,
+  title={A Variational Perspective on Generative Flow Networks},
+  abstract = {Generative flow networks (GFNs) are a class of probabilistic models for sequential sampling of composite objects, proportional to a target distribution that is defined in terms of an energy function or a reward. GFNs are typically trained using a flow matching or trajectory balance objective, which matches forward and backward transition models over trajectories. In this work we introduce a variational objective for training GFNs, which is a convex combination of the reverse- and forward KL divergences, and compare it to the trajectory balance objective when sampling from the forward- and backward model, respectively. We show that, in certain settings, variational inference for GFNs is equivalent to minimizing the trajectory balance objective, in the sense that both methods compute the same score-function gradient. This insight suggests that in these settings, control variates, which are commonly used to reduce the variance of score-function gradient estimates, can also be used with the trajectory balance objective. We evaluate our findings and the performance of the proposed variational objective numerically by comparing it to the trajectory balance objective on two synthetic tasks.},
+  author={Heiko Zimmermann and Fredrik Lindsten and Jan-Willem van de Meent and Christian A Naesseth},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2023},
+  month={4},
+  html={https://openreview.net/forum?id=AZ4GobeSLq},
+  pdf={https://openreview.net/pdf?id=AZ4GobeSLq},
+  code={https://github.com/zmheiko/variational-perspective-on-gflownets},
+  abbr={TMLR}
+}
+
 @InProceedings{zimmermann2021nested,
     title = {Nested Variational Inference},
     abstract = {We develop nested variational inference (NVI), a family of methods that learn proposals for nested importance samplers by minimizing an forward or reverse KL divergence at each level of nesting. NVI is applicable to many commonly-used importance sampling strategies and provides a mechanism for learning intermediate densities, which can serve as heuristics to guide the sampler. Our experiments apply NVI to (a) sample from a multimodal distribution using a learned annealing path (b) learn heuristics that approximate the likelihood of future observations in a hidden Markov model and (c) to perform amortized inference in hierarchical deep generative models. We observe that optimizing nested objectives leads to improved sample quality in terms of log average weight and effective sample size.},
