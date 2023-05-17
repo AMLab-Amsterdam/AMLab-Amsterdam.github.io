@@ -17,7 +17,7 @@ description: |
     
 img: assets/img/MatyasSchubert.jpg
 img_promo: 
-personal_page: 
+personal_page: https://matyasch.github.io
 scholar_userid: vN9Wlw8AAAAJ
 github_username: Matyasch
 twitter_username: MatyasSchubert
