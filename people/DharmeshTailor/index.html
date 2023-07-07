@@ -176,10 +176,10 @@
 <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">TPM</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">UAI</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="tailor2022inferential" class="col-sm-8">
+        <div id="tailor2023exploiting" class="col-sm-8">
         
           <!-- Title -->
           <div class="title">Exploiting Inferential Structure in Neural Processes</div>
@@ -189,18 +189,18 @@
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 5th Workshop on Tractable Probabilistic Modeling at UAI 2022</em> Aug 2022
+            <em>In The 39th Conference on Uncertainty in Artificial Intelligence</em> Jul 2023
           </div>
         
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://openreview.net/pdf?id=LTo3tkIPvSh" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+            <a href="https://openreview.net/forum?id=MbQKovZFHIH" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Neural processes (NPs) can be extremely fast at test time, but their training requires a wide range of context sets to generalize well. We propose to address this issue by incorporating the structure of graphical models into NPs. This leads to aggregation strategies in which context points are appropriately weighted, generalizing a recent proposal by Volpp et al., [2020]. The weighting further reveals an interpretation of each point, which we refer to as the neural sufficient statistics. It is expected that by exploiting information in structured priors, the data inefficiency of NPs can be alleviated.</p>
+            <p>Neural Processes (NPs) are appealing due to their ability to perform fast adaptation based on a context set. This set is encoded by a latent variable, which is often assumed to follow a simple distribution. However, in real-word settings, the context set may be drawn from richer distributions having multiple modes, heavy tails, etc. In this work, we provide a framework that allows NPs’ latent variable to be given a rich prior defined by a graphical model. These distributional assumptions directly translate into an appropriate aggregation strategy for the context set. Moreover, we describe a message-passing procedure that still allows for end-to-end optimization with stochastic gradients. We demonstrate the generality of our framework by using mixture and Student-t assumptions that yield improvements in function modelling and test-time robustness.</p>
           </div>
         </div>
       </div>
