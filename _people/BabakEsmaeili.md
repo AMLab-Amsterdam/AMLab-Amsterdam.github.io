@@ -20,7 +20,7 @@ description: |
     I am interested in deep generative models and how we can guide them towards learning representations that are useful for downstream tasks.
 img_promo:
 personal_page: https://babak0032.github.io/
-scholar_userid: Sxgjz3QAAAAJ
+scholar_userid: cBD6liwAAAAJ
 github_username: babak0032
 twitter_username: bob_smiley_
 category: PhD Students
