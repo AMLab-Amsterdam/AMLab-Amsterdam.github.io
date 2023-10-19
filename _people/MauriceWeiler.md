@@ -14,7 +14,7 @@ bib_file: MauriceWeiler
 description: |
     Research on equivariant neural networks, specifically steerable CNNs and coordinate independent convolutions on Riemannian manifolds.
 img: assets/img/MauriceWeiler.jpg
-personal_page:
+personal_page: https://maurice-weiler.gitlab.io/
 scholar_userid: uQePx6EAAAAJ
 github_username: mauriceweiler
 twitter_username: maurice_weiler
