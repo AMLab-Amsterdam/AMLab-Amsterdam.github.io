@@ -38,11 +38,11 @@
 @InProceedings{Falorsi2018homeomorphicVAEs,
   title     = {Explorations in homeomorphic variational auto-encoding},
   author    = {Falorsi, Luca and de Haan, Pim and Davidson, Tim R and De Cao, Nicola and Weiler, Maurice and Forr{\'e}, Patrick and Cohen, Taco S},
-  booktitle = {arXiv preprint arXiv:1807.04689},
+  booktitle = {{ICML 2018 Workshop on Theoretical Foundations and Applications of Deep Generative Models}},
   year      = 2018,
   html      = {https://arxiv.org/abs/1807.04689},
   pdf       = {https://arxiv.org/pdf/1807.04689.pdf},
-  abbr      = {{arXiv}},
+  abbr      = {{ICML workshop}},
   abstract  = {The manifold hypothesis states that many kinds of high-dimensional data are concentrated near a low-dimensional manifold. If the topology of this data manifold is non-trivial, a continuous encoder network cannot embed it in a one-to-one manner without creating holes of low density in the latent space. This is at odds with the Gaussian prior assumption typically made in Variational Auto-Encoders (VAEs), because the density of a Gaussian concentrates near a blob-like manifold. In this paper we investigate the use of manifold-valued latent variables. Specifically, we focus on the important case of continuously differentiable symmetry groups (Lie groups), such as the group of 3D rotations SO(3). We show how a VAE with SO(3)-valued latent variables can be constructed, by extending the reparameterization trick to compact connected Lie groups. Our experiments show that choosing manifold-valued latent variables that match the topology of the latent data manifold, is crucial to preserve the topological structure and learn a well-behaved latent space.},
 }
 
@@ -66,6 +66,7 @@
   year      = 2019,
   html      = {https://arxiv.org/abs/1906.02481},
   pdf       = {https://arxiv.org/pdf/1906.02481.pdf},
+  abbr      = {{ICML workshop}},
   abstract  = {In this proceeding we give an overview of the idea of covariance (or equivariance) featured in the recent development of convolutional neural networks (CNNs). We study the similarities and differences between the use of covariance in theoretical physics and in the CNN context. Additionally, we demonstrate that the simple assumption of covariance, together with the required properties of locality, linearity and weight sharing, is sufficient to uniquely determine the form of the convolution.},
 }
 
@@ -121,7 +122,7 @@
 @InProceedings{Weiler2021CoordinateIndependent,
   title     = {{Coordinate Independent Convolutional Networks - Isometry and Gauge Equivariant Convolutions on Riemannian Manifolds}},
   author    = {Weiler, Maurice and Forr{\'e}, Patrick and Verlinde, Erik and Welling, Max},
-  booktitle = {{International Conference on Learning Representations (ICLR)}},
+  booktitle = {arXiv preprint arXiv:2106.06020},
   year      = 2020,
   html      = {https://arxiv.org/abs/2106.06020},
   pdf       = {https://arxiv.org/pdf/2106.06020.pdf},
@@ -151,4 +152,24 @@
  pdf       = {https://openreview.net/pdf?id=WE4qe9xlnQw},
  abbr      = {{ICLR}},
  abstract  = {Equivariance is becoming an increasingly popular design choice to build data efficient neural networks by exploiting prior knowledge about the symmetries of the problem at hand. Euclidean steerable CNNs are one of the most common classes of equivariant networks. While the constraints these architectures need to satisfy are understood, no practical method to parametrize them generally has been described so far, with most existing approaches tailored to specific groups or classes of groups. In this work, we generalize the Wigner-Eckart theorem proposed in (Lang et al.), which characterizes general G-steerable kernel spaces for compact groups G over their homogeneous spaces, to arbitrary G-spaces. This enables us to directly parameterize filters in terms of a band-limited basis on the base space, but also to easily implement steerable CNNs equivariant to a large number of groups. To demonstrate its generality, we instantiate our method on a large variety of isometry groups acting on the Euclidean space R^3. Our general framework allows us to build E(3) and SE(3)-steerable CNNs like previous works, but also CNNs with arbitrary G<=O(3)-steerable kernels. For example, we build 3D CNNs equivariant to the symmetries of platonic solids or choose G=SO(2) when working with 3D data having only azimuthal symmetries. We compare these models on 3D shapes and molecular datasets, observing improved performance by matching the model's symmetries to the ones of the data.},
+}
+
+@InProceedings{zhang2023AI4Science,
+ title     = {{Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems}},
+ author    = {Xuan Zhang and Limei Wang and Jacob Helwig and Youzhi Luo and Cong Fu and Yaochen Xie and Meng Liu and Yuchao Lin and Zhao Xu and Keqiang Yan and Keir Adams and Maurice Weiler and Xiner Li and Tianfan Fu and Yucheng Wang and Haiyang Yu and YuQing Xie and Xiang Fu and Alex Strasser and Shenglong Xu and Yi Liu and Yuanqi Du and Alexandra Saxton and Hongyi Ling and Hannah Lawrence and Hannes Stärk and Shurui Gui and Carl Edwards and Nicholas Gao and Adriana Ladera and Tailin Wu and Elyssa F. Hofgard and Aria Mansouri Tehrani and Rui Wang and Ameya Daigavane and Montgomery Bohde and Jerry Kurtin and Qian Huang and Tuong Phung and Minkai Xu and Chaitanya K. Joshi and Simon V. Mathis and Kamyar Azizzadenesheli and Ada Fang and Alán Aspuru-Guzik and Erik Bekkers and Michael Bronstein and Marinka Zitnik and Anima Anandkumar and Stefano Ermon and Pietro Liò and Rose Yu and Stephan Günnemann and Jure Leskovec and Heng Ji and Jimeng Sun and Regina Barzilay and Tommi Jaakkola and Connor W. Coley and Xiaoning Qian and Xiaofeng Qian and Tess Smidt and Shuiwang Ji},
+ booktitle = "{arXiv preprint arXiv:2307.08423}",
+ year      = 2023,
+ html      = {https://arxiv.org/abs/2307.08423},
+ pdf       = {https://arxiv.org/pdf/2307.08423.pdf},
+ abbr      = {{Book}},
+ abstract  = {Advances in artificial intelligence (AI) are fueling a new paradigm of discoveries in natural sciences. Today, AI has started to advance natural sciences by improving, accelerating, and enabling our understanding of natural phenomena at a wide range of spatial and temporal scales, giving rise to a new area of research known as AI for science (AI4Science). Being an emerging research paradigm, AI4Science is unique in that it is an enormous and highly interdisciplinary area. Thus, a unified and technical treatment of this field is needed yet challenging. This paper aims to provide a technically thorough account of a subarea of AI4Science; namely, AI for quantum, atomistic, and continuum systems. These areas aim at understanding the physical world from the subatomic (wavefunctions and electron density), atomic (molecules, proteins, materials, and interactions), to macro (fluids, climate, and subsurface) scales and form an important subarea of AI4Science. A unique advantage of focusing on these areas is that they largely share a common set of challenges, thereby allowing a unified and foundational treatment. A key common challenge is how to capture physics first principles, especially symmetries, in natural systems by deep learning methods. We provide an in-depth yet intuitive account of techniques to achieve equivariance to symmetry transformations. We also discuss other common technical challenges, including explainability, out-of-distribution generalization, knowledge transfer with foundation and large language models, and uncertainty quantification. To facilitate learning and education, we provide categorized lists of resources that we found to be useful. We strive to be thorough and unified and hope this initial effort may trigger more community interests and efforts to further advance AI4Science.},
+}
+
+@InProceedings{weiler2023EquivariantAndCoordinateIndependentCNNs,
+ title     = {{Equivariant and Coordinate Independent Convolutional Networks - A Gauge Field Theory of Neural Networks}},
+ author    = {Weiler, Maurice and Forré, Patrick and Verlinde, Erik and Welling, Max},
+ year      = 2023,
+ html      = {https://maurice-weiler.gitlab.io/#cnn_book},
+ pdf       = {https://maurice-weiler.gitlab.io/cnn_book/EquivariantAndCoordinateIndependentCNNs.pdf},
+ abbr      = {{Book}},
 }
