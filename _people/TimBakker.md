@@ -14,7 +14,7 @@ one_liner: Active sensing and active learning
 bib_file: TimBakker
 redirect: 
 description: |
-    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) with [Herke van Hoof](https://staff.fnwi.uva.nl/h.c.vanhoof/homepage/) and [Max Welling](https://staff.fnwi.uva.nl/m.welling/). My research focuses on active learning and active sensing. Other interests include Bayesian DL, Safety, and AI4Science.
+    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) with [Herke van Hoof](https://staff.fnwi.uva.nl/h.c.vanhoof/homepage/) and [Max Welling](https://staff.fnwi.uva.nl/m.welling/). My research focuses on active learning and active sensing. Other interests include AI alignment, everything Bayesian, and reinforcement learning.
     
 img: assets/img/TimBakker.png
 img_promo: 

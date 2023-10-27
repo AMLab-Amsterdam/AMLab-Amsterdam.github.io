@@ -402,21 +402,6 @@ pdf={https://arxiv.org/abs/2102.08291},
 abstract={Reinforcement learning is a promising paradigm for solving sequential decision-making problems, but low data efficiency and weak generalization across tasks are bottlenecks in real-world applications. Model-based meta reinforcement learning addresses these issues by learning dynamics and leveraging knowledge from prior experience. In this paper, we take a closer look at this framework and propose a new posterior sampling based approach that consists of a new model to identify task dynamics together with an amortized policy optimization step. We show that our model, called a graph structured surrogate model (GSSM), achieves competitive dynamics prediction performance with lower model complexity. Moreover, our approach in policy search is able to obtain high returns and allows fast execution by avoiding test-time policy gradient updates.}
 }
 
-@inproceedings{bakker2022multi,
-  author={T. Bakker and M. Muckley and A. Romero-Soriano and M. Drozdzal and L. Pineda},
-  title={On learning adaptive acquisition policies for undersampled multi-coil {MRI} reconstruction},
-  month={July},
-  year={2022},
-  booktitle={Proceedings of Machine Learning Research},
-  abbr={MIDL},
-  pdf={https://arxiv.org/pdf/2203.16392.pdf},
-  title={Experimental design for {MRI} by greedy policy search},  code={https://github.com/facebookresearch/fastMRI},
-  note={FAIR internship, to appear},
-}
-
-
-
-
 @inproceedings{keller2021modeling,
 title={Modeling Category-Selective Cortical Regions with Topographic Variational Autoencoders},
 author={T. Anderson Keller and Qinghe Gao and Max Welling},
@@ -1020,11 +1005,11 @@ abbr={IJCAI}
 
 
 @inproceedings{bakker2020single,
-  author={T. Bakker and H. van Hoof and Max Welling},
   title={Experimental design for {MRI} by greedy policy search},
+  author={T. Bakker and H. van Hoof and Max Welling},
+  booktitle={Advances in Neural Information Processing Systems 33},
   month={Dec},
   year={2020},
-  booktitle={Advances in Neural Information Processing Systems 33},
   abbr={NeurIPS},
   pdf={https://arxiv.org/pdf/2010.16262.pdf},
   code={https://github.com/Timsey/pg_mri},
@@ -1043,4 +1028,25 @@ abbr={IJCAI}
   note={Best paper award runner-up},
 }
 
+@inproceedings{bakker2022multi,
+  title={On learning adaptive acquisition policies for undersampled multi-coil {MRI} reconstruction},
+  author={T. Bakker and M. Muckley and A. Romero-Soriano and M. Drozdzal and L. Pineda},
+  booktitle={Proceedings of Machine Learning Research},
+  month={July},
+  year={2022},
+  abbr={MIDL},
+  pdf={https://arxiv.org/pdf/2203.16392.pdf},
+  code={https://github.com/facebookresearch/fastMRI},
+  note={FAIR internship},
+}
 
+@inproceedings{bakker2023learning,
+  title={Learning objective-specific active learning strategies with Attentive Neural Processes},
+  author={Bakker, Tim and van Hoof, Herke and Welling, Max},
+  booktitle={Proceedings of the European Conference on Machine Learning},
+  month={September},
+  year={2023},
+  abbr={ECML},
+  pdf={https://arxiv.org/pdf/2309.05477.pdf},
+  code={https://github.com/Timsey/npal},
+}
