@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI alignment blog
-description: AI alignment: what is it, why is it important, and how can we achieve it?
+description: What is AI alignment, why is it important, and how can we achieve it?
 author: Tim Bakker
 date: 2023-10-27 8:00:00+0100
 ---
