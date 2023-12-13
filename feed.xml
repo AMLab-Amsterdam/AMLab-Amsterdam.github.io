@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-07T10:13:45+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://amlab-amsterdam.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amlab-amsterdam.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-13T10:02:35+00:00</updated><id>https://amlab-amsterdam.github.io/feed.xml</id><title type="html">blank</title><subtitle>Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
 </subtitle><entry><title type="html">AMLab Papers at NeurIPS 2023</title><link href="https://amlab-amsterdam.github.io/blog/2023/neurips/" rel="alternate" type="text/html" title="AMLab Papers at NeurIPS 2023" /><published>2023-11-20T07:00:00+00:00</published><updated>2023-11-20T07:00:00+00:00</updated><id>https://amlab-amsterdam.github.io/blog/2023/neurips</id><content type="html" xml:base="https://amlab-amsterdam.github.io/blog/2023/neurips/"><![CDATA[<div style="background-color: rgba(123, 104, 238, 0.1); padding: 10px 0; text-align: center;">
     <img src="https://neurips.cc/media/Press/NeurIPS_logo.svg" alt="NeurIPS" width="240" height="120" style="margin: auto;" />
 </div>
@@ -270,7 +270,7 @@
   <tr>
     <td style="width: 50%;">
       <strong style="font-size: 20px;">Active Learning Policies for Solving Inverse Problems</strong><br />
-      <em>T. Bakker, T. Hehn, T. Orekondy, A. Behboodi, F. Valerio Massoli</em><br />
+      <em>Tim Bakker, Thomas Hehn, Tribhuvanesh Orekondy, Arash Behboodi, Fabio Valerio Massoli</em><br />
 
       <span style="font-size: 14px; display: block; margin-bottom: 10px;">
         <a href="https://openreview.net/forum?id=eLIk3m5C79" style="text-decoration: none; color: #007bff;">Conference paper</a>
@@ -311,11 +311,13 @@
         #LongTermFairness #DynamicalSystems #MarkovChains
       </span>
 
-    </td>
-    <td style="width: 50%;">
-      <!-- Image placeholder since no image link is provided -->
-      <img src="/assets/neurips2023/Long-term-fair-picture-abstract.png" alt="Graphical Abstract" style="height: auto; max-height: 70%; width: auto; max-width: 70%;  margin-left: 15%;" />
-    </td>
+      </td>
+      <td style="position: relative; width: 50%;">
+        <img src="/assets/neurips2023/Long-term-fair-picture-abstract.png" alt="Graphical Abstract" style="height: auto; max-height: 70%; width: auto; max-width: 70%;  margin-left: 15%;" />
+        <span style="position: absolute; top: 14%; right: 0; background-color: #ffcc00; color: black; padding: 5px; font-size: 20px; transform: rotate(35deg); transform-origin: top right;">
+          Oral Presentation
+        </span>
+      </td>
   </tr>
 </table>
 
