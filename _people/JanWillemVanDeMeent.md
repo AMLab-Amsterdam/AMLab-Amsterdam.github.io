@@ -32,6 +32,9 @@ category: Staff
 <div class="publications">
 <h2>Recent Publications</h2>
 
+<h3>2024</h3>
+{% bibliography --file JanWillemVanDeMeent -q @*[year=2024]* %}
+
 <h3>2023</h3>
 {% bibliography --file JanWillemVanDeMeent -q @*[year=2023]* %}
 
@@ -40,9 +43,6 @@ category: Staff
 
 <h3>2021</h3>
 {% bibliography --file JanWillemVanDeMeent -q @*[year=2021]* %}
-
-<h3>2020</h3>
-{% bibliography --file JanWillemVanDeMeent -q @*[year=2020]* %}
 
 </div>
 
