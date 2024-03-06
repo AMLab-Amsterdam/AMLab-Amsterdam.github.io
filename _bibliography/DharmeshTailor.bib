@@ -1,15 +1,30 @@
 ---
 ---
 
+@inproceedings{nickl2023memory,
+  title={The Memory-Perturbation Equation: Understanding Model's Sensitivity to Data},
+  abstract = {Understanding model's sensitivity to its training data is crucial but can also be challenging and costly, especially during training. To simplify such issues, we present the Memory-Perturbation Equation (MPE) which relates model's sensitivity to perturbation in its training data. Derived using Bayesian principles, the MPE unifies existing sensitivity measures, generalizes them to a wide-variety of models and algorithms, and unravels useful properties regarding sensitivities. Our empirical results show that sensitivity estimates obtained during training can be used to faithfully predict generalization on unseen test data. The proposed equation is expected to be useful for future research on robust and adaptive learning.},
+  author={Nickl, Peter and Xu, Lu* and Tailor, Dharmesh* and Möllenhoff, Thomas and Khan, Mohammad Emtiyaz},
+  booktitle={37th Conference on Neural Information Processing Systems (NeurIPS)},
+  month={12},
+  year={2023},
+  abbr={NeurIPS},
+  html={https://openreview.net/forum?id=dqS1GuoG2V},
+  pdf={https://arxiv.org/pdf/2310.19273.pdf},
+  code={https://github.com/team-approx-bayes/memory-perturbation}
+}
+
 @inproceedings{tailor2023exploiting,
   title={Exploiting Inferential Structure in Neural Processes},
   abstract = {Neural Processes (NPs) are appealing due to their ability to perform fast adaptation based on a context set. This set is encoded by a latent variable, which is often assumed to follow a simple distribution. However, in real-word settings, the context set may be drawn from richer distributions having multiple modes, heavy tails, etc. In this work, we provide a framework that allows NPs' latent variable to be given a rich prior defined by a graphical model. These distributional assumptions directly translate into an appropriate aggregation strategy for the context set. Moreover, we describe a message-passing procedure that still allows for end-to-end optimization with stochastic gradients. We demonstrate the generality of our framework by using mixture and Student-t assumptions that yield improvements in function modelling and test-time robustness.},
   author={Tailor, Dharmesh and Khan, Mohammad Emtiyaz and Nalisnick, Eric},
-  booktitle={The 39th Conference on Uncertainty in Artificial Intelligence},
+  booktitle={39th Conference on Uncertainty in Artificial Intelligence (UAI)},
   year={2023},
   month={8},
-  html={https://proceedings.mlr.press/v216/tailor23a.html},
   abbr={UAI},
+  html={https://proceedings.mlr.press/v216/tailor23a.html},
+  pdf={https://arxiv.org/pdf/2306.15169.pdf},
+  code={https://github.com/dvtailor/np-structured-inference}
 }
 
 @inproceedings{tailor2023memory,
@@ -18,16 +33,18 @@
   booktitle={ICML 2023 Workshop on Principles of Duality for Modern Machine Learning},
   year={2023},
   month={7},
-  html={https://dp4ml.github.io/},
   abbr={DP4ML},
+  html={https://dp4ml.github.io/},
 }
 
-@inproceedings{nickl2023memory,
-  title={The Memory-Perturbation Equation: Understanding Model's Sensitivity to Data},
-  author={Nickl, Peter and Xu, Lu and Tailor, Dharmesh and Möllenhoff, Thomas and Khan, Mohammad Emtiyaz},
-  booktitle={ICML 2023 Workshop on Principles of Duality for Modern Machine Learning},
-  year={2023},
-  month={7},
-  html={https://dp4ml.github.io/},
-  abbr={DP4ML},
+@inproceedings{tailor2024l2dmeta,
+  title={Learning to Defer to a Population: A Meta-Learning Approach},
+  abstract = {The learning to defer (L2D) framework allows autonomous systems to be safe and robust by allocating difficult decisions to a human expert. All existing work on L2D assumes that each expert is well-identified, and if any expert were to change, the system should be re-trained. In this work, we alleviate this constraint, formulating an L2D system that can cope with never-before-seen experts at test-time. We accomplish this by using meta-learning, considering both optimization- and model-based variants. Given a small context set to characterize the currently available expert, our framework can quickly adapt its deferral policy. For the model-based approach, we employ an attention mechanism that is able to look for points in the context set that are similar to a given test point, leading to an even more precise assessment of the expert's abilities. In the experiments, we validate our methods on image recognition, traffic sign detection, and skin lesion diagnosis benchmarks.},
+  author={Tailor, Dharmesh and Patra, Aditya and Verma, Rajeev and Manggala, Putra and Nalisnick, Eric},
+  booktitle={27th International Conference on Artificial Intelligence and Statistics (to appear)},
+  year={2024},
+  month={5},
+  abbr={AISTATS},
+  pdf={https://arxiv.org/pdf/2403.02683.pdf},
+  code={https://github.com/dvtailor/meta-l2d},
 }
