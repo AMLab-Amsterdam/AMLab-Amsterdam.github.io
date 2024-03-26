@@ -2,7 +2,7 @@
 layout: person-page
 first_name: Alejandro
 middle_names: 
-last_name: García Castellanos
+last_name: García
 role: PhD candidate
 email: a.garciacastellanos@uva.nl
 lab: AMLab
