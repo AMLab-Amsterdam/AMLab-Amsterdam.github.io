@@ -1,19 +1,22 @@
 ---
 layout: person-page
-first_name: Babak
-last_name: Esmaeili
-role:
+first_name: Elise 
+last_name: van der Pol
+role: 
+email:
 office: 
+lab: AMLab
 institute: 
 university: 
-supervisors: 
+supervisors:
 one_liner:
 bib_file:
-img: assets/img/BabakEsmaeili.png
+img: assets/img/EliseVanDerPool.jpg
+lab: 
 redirect:
 description: 
 img_promo:
-personal_page: https://babak0032.github.io/
+personal_page: https://www.elisevanderpol.nl/
 category: Alumni
 ---
 

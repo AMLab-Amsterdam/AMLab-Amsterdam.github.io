@@ -36,7 +36,9 @@
     </p>
 
     <p>
+        {% if person.email %}
         <i class="far fa-envelope"></i>&nbsp;{{ person.email | obfuscate }}
+        {% endif %}
         {% if person.phone %}  
         <br><i class="fas fa-phone"></i>&nbsp; <a href="tel:{{person.phone}}">{{person.phone}}</a>
         {% endif %}

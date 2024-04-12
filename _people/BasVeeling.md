@@ -1,19 +1,22 @@
 ---
 layout: person-page
-first_name: Babak
-last_name: Esmaeili
-role:
+first_name: Bas 
+last_name: Veeling
+role: 
+email: 
 office: 
+lab: 
 institute: 
 university: 
 supervisors: 
 one_liner:
 bib_file:
-img: assets/img/BabakEsmaeili.png
+img: assets/img/BasVeeling.jpg
+lab: AMLab
 redirect:
 description: 
 img_promo:
-personal_page: https://babak0032.github.io/
+personal_page: https://basveeling.nl/
 category: Alumni
 ---
 

@@ -2,22 +2,20 @@
 layout: person-page
 first_name: Rob
 last_name: Hesselink
-role: PhD candidate
-email: r.d.hesselink@uva.nl
-supervisors: [Erik Bekkers]
-one_liner: Geometric deep learning, graphs and group equivariance
+role: 
+email: 
+supervisors: 
+one_liner: 
 lab: AMLab
-institute: Informatics Institute
-university: University of Amsterdam
+institute: 
+university: 
 redirect:
-description: I'm a PhD student thinking about learning on graphs, what we currently can/cannot/would like to do.
+description:
 img: https://ca.slack-edge.com/T0KLEK327-U018C1QR8BX-f7fa670ad54a-512
 img_promo:
 personal_page:
 scholar_userid:
-github_username: robdhess
-twitter_username: robdhess
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
