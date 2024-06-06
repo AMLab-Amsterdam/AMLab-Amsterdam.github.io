@@ -12,14 +12,13 @@ supervisors: [C. A. Naesseth]
 one_liner: Deep generative models, diffusion models, unsupervised learning
 bib_file:
 img: assets/img/GrigoryBartosh.jpg
-lab: AMLab
 redirect:
 description:
 img_promo:
 personal_page:
-scholar_userid:
+scholar_userid: QROuyifwpvkC
 github_username: GrigoryBartosh
-twitter_username:
+twitter_username: GrigoryBartosh
 category: PhD Students
 ---
 
