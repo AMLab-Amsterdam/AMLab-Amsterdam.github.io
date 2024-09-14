@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 description: 
 nav: true
-display_categories: [Staff, Postdocs, PhD Students]
+display_categories: [Staff, Postdocs, PhD Students, Alumni]
 ---
 
 <!-- pages/people.md -->

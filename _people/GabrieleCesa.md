@@ -18,7 +18,7 @@ img_promo:
 scholar_userid: hTplhaMAAAAJ&hl
 github_username: Gabri95
 twitter_username: _gabrielecesa_
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

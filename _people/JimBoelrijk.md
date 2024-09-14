@@ -22,7 +22,7 @@ personal_page:
 scholar_userid: 1z-BBwkAAAAJ
 github_username: Jimbo994
 twitter_username: JimBoelrijk
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

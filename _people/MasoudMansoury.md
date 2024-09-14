@@ -20,7 +20,7 @@ github_username: masoudmansoury
 twitter_username: MansouryMasoud
 order: 2
 bib_file: MasoudMansoury
-category: Postdocs 
+category: Alumni 
 ---
 
 {% include person_page.html person=page %}

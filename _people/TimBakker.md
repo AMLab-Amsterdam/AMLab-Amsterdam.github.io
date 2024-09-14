@@ -22,7 +22,7 @@ personal_page: https://tbbakker.nl
 scholar_userid: R5tE454AAAAJ
 github_username: Timsey
 twitter_username: timbbakker
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
