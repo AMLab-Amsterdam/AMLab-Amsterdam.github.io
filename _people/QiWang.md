@@ -16,7 +16,7 @@ description:
 img_promo: 
 personal_page: https://sites.google.com/view/albert-q-wang-at-ai-community/home
 github_username: hhq123gogogo
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

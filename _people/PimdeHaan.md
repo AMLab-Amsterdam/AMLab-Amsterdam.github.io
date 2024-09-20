@@ -24,7 +24,7 @@ personal_page: https://pimdehaan.com
 scholar_userid: AZeK-REAAAAJ
 github_username: pimdh
 twitter_username: pimdehaan
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

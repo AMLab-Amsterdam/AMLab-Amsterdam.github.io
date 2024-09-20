@@ -23,7 +23,7 @@ personal_page: https://babak0032.github.io/
 scholar_userid: cBD6liwAAAAJ
 github_username: babak0032
 twitter_username: bob_smiley_
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

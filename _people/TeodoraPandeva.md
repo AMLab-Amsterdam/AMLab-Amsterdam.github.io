@@ -20,7 +20,7 @@ personal_page:
 scholar_userid:
 github_username: tpandeva
 twitter_username: PandevaTeodora
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

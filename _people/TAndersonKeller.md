@@ -21,7 +21,7 @@ personal_page: https://akandykeller.github.io/
 scholar_userid: Tb86kC0AAAAJ
 github_username: akandykeller
 twitter_username: t_andy_keller
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

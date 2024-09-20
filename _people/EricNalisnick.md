@@ -18,7 +18,7 @@ scholar_userid: -hM1oqwAAAAJ
 github_username: enalisnick
 twitter_username: eric_nalisnick
 order: 2
-category: Staff
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

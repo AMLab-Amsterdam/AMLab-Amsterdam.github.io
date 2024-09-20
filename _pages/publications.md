@@ -12,7 +12,6 @@ Check out our people page to get an impression of the research done by the peopl
 
 <h2>2024</h2>
 {% bibliography -f AMLab -q @*[year=2024]* %}
-
   
 <h2>2023</h2>
 {% bibliography -f AMLab -q @*[year=2023]* %}

@@ -19,7 +19,7 @@ img_promo:
 scholar_userid: TfInmkIAAAAJ
 github_username: mfederici
 twitter_username: mfederici_
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

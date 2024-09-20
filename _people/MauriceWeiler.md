@@ -19,7 +19,7 @@ scholar_userid: uQePx6EAAAAJ
 github_username: mauriceweiler
 twitter_username: maurice_weiler
 
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

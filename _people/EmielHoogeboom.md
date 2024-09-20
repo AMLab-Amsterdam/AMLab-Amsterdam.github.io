@@ -22,7 +22,7 @@ personal_page: https://ehoogeboom.github.io
 scholar_userid: nkTd_BIAAAAJ
 github_username: ehoogeboom
 twitter_username: emiel_hoogeboom
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

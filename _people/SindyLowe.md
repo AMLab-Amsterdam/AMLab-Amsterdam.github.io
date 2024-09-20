@@ -22,7 +22,7 @@ personal_page: https://sindylowe.com
 scholar_userid: lZZIP9UAAAAJ
 github_username: loeweX
 twitter_username: sindy_loewe
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
