@@ -12,7 +12,7 @@ supervisors: [Erik Bekkers, Daan Pelt (ULEI)]
 one_liner: Generative modeling of shape and geometry
 redirect: 
 description: |
-    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) under the supervision of [Erik Bekkers](https://ebekkers.github.io/) (University of Amsterdam) and and co-supervision of [Daniël Pelt](https://dmpelt.github.io/) (University of Leiden). My research interest are the aplication of Topology, Geometry, and Algebra to the field of Representation Learning and Generative modeling of shapes.
+    I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) under the supervision of [Erik Bekkers](https://ebekkers.github.io/) (University of Amsterdam) and co-supervision of [Daniël Pelt](https://dmpelt.github.io/) (University of Leiden). My research interest are the application of Topology, Geometry, and Algebra to the field of Representation Learning and Generative modeling of shapes.
 
 img: assets/img/AlejandroGarcia.jpg
 img_promo: 
