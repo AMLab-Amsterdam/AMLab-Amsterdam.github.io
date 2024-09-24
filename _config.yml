@@ -6,17 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: AMLab
 middle_name: 
 last_name: "| Amsterdam Machine Learning Lab"
-email: F.E.Arends@uva.nl
-phone: +31 20 525 7884 
+email: info-science@uva.nl
+phone: +31 20 525 7678
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Amsterdam Machine Learning Lab, Informatics Institute, University of Amsterdam 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: machine learning research
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: amlab-icon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: AMLab-logo.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://AMLab-Amsterdam.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -112,7 +112,7 @@ collections:
     output: true
     permalink: /people/:path/
 
-news_limit: 8
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -207,8 +207,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: AMLab
+  first_name: Amsterdam Machine Learning Lab
 
   style: apa
   locale: en

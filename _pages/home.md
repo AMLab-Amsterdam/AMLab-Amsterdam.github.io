@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: amlablogo.png
+  image: AMLab-logo.svg
   address: # >
 #     <p>University of Amsterdam</p>
 #     <p>Science Park 904</p>

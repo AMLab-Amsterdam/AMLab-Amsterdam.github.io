@@ -20,7 +20,7 @@ personal_page: https://www.mathben.com/
 scholar_userid: IrCdg_wAAAAJ
 github_username: bkmi
 twitter_username: bkmi13
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

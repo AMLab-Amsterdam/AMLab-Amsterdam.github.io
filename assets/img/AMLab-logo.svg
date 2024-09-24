@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="221.02798pt"
+   height="128.51227pt"
+   viewBox="0 0 77.973764 45.336272"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="AMLab-logo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient857">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop853" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop855" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient857"
+       id="linearGradient859"
+       x1="26.224438"
+       y1="62.489281"
+       x2="43.242439"
+       y2="62.489281"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="134.09007"
+     inkscape:cy="65.502532"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="2552"
+     inkscape:window-height="1387"
+     inkscape:window-x="1540"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     units="pt"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-126.19282,-43.309747)">
+    <path
+       id="path1617"
+       style="fill:#1e98e2;fill-opacity:1;stroke:none;stroke-width:4.66666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 131.46289,2.5 A 69.029996,69.029996 0 0 0 69.423828,41.552734 c 0.673547,1.981624 1.346021,3.963677 2.019531,5.945313 a 64.999996,64.999996 0 0 1 59.917971,-40.8007814 64.999996,64.999996 0 0 1 0.41015,0 64.999996,64.999996 0 0 1 60.33399,40.8203124 c 0.62749,-1.846392 1.25541,-3.692642 1.88281,-5.539062 A 69.029996,69.029996 0 0 0 131.60352,2.5 a 69.029996,69.029996 0 0 0 -0.14063,0 z M 79.240234,116.50781 a 69.029996,69.029996 0 0 0 52.363286,24.05274 69.029996,69.029996 0 0 0 52.36718,-24.05274 c -1.70445,0 -3.40883,0 -5.11328,0 A 64.999996,64.999996 0 0 1 131.77148,136.69727 64.999996,64.999996 0 0 1 84.6875,116.50781 Z"
+       transform="matrix(0.26458333,0,0,0.26458333,122.50147,43.353854)" />
+    <g
+       aria-label="AB"
+       id="g913"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#ffffff;fill-opacity:1;stroke-width:0.264583" />
+    <g
+       aria-label="L"
+       id="text881"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#1e98e2;fill-opacity:1;stroke-width:0.264583">
+      <path
+         id="path936"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Bold';fill:#1e98e2;fill-opacity:1;stroke-width:0.999999"
+         d="m 154.99023,37.863281 c -5.5588,16.785556 -11.11788,33.570926 -16.67382,50.357422 v 18.281247 h 38.83203 V 92.103516 H 155.11719 V 37.863281 Z"
+         transform="matrix(0.26458333,0,0,0.26458333,122.50147,43.353854)" />
+    </g>
+    <g
+       aria-label="AB"
+       id="text873"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#1e98e2;fill-opacity:1;stroke-width:0.264583">
+      <path
+         d="m 183.26525,71.532715 h 4.572 l -6.1722,-18.161 h -4.6736 l -6.1722,18.161 h 4.572 l 1.0922,-3.81 h 5.6642 z m -3.9116,-14.0208 c 0,0 0.4064,1.9812 0.7366,3.1242 l 1.016,3.5306 h -3.5814 l 1.0414,-3.5306 c 0.3302,-1.143 0.7366,-3.1242 0.7366,-3.1242 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Bold';fill:#1e98e2;fill-opacity:1;stroke-width:0.264583"
+         id="path904" />
+      <path
+         d="m 189.87203,71.532715 h 6.6802 c 3.6068,0 6.9088,-1.4478 6.9088,-5.4102 0,-1.6002 -0.762,-3.4544 -2.8448,-4.0894 v -0.0508 c 1.3716,-0.7874 2.1082,-2.3368 2.1082,-3.8608 0,-3.1242 -2.54,-4.7498 -6.1722,-4.7498 h -6.6802 z m 4.445,-11.1252 v -3.2258 h 2.2098 c 1.1938,0 1.6764,0.7112 1.6764,1.5494 0,0.8636 -0.4826,1.6764 -1.6002,1.6764 z m 0,7.3152 v -3.7592 h 2.6924 c 1.2954,0 1.905,0.8382 1.905,1.8542 0,1.016 -0.635,1.905 -1.9304,1.905 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Bold';fill:#1e98e2;fill-opacity:1;stroke-width:0.264583"
+         id="path906" />
+    </g>
+    <g
+       aria-label="M"
+       id="text877"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#002c47;fill-opacity:1;stroke-width:0.264583">
+      <path
+         d="m 144.97896,71.532715 h 4.4704 l 0.5588,-8.1788 c 0.1016,-1.3716 0,-3.048 0,-3.048 h 0.0508 c 0,0 0.6096,1.905 1.016,3.048 l 1.905,5.2578 h 3.81 l 5.04719,-15.24 h -3.37079 l -2.6416,7.6708 c -0.4064,1.1684 -0.9144,2.9972 -0.9144,2.9972 h -0.0508 c 0,0 -0.508,-1.8288 -0.9144,-2.9972 l -2.6416,-7.6708 h -4.826 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Bold';fill:#002c47;fill-opacity:1;stroke-width:0.264583"
+         id="path889"
+         sodipodi:nodetypes="ccccccccccccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.55625000000000036px;line-height:1.25;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002c47;fill-opacity:1;stroke-width:0.264583;"
+       x="203.04057"
+       y="79.828339"
+       id="text885"><tspan
+         sodipodi:role="line"
+         id="tspan883"
+         x="203.04057"
+         y="79.828339"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.55625000000000036px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002c47;fill-opacity:1;stroke-width:0.264583;">Amsterdam</tspan><tspan
+         sodipodi:role="line"
+         x="203.04057"
+         y="86.773651"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.55625000000000036px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002c47;fill-opacity:1;stroke-width:0.264583;"
+         id="tspan887">Machine Learning Lab</tspan></text>
+    <g
+       aria-label="A"
+       id="text894"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#002c47;fill-opacity:1;stroke-width:0.264583">
+      <path
+         d="m 139.34438,71.532715 h 4.572 l -6.1722,-18.161 h -4.6736 l -6.1722,18.161 h 4.572 l 1.0922,-3.81 h 5.6642 z m -3.9116,-14.0208 c 0,0 0.4064,1.9812 0.7366,3.1242 l 1.016,3.5306 h -3.5814 l 1.0414,-3.5306 c 0.3302,-1.143 0.7366,-3.1242 0.7366,-3.1242 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Museo Sans';-inkscape-font-specification:'Museo Sans Bold';fill:#002c47;fill-opacity:1;stroke-width:0.264583"
+         id="path896" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';stroke-width:0.264583"
+       x="112.90801"
+       y="70.532425"
+       id="text934"><tspan
+         sodipodi:role="line"
+         id="tspan932"
+         x="112.90801"
+         y="70.532425"
+         style="stroke-width:0.264583" /></text>
+    <g
+       aria-label="M"
+       id="g979"
+       style="font-size:2.82223px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#002c47;fill-opacity:1;stroke-width:0.264583" />
+  </g>
+</svg>

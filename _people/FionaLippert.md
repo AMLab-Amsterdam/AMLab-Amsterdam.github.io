@@ -22,7 +22,7 @@ github_username: FionaLippert
 twitter_username: LippertFiona
 mastodon_username: fionalippert
 mastodon_server: sigmoid.social
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
