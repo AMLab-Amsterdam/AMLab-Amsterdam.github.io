@@ -21,7 +21,7 @@ personal_page: https://davidruhe.github.io/
 scholar_userid: JoXl9zUAAAAJ
 github_username: DavidRuhe
 twitter_username: djjruhe
-category: PhD Students 
+category: Alumni 
 ---
 
 {% include person_page.html person=page %}
