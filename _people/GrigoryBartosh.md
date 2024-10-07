@@ -10,12 +10,12 @@ institute: Informatics Institute
 university: University of Amsterdam
 supervisors: [C. A. Naesseth]
 one_liner: Deep generative models, diffusion models, unsupervised learning
-bib_file:
+bib_file: GrigoryBartosh
 img: assets/img/GrigoryBartosh.jpg
-redirect:
+redirect: https://grigorybartosh.github.io/
 description:
 img_promo:
-personal_page:
+personal_page: https://grigorybartosh.github.io/
 scholar_userid: QROuyifwpvkC
 github_username: GrigoryBartosh
 twitter_username: GrigoryBartosh
