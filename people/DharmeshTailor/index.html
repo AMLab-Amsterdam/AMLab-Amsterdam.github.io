@@ -177,6 +177,38 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="tailor2025approxfcp" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Approximating Full Conformal Prediction for Neural Network Regression with Gauss-Newton Influence</div>
+          <!-- Author -->
+          <div class="author">Tailor, Dharmesh, Correia, Alvaro, Nalisnick, Eric, and Louizos, Christos
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 13th International Conference on Learning Representations (to appear)</em> Apr 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/forum?id=vcX0k4rGTt" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Uncertainty quantification is an important prerequisite for the deployment of deep learning models in safety-critical areas. Yet, this hinges on the uncertainty estimates being useful to the extent the predictive prediction intervals are well-calibrated and sharp. In the absence of inherent uncertainty estimates (e.g. pretrained models), popular approaches that operate post-hoc include Laplace’s method and split conformal prediction (split-CP). However, Laplace’s method can be miscalibrated when the model is misspecified and split-CP requires sample splitting, and thus comes at the expense of statistical efficiency. In this work, we construct prediction intervals for neural network regressors post-hoc without held-out data. This is achieved by approximating the full conformal prediction method (full-CP). Whilst full-CP nominally requires retraining the model for every test point and candidate label, we propose to train just once and locally perturb model parameters using Gauss-Newton influence to approximate the effect of retraining. Coupled with linearization of the network, we express the absolute residual nonconformity score as a piecewise linear function of the candidate label allowing for an efficient procedure that avoids the exhaustive search over the output space. On standard regression benchmarks and bounding box localization, we show the resulting prediction intervals are locally-adaptive and often tighter than those of split-CP.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">AISTATS</abbr></div>
 
         <!-- Entry bib key -->
@@ -190,12 +222,13 @@
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 27th International Conference on Artificial Intelligence and Statistics (to appear)</em> May 2024
+            <em>In 27th International Conference on Artificial Intelligence and Statistics</em> May 2024
           </div>
         
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://proceedings.mlr.press/v238/tailor24a.html" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="https://arxiv.org/pdf/2403.02683.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
             <a href="https://github.com/dvtailor/meta-l2d" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
