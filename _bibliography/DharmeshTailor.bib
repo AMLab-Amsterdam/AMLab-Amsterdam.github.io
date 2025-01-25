@@ -41,10 +41,22 @@
   title={Learning to Defer to a Population: A Meta-Learning Approach},
   abstract = {The learning to defer (L2D) framework allows autonomous systems to be safe and robust by allocating difficult decisions to a human expert. All existing work on L2D assumes that each expert is well-identified, and if any expert were to change, the system should be re-trained. In this work, we alleviate this constraint, formulating an L2D system that can cope with never-before-seen experts at test-time. We accomplish this by using meta-learning, considering both optimization- and model-based variants. Given a small context set to characterize the currently available expert, our framework can quickly adapt its deferral policy. For the model-based approach, we employ an attention mechanism that is able to look for points in the context set that are similar to a given test point, leading to an even more precise assessment of the expert's abilities. In the experiments, we validate our methods on image recognition, traffic sign detection, and skin lesion diagnosis benchmarks.},
   author={Tailor, Dharmesh and Patra, Aditya and Verma, Rajeev and Manggala, Putra and Nalisnick, Eric},
-  booktitle={27th International Conference on Artificial Intelligence and Statistics (to appear)},
+  booktitle={27th International Conference on Artificial Intelligence and Statistics},
   year={2024},
   month={5},
   abbr={AISTATS},
+  html={https://proceedings.mlr.press/v238/tailor24a.html},
   pdf={https://arxiv.org/pdf/2403.02683.pdf},
   code={https://github.com/dvtailor/meta-l2d},
+}
+
+@inproceedings{tailor2025approxfcp,
+  title={Approximating Full Conformal Prediction for Neural Network Regression with Gauss-Newton Influence},
+  abstract={Uncertainty quantification is an important prerequisite for the deployment of deep learning models in safety-critical areas. Yet, this hinges on the uncertainty estimates being useful to the extent the predictive prediction intervals are well-calibrated and sharp. In the absence of inherent uncertainty estimates (e.g. pretrained models), popular approaches that operate post-hoc include Laplace’s method and split conformal prediction (split-CP). However, Laplace’s method can be miscalibrated when the model is misspecified and split-CP requires sample splitting, and thus comes at the expense of statistical efficiency. In this work, we construct prediction intervals for neural network regressors post-hoc without held-out data. This is achieved by approximating the full conformal prediction method (full-CP). Whilst full-CP nominally requires retraining the model for every test point and candidate label, we propose to train just once and locally perturb model parameters using Gauss-Newton influence to approximate the effect of retraining. Coupled with linearization of the network, we express the absolute residual nonconformity score as a piecewise linear function of the candidate label allowing for an efficient procedure that avoids the exhaustive search over the output space. On standard regression benchmarks and bounding box localization, we show the resulting prediction intervals are locally-adaptive and often tighter than those of split-CP.},
+  author={Tailor, Dharmesh and Correia, Alvaro and Nalisnick, Eric and Louizos, Christos},
+  booktitle={13th International Conference on Learning Representations (to appear)},
+  year={2025},
+  month={4},
+  html={https://openreview.net/forum?id=vcX0k4rGTt},
+  abbr={ICLR},
 }
