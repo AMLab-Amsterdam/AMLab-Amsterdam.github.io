@@ -15,7 +15,7 @@ description: >
 
   My research focuses on sequential decision-making problems under uncertainty and the connection to statistical inference. 
 
-scholar_userid: fhYBZTcAAAAJ
+scholar_userid: 9LrmZZwAAAAJ
 github_username: hanyas
 twitter_username: HanyAbdulsamad
 category: Postdocs
