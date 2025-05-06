@@ -9,7 +9,7 @@ lab: AMLab
 institute: Institute of Informatics
 university: University of Amsterdam
 supervisors: [Erik Bekkers, Daan Pelt (ULEI)]
-one_liner: Generative modeling of shape and geometry
+one_liner: Geometrical and Topological Representation Learning
 redirect: 
 description: |
     I am a PhD student at the [Amsterdam Machine Learning Lab](/) (AMLab) under the supervision of [Erik Bekkers](https://ebekkers.github.io/) (University of Amsterdam) and co-supervision of [Daniël Pelt](https://dmpelt.github.io/) (University of Leiden). My research interest are the application of Topology, Geometry, and Algebra to the field of Representation Learning and Generative modeling of shapes.
