@@ -1,0 +1,21 @@
+@inproceedings{bokman2025flopping,
+    title={Flopping for {FLOP}s: Leveraging Equivariance for Computational Efficiency},
+    author={Georg B{\"o}kman and David Nordstr{\"o}m and Fredrik Kahl},
+    booktitle={Forty-second International Conference on Machine Learning},
+    abbr={{ICML}},
+    year=2025,
+    url={https://arxiv.org/abs/2502.05169},
+    code={https://github.com/georg-bn/flopping-for-flops},
+    abstract={Incorporating geometric invariance into neural networks enhances parameter efficiency but typically increases computational costs. This paper introduces new equivariant neural networks that preserve symmetry while maintaining a comparable number of floating-point operations (FLOPs) per parameter to standard non-equivariant networks. We focus on horizontal mirroring (flopping) invariance, common in many computer vision tasks. The main idea is to parametrize the feature spaces in terms of mirror-symmetric and mirror-antisymmetric features, i.e., irreps of the flopping group. This decomposes the linear layers to be block-diagonal, requiring half the number of FLOPs. Our approach reduces both FLOPs and wall-clock time, providing a practical solution for efficient, scalable symmetry-aware architectures.},
+}
+
+@inproceedings{bokman2024steerers,
+    title={Steerers: A framework for rotation equivariant keypoint descriptors},
+    author={B{\"o}kman, Georg and Edstedt, Johan and Felsberg, Michael and Kahl, Fredrik},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    abbr={{CVPR}},
+    year=2024,
+    url={https://arxiv.org/abs/2312.02152},
+    code={https://github.com/georg-bn/rotation-steerers},
+    abstract={Image keypoint descriptions that are discriminative and matchable over large changes in viewpoint are vital for 3D reconstruction. However, descriptions output by learned descriptors are typically not robust to camera rotation. While they can be made more robust by, e.g., data augmentation, this degrades performance on upright images. Another approach is test-time augmentation, which incurs a significant increase in runtime. Instead, we learn a linear transform in description space that encodes rotations of the input image. We call this linear transform a steerer since it allows us to transform the descriptions as if the image was rotated. From representation theory, we know all possible steerers for the rotation group. Steerers can be optimized (A) given a fixed descriptor, (B) jointly with a descriptor or (C) we can optimize a descriptor given a fixed steerer. We perform experiments in these three settings and obtain state-of-the-art results on the rotation invariant image matching benchmarks AIMS and Roto-360.},
+}
