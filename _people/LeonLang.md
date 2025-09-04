@@ -20,7 +20,7 @@ personal_page: https://langleon.github.io/
 scholar_userid: E3ae_sMAAAAJ
 github_username: LangLeon
 twitter_username: Lang__Leon
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

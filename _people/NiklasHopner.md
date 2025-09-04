@@ -19,7 +19,7 @@ img: assets/img/NiklasHopner.png
 img_promo: 
 personal_page: 
 github_username: NikeHop
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

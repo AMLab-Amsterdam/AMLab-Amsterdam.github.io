@@ -17,7 +17,7 @@ personal_page:
 scholar_userid: 
 github_username: 
 twitter_username: 
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
