@@ -20,7 +20,7 @@ img_promo:
 personal_page:
 scholar_userid: 6k4Pu4YAAAAJ
 github_username: Kuroo
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

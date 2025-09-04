@@ -23,7 +23,7 @@ personal_page: https://heikozimmermann.com
 scholar_userid: 6etmkQYAAAAJ
 github_username: zmheiko
 twitter_username: zmheiko
-category: PhD Students 
+category: Alumni
 ---
 
 {% include person_page.html person=page %}

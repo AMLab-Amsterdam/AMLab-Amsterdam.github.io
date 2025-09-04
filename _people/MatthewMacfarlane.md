@@ -16,7 +16,7 @@ redirect:
 description: |
     I am a PhD student in Reinforcement Learning at Amsterdam Machine Learning Lab (AMLab), supervised by Dr. Herke van Hoof. I am interested in model based reinforcement learning, meta-reinforcement learning and the application of these methods to Combinatorial Optimization.
 img_promo:
-category: PhD Students
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
