@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AMLab  | Amsterdam Machine Learning Lab | Monaschirmer</title>
     <meta name="author" content="AMLab  | Amsterdam Machine Learning Lab" />
-    <meta name="description" content="I am a PhD student in Machine Learning at [Amsterdam Machine Learning Lab](/) (AMLab) and [Delta Lab](https://ivi.fnwi.uva.nl/uvaboschdeltalab/), supervised by [Eric Nalisnick](https://amlab.science.uva.nl/people/EricNalisnick/) and [Dan Zhang](https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html). I am interested in continuous-time modeling, distribution shifts and continual learning." />
+    <meta name="description" content="I am a PhD student in Machine Learning at [Amsterdam Machine Learning Lab](/) (AMLab) and [Delta Lab](https://ivi.fnwi.uva.nl/uvaboschdeltalab/), supervised by [Eric Nalisnick](https://amlab.science.uva.nl/people/EricNalisnick/) and [Dan Zhang](https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html). I am interested in sequence models, robustness and unsupervised adaptation." />
     <meta name="keywords" content="machine learning research" />
 
 
@@ -96,7 +96,7 @@
 
 <!--   <header class="post-header">
     <h1 class="post-title">MonaSchirmer.md</h1>
-    <p class="post-description">Distribution shifts, continual learning</p>
+    <p class="post-description">Sequence models, robustness</p>
   </header>
  -->
   <article>
@@ -159,7 +159,7 @@
      
 </div>
 
-<p>I am a PhD student in Machine Learning at <a href="/">Amsterdam Machine Learning Lab</a> (AMLab) and <a href="https://ivi.fnwi.uva.nl/uvaboschdeltalab/" target="_blank" rel="noopener noreferrer">Delta Lab</a>, supervised by <a href="https://amlab.science.uva.nl/people/EricNalisnick/" target="_blank" rel="noopener noreferrer">Eric Nalisnick</a> and <a href="https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html" target="_blank" rel="noopener noreferrer">Dan Zhang</a>. I am interested in continuous-time modeling, distribution shifts and continual learning.</p>
+<p>I am a PhD student in Machine Learning at <a href="/">Amsterdam Machine Learning Lab</a> (AMLab) and <a href="https://ivi.fnwi.uva.nl/uvaboschdeltalab/" target="_blank" rel="noopener noreferrer">Delta Lab</a>, supervised by <a href="https://amlab.science.uva.nl/people/EricNalisnick/" target="_blank" rel="noopener noreferrer">Eric Nalisnick</a> and <a href="https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html" target="_blank" rel="noopener noreferrer">Dan Zhang</a>. I am interested in sequence models, robustness and unsupervised adaptation.</p>
 
 
 <br>
@@ -171,7 +171,42 @@
 
 <div class="publications">
 <h2>Selected Publications</h2>
-<ol class="bibliography"><li>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="schirmer2025monitoring" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Monitoring Risks in Test-time Adaptation</div>
+          <!-- Author -->
+          <div class="author">Schirmer, Mona, Jazbec, Metod, Naesseth, Christian A, and Nalisnick, Eric
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Advances in Neural Information Processing Systems</em> Mar 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/forum?id=TzHX2RWUdE" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://arxiv.org/pdf/2507.08721" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+            <a href="https://github.com/monasch/tta-monitor" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Encountering shifted data at test time is a ubiquitous challenge when deploying predictive models. Test-time adaptation (TTA) methods address this issue by continuously adapting a deployed model using only unlabeled test data. While TTA can extend the model’s lifespan, it is only a temporary solution.  Eventually the model might degrade to the point that it must be taken offline and retrained. To detect such points of ultimate failure, we propose pairing TTA with risk monitoring frameworks that track predictive performance and raise alerts when predefined performance criteria are violated. Specifically, we extend existing monitoring tools based on sequential testing with confidence sequences to accommodate scenarios in which the model is updated at test time and no test labels are available to estimate the performance metrics of interest. Our extensions unlock the application of rigorous statistical risk monitoring to TTA, and we demonstrate the effectiveness of our proposed TTA monitoring framework across a representative set of datasets, distribution shift types, and TTA methods.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">ICML</abbr></div>
@@ -205,7 +240,8 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 </div>
  
 
