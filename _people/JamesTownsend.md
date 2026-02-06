@@ -33,7 +33,7 @@ personal_page: https://j-towns.github.io
 scholar_userid: fhYBZTcAAAAJ
 github_username: j-towns
 twitter_username: _j_towns
-category: Postdocs
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
