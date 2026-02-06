@@ -21,8 +21,7 @@ personal_page: https://ai4science-amsterdam.github.io
 scholar_userid: fWbf74cAAAAJ
 github_username: patrickforre
 twitter_username:
-category: Staff
-order: 2
+category: Alumni
 ---
 
 {% include person_page.html person=page %}
