@@ -16,7 +16,7 @@ description: I am a PhD student in Machine Learning at [Amsterdam Machine Learni
    
 img: assets/img/TinHadziVeljkovic.jpg
 img_promo: 
-personal_page:
+personal_page: https://stases.github.io
 scholar_userid: Ie73vfYAAAAJ
 github_username: stases	
 twitter_username: HvTin
