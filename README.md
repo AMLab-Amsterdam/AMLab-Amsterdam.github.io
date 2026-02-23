@@ -4,7 +4,7 @@ This website uses the [Jekyll](https://jekyllrb.com/) static site generator, whi
 
 1. Ensure that **Ruby 3** is installed ([Instructions](https://www.ruby-lang.org/en/documentation/installation)). 
 
-    *Note for MacOS users:* We recommend that you do not modify the system-installed Ruby version, which may break scripts required by the OS. Instead install a copy of Ruby via [Homebrew](https://brew.sh/) or [Macports](https://www.macports.org/).
+    *Note for MacOS users:* We recommend that you do not modify the system-installed Ruby version, which may break scripts required by the OS. Instead install a copy of Ruby via [Homebrew](https://brew.sh/) or [Macports](https://www.macports.org/). Ensure you install version 3 by specifying `brew install ruby@3`. Verify this is the version found by bash (`ruby -v`).
 
 2. Ensure that you have the latest bundler version installed. On MacOS/Linux this can be done by typing:
 ```
