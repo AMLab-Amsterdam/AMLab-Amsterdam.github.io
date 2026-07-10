@@ -33,9 +33,21 @@ An ideal background is a degree in a relevant field such as Artificial Intellige
 
 Research skills in machine learning and artificial intelligence are very much in demand. Students from our lab have moved on to excellent positions in both academia and industry, nationally as well as internationally. 
 
-**I am an MSc student at the UvA, can I do my thesis research at AMLab?**
+**I am an MSc AI student at the UvA, can I do a Project AI (separate from my thesis project) at AMLab?**
 
-Most faculty at AMLab advise a few MSc students at any point in time. MSc project proposals are usually listed on DataNose. If you are interested, you should contact the member of faculty that you are interested in collaborating with 2-3 months in advance to discuss potential projects. 
+Yes. Alongside the thesis project, the UvA MSc AI programme lets you do Project AI, a separate, smaller individual research project for course credit with a UvA research group. This is a good way to get research experience with an AMLab faculty member, and a natural first step before continuing with the same advisor into a thesis project. Contact the faculty member you would like to work with well in advance to discuss a topic. Note that including a Project AI in your study plan requires approval from the Examinations Board.
+
+**I am an MSc AI student at the UvA, can I do my thesis project at AMLab?**
+
+Most faculty at AMLab advise a few MSc students at any point in time. MSc thesis project proposals are usually listed on DataNose. If you are interested, you should contact the member of faculty that you are interested in collaborating with 2-3 months in advance to discuss potential projects. If you've already done a Project AI with someone at AMLab, continuing with the same advisor into your thesis project is a natural next step. If you are going to do your thesis project with us, we recommend that you consider applying to the ELLIS MSc Honours Programme (see next question).
+
+**What is the ELLIS MSc Honours Programme?**
+
+The ELLIS Amsterdam MSc Honours Programme connects excellent MSc students with the ELLIS research community, including a co-supervised thesis project with a partner institution elsewhere in Europe. If you're interested, a Project AI followed by a thesis project with an AMLab advisor (as above) is a good way to build toward an application. See the [ELLIS Unit Amsterdam page](https://ivi.fnwi.uva.nl/ellis/funding/ellis-msc-honours-programme/) for details, funding, and deadlines.
+
+**I am an MSc student in another programme, or at another university, can I do a research project or thesis at AMLab?**
+
+As a rule, we do not advise MSc students outside the UvA MSc AI programme, since advising within MSc AI already takes up most of our available teaching capacity. That said, individual faculty may make exceptions when there is a particularly good fit with a student's research interests. If you think this applies to you, feel free to reach out to the faculty member you are interested in working with and explain the fit.
 
 **I am an ELLIS PhD student, can AMLab be the exchange institution?**
 
