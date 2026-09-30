@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AMLab  | Amsterdam Machine Learning Lab | Jacobusdijkman</title>
     <meta name="author" content="AMLab  | Amsterdam Machine Learning Lab" />
-    <meta name="description" content="PhD student at the [Amsterdam Machine Learning Lab](http://amlab.science.uva.nl/) (AMLab) in collaboration with the [Computational Chemistry Group](https://www.compchem.nl/), supervised by [Jan-Willem van de Meent](https://jwvdm.github.io/), [Max Welling](https://staff.fnwi.uva.nl/m.welling/) and [Bernd Ensing](https://www.compchem.nl/staff_members/dr-ir-b-bernd-ensing/). I’m passionate about the application of machine learning to molecular sciences. During this PhD project I’m exploring the potential of deep learning to aid in the design of catalyst materials, with the design of optimal catalysts for CO2 reduction as the ultimate goal. 
+    <meta name="description" content="Final-year PhD student at the [Amsterdam Machine Learning Lab](http://amlab.science.uva.nl/) (AMLab) in collaboration with the [Computational Chemistry Group](https://www.compchem.nl/), supervised by [Jan-Willem van de Meent](https://jwvdm.github.io/), [Max Welling](https://staff.fnwi.uva.nl/m.welling/) and [Bernd Ensing](https://www.compchem.nl/staff_members/dr-ir-b-bernd-ensing/). I combine statistical physics with machine learning to describe molecular fluids and accelerate materials discovery. My current work develops neural free-energy functionals for classical density functional theory. These are trained on molecular simulation data to predict how fluids adsorb in porous materials such as metal-organic frameworks.
 " />
     <meta name="keywords" content="machine learning research" />
 
@@ -97,7 +97,7 @@
 
 <!--   <header class="post-header">
     <h1 class="post-title">JacobusDijkman.md</h1>
-    <p class="post-description">Deep Learning for Catalyst Design</p>
+    <p class="post-description">Statistical physics meets machine learning for materials discovery</p>
   </header>
  -->
   <article>
@@ -151,6 +151,8 @@
 
          
     
+    <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=JMPMHOoAAAAJ" title="Scholar" target="_blank" rel="noopener noreferrer">Google scholar </a> 
+    
     
     <i class="fab fa-github"></i> <a href="https://github.com/JJLDijkman" title="GitHub" target="_blank" rel="noopener noreferrer"> Github </a> 
     
@@ -160,7 +162,7 @@
      
 </div>
 
-<p>PhD student at the <a href="http://amlab.science.uva.nl/" target="_blank" rel="noopener noreferrer">Amsterdam Machine Learning Lab</a> (AMLab) in collaboration with the <a href="https://www.compchem.nl/" target="_blank" rel="noopener noreferrer">Computational Chemistry Group</a>, supervised by <a href="https://jwvdm.github.io/" target="_blank" rel="noopener noreferrer">Jan-Willem van de Meent</a>, <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank" rel="noopener noreferrer">Max Welling</a> and <a href="https://www.compchem.nl/staff_members/dr-ir-b-bernd-ensing/" target="_blank" rel="noopener noreferrer">Bernd Ensing</a>. I’m passionate about the application of machine learning to molecular sciences. During this PhD project I’m exploring the potential of deep learning to aid in the design of catalyst materials, with the design of optimal catalysts for CO2 reduction as the ultimate goal.</p>
+<p>Final-year PhD student at the <a href="http://amlab.science.uva.nl/" target="_blank" rel="noopener noreferrer">Amsterdam Machine Learning Lab</a> (AMLab) in collaboration with the <a href="https://www.compchem.nl/" target="_blank" rel="noopener noreferrer">Computational Chemistry Group</a>, supervised by <a href="https://jwvdm.github.io/" target="_blank" rel="noopener noreferrer">Jan-Willem van de Meent</a>, <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank" rel="noopener noreferrer">Max Welling</a> and <a href="https://www.compchem.nl/staff_members/dr-ir-b-bernd-ensing/" target="_blank" rel="noopener noreferrer">Bernd Ensing</a>. I combine statistical physics with machine learning to describe molecular fluids and accelerate materials discovery. My current work develops neural free-energy functionals for classical density functional theory. These are trained on molecular simulation data to predict how fluids adsorb in porous materials such as metal-organic frameworks.</p>
 
 
 <br>
@@ -169,6 +171,78 @@
 
 </div>
 
+
+<div class="publications">
+<h2>Selected Publications</h2>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">PRE</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="ram2025learned" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Learned Free-Energy Functionals from Pair-Correlation Matching for Dynamical Density Functional Theory</div>
+          <!-- Author -->
+          <div class="author">Ram, Karnik, Dijkman, Jacobus, van Roij, René, van de Meent, Jan-Willem, Ensing, Bernd, Welling, Max, and Cremers, Daniel
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Physical Review E</em> Oct 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://journals.aps.org/pre/abstract/10.1103/22fd-ykkb" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://arxiv.org/pdf/2505.09543" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Classical density functional theory (cDFT) and dynamical density functional theory (DDFT) are modern statistical mechanical theories for modeling many-body colloidal systems at the one-body density level. The theories hinge on knowing the excess free-energy accurately, which is, however, not feasible for most practical applications. Dijkman et al. recently showed how a neural excess free-energy functional for cDFT can be learned from bulk simulations via pair-correlation matching. In this article, we demonstrate how this same functional can be applied to DDFT, without any retraining, to simulate nonequilibrium overdamped dynamics of inhomogeneous densities. We evaluate this on a three-dimensional Lennard-Jones system with planar geometry under various complex external potentials, and we observe good agreement of the dynamical densities with those from expensive Brownian dynamic simulations, up to the limit of the adiabatic approximation. We further develop and apply an extension of DDFT based on gradient flows to a grand-canonical system modeled after breakthrough gas adsorption studies, finding similarly good agreement. Our results demonstrate a practical route for leveraging learned free-energy functionals in DDFT, paving the way for accurate and efficient modeling of many-body nonequilibrium systems.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">PRL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="dijkman2025learning" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Learning Neural Free-Energy Functionals with Pair-Correlation Matching</div>
+          <!-- Author -->
+          <div class="author">Dijkman, Jacobus, Dijkstra, Marjolein, van Roij, René, Welling, Max, van de Meent, Jan-Willem, and Ensing, Bernd
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Physical Review Letters</em> Feb 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.056103" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://arxiv.org/pdf/2403.15007" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The intrinsic Helmholtz free-energy functional, the centerpiece of classical density functional theory, is at best only known approximately for 3D systems. Here we introduce a method for learning a neural-network approximation of this functional by exclusively training on a dataset of radial distribution functions, circumventing the need to sample costly heterogeneous density profiles in a wide variety of external potentials. For a supercritical Lennard-Jones system with planar symmetry, we demonstrate that the learned neural free-energy functional accurately predicts inhomogeneous density profiles under various complex external potentials obtained from simulations.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+</div>
  
 
 
