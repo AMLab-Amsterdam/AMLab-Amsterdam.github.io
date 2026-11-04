@@ -1,3 +1,27 @@
+@inproceedings{schubert2026local,
+  title     = {Local Causal Discovery for Statistically Efficient Causal Inference},
+  author    = {M{\'a}ty{\'a}s Schubert and Tom Claassen and Sara Magliacane},
+  booktitle = {The 29th International Conference on Artificial Intelligence and Statistics},
+  year      = {2026},
+  month     = {02--05 May},
+  url       = {https://openreview.net/forum?id=FlWl20PFd7}
+}
+
+@inproceedings{schubert2025snap,
+  title     = {SNAP: Sequential Non-Ancestor Pruning for Targeted Causal Effect Estimation With an Unknown Graph},
+  author    = {Schubert, M{\'a}ty{\'a}s and Claassen, Tom and Magliacane, Sara},
+  booktitle = {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages     = {3340--3348},
+  year      = {2025},
+  editor    = {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  volume    = {258},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {03--05 May},
+  publisher = {PMLR},
+  pdf       = {https://raw.githubusercontent.com/mlresearch/v258/main/assets/schubert25a/schubert25a.pdf},
+  url       = {https://proceedings.mlr.press/v258/schubert25a.html}
+}
+
 @article{zugec2026orbitol,
   title = {Orbitol: Crystal Generation on Wyckoff Orbits},
   author = {{\v{Z}}ugec, Ivan and Rosenthal, Joshua and Lon\v{c}ari\'{c}, Ivor and {van de Meent}, Jan-Willem and {Had\v{z}i Veljkovi\'{c}}, Tin},
@@ -352,7 +376,7 @@ code={https://github.com/NikeHop/UniversalPolicies}
   year = {2024},
   volume = {37},
   pages = {84081--84113},
-  abbr = {NeurIPS}, 
+  abbr = {NeurIPS},
   publisher = {Curran Associates, Inc.},
   html = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/98d17a9632e1534bae96793e99dc3c2d-Abstract-Conference.html},
   pdf = {https://proceedings.neurips.cc/paper_files/paper/2024/file/98d17a9632e1534bae96793e99dc3c2d-Paper-Conference.pdf},
@@ -833,20 +857,20 @@ author = {Wang, Qi and van Hoof, Herke},
 year = {2022},
 booktitle = {Advances in Neural Information Processing Systems},
 abbr={NeurIPS},
-abstract={Neural processes (NPs) formulate exchangeable stochastic processes and are promising models for meta learning that do not require gradient updates during the testing phase. 
-However, most NP variants place a strong emphasis on a global latent variable. 
+abstract={Neural processes (NPs) formulate exchangeable stochastic processes and are promising models for meta learning that do not require gradient updates during the testing phase.
+However, most NP variants place a strong emphasis on a global latent variable.
 This weakens the approximation power and restricts the scope of applications using NP variants, especially when data generative processes are complicated.
-To resolve these issues, we propose to combine the Mixture of Expert models with Neural Processes to develop more expressive exchangeable stochastic processes, referred to as Mixture of Expert Neural Processes (MoE-NPs). 
-Then we apply MoE-NPs to both few-shot supervised learning and meta reinforcement learning tasks. 
+To resolve these issues, we propose to combine the Mixture of Expert models with Neural Processes to develop more expressive exchangeable stochastic processes, referred to as Mixture of Expert Neural Processes (MoE-NPs).
+Then we apply MoE-NPs to both few-shot supervised learning and meta reinforcement learning tasks.
 Empirical results demonstrate MoE-NPs' strong generalization capability to unseen tasks in these benchmarks.}
 }
 
 @inproceedings{feng2022factored,
   doi = {10.48550/ARXIV.2203.16582},
   html = {https://arxiv.org/abs/2203.16582},
-  
+
   author = {Feng, Fan and Huang, Biwei and Zhang, Kun and Magliacane, Sara},
-  
+
   title = {Factored Adaptation for Non-Stationary Reinforcement Learning},
 
   abstract = {Dealing with non-stationarity in environments (e.g., in the transition dynamics) and objectives (e.g., in the reward functions) is a challenging problem that is crucial in real-world applications of reinforcement learning (RL). While most current approaches model the changes as a single shared embedding vector, we leverage insights from the recent causality literature to model non-stationarity in terms of individual latent change factors, and causal graphs across different environments. In particular, we propose Factored Adaptation for Non-Stationary RL (FANS-RL), a factored adaption approach that learns jointly both the causal structure in terms of a factored MDP, and a factored representation of the individual time-varying change factors. We prove that under standard assumptions, we can completely recover the causal graph representing the factored transition and reward function, as well as a partial structure between the individual change factors and the state components. Through our general framework, we can consider general non-stationary scenarios with different function types and changing frequency, including changes across episodes and within episodes. Experimental results demonstrate that FANS-RL outperforms existing approaches in terms of return, compactness of the latent state representation, and robustness to varying degrees of non-stationarity.},
@@ -900,9 +924,9 @@ abbr={NeurIPS}
   title={Exploiting Redundancy: Separable Group Convolutional Networks on Lie Groups},
   author={Knigge, David M and Romero, David W and Bekkers, Erik J},
   journal={International Conference on Machine Learning},
-  html = {https://arxiv.org/abs/2110.13059},  
-  pdf = {https://arxiv.org/pdf/2110.13059.pdf}, 
-  abbr={ICML}, 
+  html = {https://arxiv.org/abs/2110.13059},
+  pdf = {https://arxiv.org/pdf/2110.13059.pdf},
+  abbr={ICML},
   year={2022},
   abstract={Group convolutional neural networks (G-CNNs) have been shown to increase parameter efficiency and model accuracy by incorporating geometric inductive biases. In this work, we investigate the properties of representations learned by regular G-CNNs, and show considerable parameter redundancy in group convolution kernels. This finding motivates further weight-tying by sharing convolution kernels over subgroups. To this end, we introduce convolution kernels that are separable over the subgroup and channel dimensions. In order to obtain equivariance to arbitrary affine Lie groups we provide a continuous parameterisation of separable convolution kernels. We evaluate our approach across several vision datasets, and show that our weight sharing leads to improved performance and computational efficiency. In many settings, separable G-CNNs outperform their non-separable counterpart, while only using a fraction of their training time. In addition, thanks to the increase in computational efficiency, we are able to implement G-CNNs equivariant to the Sim(2) group; the group of dilations, rotations and translations. Sim(2)-equivariance further improves performance on all tasks considered.},
   code={https://github.com/david-knigge/separable-group-convolutional-networks}
@@ -912,10 +936,10 @@ abbr={NeurIPS}
   title={CITRIS: Causal Identifiability from Temporal Intervened Sequences},
   author={Lippe, Phillip and Magliacane, Sara and L{\"o}we, Sindy and Asano, Yuki M and Cohen, Taco and Gavves, Efstratios},
   journal={International Conference on Machine Learning},
-  html = {https://arxiv.org/abs/2202.03169},  
-  pdf = {https://arxiv.org/pdf/2202.03169.pdf}, 
+  html = {https://arxiv.org/abs/2202.03169},
+  pdf = {https://arxiv.org/pdf/2202.03169.pdf},
   code = {https://github.com/phlippe/CITRIS},
-  abbr={ICML}, 
+  abbr={ICML},
   year={2022},
   abstract={Understanding the latent causal factors of a dynamical system from visual observations is a crucial step towards agents reasoning in complex environments. In this paper, we propose CITRIS, a variational autoencoder framework that learns causal representations from temporal sequences of images in which underlying causal factors have possibly been intervened upon. In contrast to the recent literature, CITRIS exploits temporality and observing intervention targets to identify scalar and multidimensional causal factors, such as 3D rotation angles. Furthermore, by introducing a normalizing flow, CITRIS can be easily extended to leverage and disentangle representations obtained by already pretrained autoencoders. Extending previous results on scalar causal factors, we prove identifiability in a more general setting, in which only some components of a causal factor are affected by interventions. In experiments on 3D rendered image sequences, CITRIS outperforms previous methods on recovering the underlying causal variables. Moreover, using pretrained autoencoders, CITRIS can even generalize to unseen instantiations of causal factors, opening future research areas in sim-to-real generalization for causal representation learning.},
   code={https://github.com/phlippe/CITRIS}
@@ -940,7 +964,7 @@ pdf={https://arxiv.org/pdf/2204.11371.pdf}
   author = {Antoran, Javier and Janz, David and Allingham, James Urquhart and Daxberger, Erik and Barbano, Riccardo and Nalisnick, Eric and Hernandez-Lobato, Jose Miguel},
   booktitle = {Proceedings of the 39th International Conference on Machine Learning},
   year = {2022},
-  abstract = {The linearised Laplace method for estimating model uncertainty has received renewed attention in the Bayesian deep learning community. The method provides reliable error bars and admits a closed-form expression for the model evidence, allowing for scalable selection of model hyperparameters. In this work, we examine the assumptions behind this method, particularly in conjunction with model selection. We show that these interact poorly with some now-standard tools of deep learning--stochastic approximation methods and normalisation layers--and make recommendations for how to better adapt this classic method to the modern setting. We provide theoretical support for our recommendations and validate them empirically on MLPs, classic CNNs, residual networks with and without normalisation layers, generative autoencoders and transformers.},  
+  abstract = {The linearised Laplace method for estimating model uncertainty has received renewed attention in the Bayesian deep learning community. The method provides reliable error bars and admits a closed-form expression for the model evidence, allowing for scalable selection of model hyperparameters. In this work, we examine the assumptions behind this method, particularly in conjunction with model selection. We show that these interact poorly with some now-standard tools of deep learning--stochastic approximation methods and normalisation layers--and make recommendations for how to better adapt this classic method to the modern setting. We provide theoretical support for our recommendations and validate them empirically on MLPs, classic CNNs, residual networks with and without normalisation layers, generative autoencoders and transformers.},
   abbr = {ICML},
   html = {https://arxiv.org/abs/2206.08900},
   pdf = {https://edaxberger.github.io/papers/Adapting%20the%20Linearised%20Laplace%20Model%20Evidence%20for%20Modern%20Deep%20Learning.pdf}
