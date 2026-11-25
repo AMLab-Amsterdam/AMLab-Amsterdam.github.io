@@ -2,7 +2,7 @@
 layout: person-page
 first_name: Babak
 last_name: Esmaeili
-role: PhD candidate
+role: Postdoc
 email: b.esmaeili@uva.nl
 office: Science Park, Lab 42, L4.22
 lab: AMLab
